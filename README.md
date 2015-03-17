@@ -1,2 +1,1 @@
-# osp
-Orientation to Software Production
+# Orientation to Software Production
