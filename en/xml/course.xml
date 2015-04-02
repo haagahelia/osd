@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+	<part title="Course Info">
+
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.		<subpage icon="video" name="Study Guidelines"
+
+		<video title="Study Guidelines" file="video/guidelines.mp4"/>
+
+		<subpage icon="clock" title="Timetable">
+			
+		<subpage>
+		<subpage icon="house" title="Facilities">
+
+		</subpage>
+		<subpage icon="list" title="Learning outcomes">
+		
+		</subpage>
+		<subpage icon="level" title="Assessment">
+
+		</subpage>
+	</part>
+	<part title="PART 1: Software Development">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.		
+		<video title="Why Software Development is interesting" file="video/why1.mp4"/>
+		<section title="Core Exercises">
+			<exercise file="xml/exercises/1-A-1.xml"/>
+			<exercise file="xml/exercises/1-A-2.xml"/>
+			<exercise file="xml/exercises/1-B-1.xml"/>
+			<exercise file="xml/exercises/1-B-1.xml"/>
+			<exercise file="xml/exercises/1-C-1.xml"/>
+			<exercise file="xml/exercises/1-X-1.xml"/>
+		</section>
+		<section title="Applied Exercises">
+			<exercise file="xml/exercises/1-X-1.xml"/>
+			<exercise file="xml/exercises/1-X-2.xml"/>
+		</section>
+	</part>
+	<part title="PART 2: Algorithms>
+
+	</part>
+	<part title="PART 3: JavaScript>
+
+	</part>
+	<part title="PART 4: Development Environment">
+
+	</part>
+	<part title="PART 5: Variables">
+
+	</part>
+	<part title="PART 6: Conditions">
+
+	</part>
+	<part title="PART 7: Functions">
+
+	</part>
+	<part title="PART 8: Loops">
+
+	</part>
+	<part title="PART 9: Objects">
+
+	</part>
+	<part title="PART 10: Arrays">
+
+	</part>
+	<part title="PART 11: Application Lifecycle">
+
+	</part>
+	<part title="PART 12: Development methods">
+
+	</part>
+	<part title="Roundup">
+
+	</part>
+	<part title="Exam">
+
+	</part>
+<course>
+	
