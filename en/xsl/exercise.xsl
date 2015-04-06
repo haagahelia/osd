@@ -27,22 +27,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</xsl:choose>
 		&#xA0;<span><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
 		</button></p>
-          <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
           	<xsl:attribute name="id">
+          		<xsl:value-of select="@id"/>
+          	</xsl:attribute>
+          	<xsl:attribute name="aria-labelledby">
           		<xsl:value-of select="@id"/>
           	</xsl:attribute>
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header alert-success">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
                   <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
                 </div>
                 <div class="modal-body">
-                  <xsl:copy-of select="."/>
+                  <xsl:copy-of select="node()"/>
                 </div>
                 <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   <a target="_blank" class="btn btn-success"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
