@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/course.xsl"?>
 <course>
-	<part title="Course Info">
+	<part title="Course Info" icon="off" type="default">
 
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		
@@ -19,64 +20,53 @@
 
 		</subpage>
 	</part>
-	<part title="PART 1: Software Development">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.		
-		<video title="Why Software Development is interesting" file="video/why1.mp4"/>
-		<section title="Core Exercises">
+	<part title="1 Software Development" icon="briefcase" type="default">
+	
+		<section type="success" title="Core Exercises">
 			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
+			
 		</section>
-		<section title="Applied Exercises">
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
+		<section type="success" title="Applied Exercises">
+			<exercise file="xml/exercises/example_applied.xml"/>
 		</section>
 	</part>
-	<part title="PART 2: Algorithms">
-		<section title="Core Exercises">
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
-		</section>
-		<section title="Applied Exercises">
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example.xml"/>
-		</section>
+	<part title="2 Algorithms" icon="briefcase" type="default">
+	
 	</part>
-	<part title="PART 3: JavaScript">
+	<part title="3 JavaScript" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 4: Development Environment">
+	<part title="4 Development Environment" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 5: Variables">
+	<part title="5 Variables" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 6: Conditions">
+	<part title="6 Conditions" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 7: Functions">
+	<part title="7 Functions" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 8: Loops">
+	<part title="8 Loops" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 9: Objects">
+	<part title="9 Objects" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 10: Arrays">
+	<part title="10 Arrays" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 11: Application Lifecycle">
+	<part title="11 Application Lifecycle" icon="briefcase" type="default">
 
 	</part>
-	<part title="PART 12: Development methods">
+	<part title="12 Development methods" icon="briefcase" type="default">
 
 	</part>
-	<part title="Roundup">
+	<part title="Rehearsal" icon="refresh" type="default">
 
 	</part>
-	<part title="Exam">
+	<part title="Exam" icon="time" type="default">
 
 	</part>
 </course>
