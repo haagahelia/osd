@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/course.xsl"?>
 <course logo="img/app.svg" title="Orientation to Software Development" ects="5">
-	<part title="Course Info" icon="off" type="default">
+	<part title="COURSE INFO" icon="off" type="default">
 
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		
@@ -51,10 +51,10 @@
 	<part title="8 Loops" icon="briefcase" type="default">
 
 	</part>
-	<part title="9 Objects" icon="briefcase" type="default">
+	<part title="9 Arrays" icon="briefcase" type="default">
 
 	</part>
-	<part title="10 Arrays" icon="briefcase" type="default">
+	<part title="10 Objects" icon="briefcase" type="default">
 
 	</part>
 	<part title="11 Application Lifecycle" icon="briefcase" type="default">
@@ -63,10 +63,10 @@
 	<part title="12 Development methods" icon="briefcase" type="default">
 
 	</part>
-	<part title="Rehearsal" icon="refresh" type="default">
+	<part title="ROUNDUP" icon="refresh" type="default">
 
 	</part>
-	<part title="Exam" icon="time" type="default">
+	<part title="EXAM" icon="time" type="default">
 
 	</part>
 </course>
