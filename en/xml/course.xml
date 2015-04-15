@@ -21,13 +21,42 @@
 		</subpage>
 	</part>
 	<part title="1 Software Development" icon="briefcase" type="default">
-	
-		<section type="success" title="Core Exercises">
-			<exercise file="xml/exercises/example.xml"/>
-			
+		<section type="info" title="Theory">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<pre><code>
+//This is example
+var jotain ="oijasd";</code></pre>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<subpage id="1_cheat_sheet" icon="th-list" title="Cheat Sheet">
+			<ul>
+			<li>a</li>
+			<li>b</li>
+			<li>c</li>
+			</ul>
+		</subpage>
+		<video id="examplevideo" title="Screencast" file="video/screencast.mp4"/>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</section>
-		<section type="success" title="Applied Exercises">
+		<section type="success" title="Exercises">
+			<exercise file="xml/exercises/example.xml"/>
 			<exercise file="xml/exercises/example_applied.xml"/>
+		</section>
+		<section type="info" title="Learning Outcomes Checklist">
+			<ol>
+				<li>Why software development is interesting?</li>
+				<li>What is a program?</li>
+				<li>What kind of programs there are?</li>
+				<li>What is an application?</li>
+				<li>What is programming?</li>
+				<li>What kind of programming languages there is?</li>
+				<li>What is a compiler?</li>
+				<li>What is an interpreter?</li>
+				<li>How applications are developed?</li>
+				<li>What kind of markets there are for software development?</li>
+				<li>What kind of markets there are for software developers?</li>
+		</ol>
 		</section>
 	</part>
 	<part title="2 Algorithms" icon="briefcase" type="default">

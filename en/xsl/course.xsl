@@ -29,11 +29,24 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       	<xsl:attribute name="id">collapse<xsl:number/></xsl:attribute>
         <div class="panel-body">
           <h3><xsl:value-of select="@title"/></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <xsl:apply-templates/>
         </div>
       </div>
     </div>
+	</xsl:template>
+	
+	<xsl:template match="pre | p | img | a | ul | ol | li">
+		<xsl:copy-of select="."/>
+	</xsl:template>
+	
+	<xsl:template match="bookmark">
+			<p><a type="submit" target="_blank" class="btn btn-info" data-toggle="modal">
+		<xsl:attribute name="href">
+		<xsl:value-of select="@url"/>
+		</xsl:attribute>
+		<span title="Open Url in new window" class="glyphicon glyphicon-new-window"></span>
+		&#xA0;&#xA0;<xsl:value-of select="@title"/>
+		</a></p>
 	</xsl:template>
 	
 	<xsl:template match="section">
