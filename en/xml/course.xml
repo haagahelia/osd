@@ -43,7 +43,8 @@ var jotain ="oijasd";</code></pre>
 			<exercise file="xml/exercises/example.xml"/>
 			<exercise file="xml/exercises/example_applied.xml"/>
 		</section>
-		<section type="info" title="Learning Outcomes Checklist">
+		<section type="info" title="Competence checkpoint">
+			<img src="img/badge1.png" alt="Badge 1" class="badgeicon"/>
 			<ol>
 				<li>Why software development is interesting?</li>
 				<li>What is a program?</li>
