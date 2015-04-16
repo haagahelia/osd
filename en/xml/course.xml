@@ -19,22 +19,6 @@
 		<subpage id="assessment" icon="adjust" title="Assessment">
 			Text
 		</subpage>
-		<section type="info" title="Can you answer to these questions?">
-		<img src="img/badge00.png" alt="Badge 0" class="badgeicon"/>
-		<ol>
-			<li>Why this course is important?</li>
-			<li>What can I do after this course?</li>
-			<li>How to pass this course?</li>
-			<li>How to study to get the best learning experience?</li>
-			<li>Where can I find the theory?</li>
-			<li>How to solve the exercises?</li>
-			<li>When is the Exam?</li>
-			<li>What kind of questions there is in the exam?</li>
-			<li>How to prepare to the exam?</li>
-			<li>What are the contents of this course?</li>
-			<li>What are the assessment criteria?</li>
-		</ol>
-		</section>
 	</part>
 	<part title="1 Software Development" icon="briefcase" type="default">
 		<section type="info" title="Theory">
@@ -60,8 +44,8 @@ var jotain ="oijasd";</code></pre>
 			<exercise file="xml/exercises/example.xml"/>
 			<exercise file="xml/exercises/example_applied.xml"/>
 		</section>
-		<section type="info" title="Can you answer to these questions?">
-			<img src="img/badge01.png" alt="Badge 1" class="badgeicon"/>
+		<section type="info" title="Competence checkpoint">
+			<img src="img/badge1.png" alt="Badge 1" class="badgeicon"/>
 			<ol>
 				<li>Why software development is interesting?</li>
 				<li>What is a program?</li>
@@ -78,21 +62,7 @@ var jotain ="oijasd";</code></pre>
 		</section>
 	</part>
 	<part title="2 Algorithms" icon="briefcase" type="default">
-		<section type="info" title="Theory">
-		</section>
-		<section type="success" title="Exercises">
-		</section>
-		<section type="info" title="Can you answer to these questions?">
-		<img src="img/badge02.png" alt="Badge 2" class="badgeicon"/>
-		<ol>
-			<li>Where do I need algorithms?</li>
-			<li>How to instruct the computer?</li>
-			<li>What is the idea of a condition?</li>
-			<li>What is the idea of a loop?</li>
-			<li>What is a flow chart?</li>
-			<li>How to make my first algorithm with blockly?</li>
-		</ol>
-		</section>
+	
 	</part>
 	<part title="3 JavaScript" icon="briefcase" type="default">
 
@@ -121,8 +91,77 @@ In javascript '=' operator is an assignment operator, not an equal to operator.<
 	</part>
 	<part title="6 Conditions" icon="briefcase" type="default">
 		<section type="info" title="Theory">
-		<p>Comparison operators are used to determine equality or difference between values or variables</p>
+		<p><b>Comparison operators</b> are used to determine equality or difference between values or variables.</p>
+		<p><table>
+		<tr><td>==</td><td>  equal to</td></tr>
+		<tr><td>===</td><td>  equal value and equal type</td></tr>
+		<tr><td>!=</td><td>  not equal</td></tr>
+		<tr><td>!==</td><td>  not equal value or not equal type</td></tr>
+		<tr><td>&gt;</td><td>  greater than</td></tr>
+		<tr><td>&lt;</td><td>  less than</td></tr>
+		<tr><td>&gt;=</td><td>  greater than or equal to</td></tr>
+		<tr><td>&lt;=</td><td>  less than or equal to</td></tr>		
+		</table></p>
 		
+		<p><b>Logical operators</b> allows you to combine multiple conditions into one expression.</p>
+		<p><table>
+		<tr><td>&amp;&amp;</td><td>  and</td></tr>
+		<tr><td>||</td><td>  or</td></tr>
+		<tr><td>!</td><td>  not</td></tr>	
+		</table></p>		
+		<h2>If statement</h2>
+		<p><b>If statement</b> defines a block of code which is executed if condition is true</p>
+		<p><pre><code>
+if (condition) {
+    block of code to be executed if the condition is true
+} 		
+		</code></pre></p>
+		<p><pre><code>
+// Example		
+if (hour &lt; 12) {
+	say =  "Good morning";
+}	
+		</code></pre></p>				
+		<h2>Else statement</h2>
+		<p><b>Else statement</b> defines a block of code which is executed if condition is false</p>
+		<p><pre><code>
+if (condition) {
+    block of code to be executed if the condition is true
+} else { 
+    block of code to be executed if the condition is false
+}	
+		</code></pre></p>
+		<p><pre><code>
+// Example		
+if (score &lt; 100) {
+	say = "Try again"; 
+} 
+else {
+	say = "Well done";
+}
+		</code></pre></p>	
+		<h2>Else if statement</h2>		
+		<p><b>Else if statement</b> can be used to specify new condition if the first condition is false</p>
+		<p><pre><code>
+if (condition1) {
+    block of code to be executed if condition1 is true
+} else if (condition2) {
+    block of code to be executed if the condition1 is false and condition2 is true
+ } else {
+    block of code to be executed if the condition1 is false and condition2 is false
+}	
+		</code></pre></p>
+		<p><pre><code>
+if (score &lt; 100) {
+	say = "Try again"; 
+} 
+else if (score &lt; 1000){
+	say = "Well done";
+}
+else {
+	say = "Great result!";
+}
+		</code></pre></p>			
 		</section>
 	</part>
 	<part title="7 Functions" icon="briefcase" type="default">
