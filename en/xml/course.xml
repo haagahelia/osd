@@ -90,7 +90,10 @@ In javascript '=' operator is an assignment operator, not an equal to operator.<
 		</section>
 	</part>
 	<part title="6 Conditions" icon="briefcase" type="default">
-
+		<section type="info" title="Theory">
+		<p>Comparison operators are used to determine equality or difference between values or variables</p>
+		
+		</section>
 	</part>
 	<part title="7 Functions" icon="briefcase" type="default">
 
