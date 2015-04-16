@@ -35,10 +35,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div>
 	</xsl:template>
 	
-	<xsl:template match="pre | p | img | a | ul | ol | li">
+	<xsl:template match="pre | p | img | a | ul | ol | li | b | table | tr | td | h1 | h2 ">
 		<xsl:copy-of select="."/>
 	</xsl:template>
-	
 	<xsl:template match="bookmark">
 			<p><a type="submit" target="_blank" class="btn btn-info" data-toggle="modal">
 		<xsl:attribute name="href">
