@@ -38,6 +38,7 @@ var jotain ="oijasd";</code></pre>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p><bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/></p>
 		</section>
 		<section type="success" title="Exercises">
 			<exercise file="xml/exercises/example.xml"/>
@@ -70,7 +71,23 @@ var jotain ="oijasd";</code></pre>
 
 	</part>
 	<part title="5 Variables" icon="briefcase" type="default">
+		<section type="info" title="Theory">
+		<p>
+		Variables are containers for storing data values.		
+		</p>
+		<pre><code>
+//Example: a and b are variables
+var a = 5;
+var b = 10;</code></pre>
+		<p>
+Variables can be used in expressions.		
+		</p>
+		<pre><code>//Example: expression
+var c = a + b;</code></pre><p>All variables must be indentified with unique names. Identifiers are case-sensitive in javascript.
 
+In javascript '=' operator is an assignment operator, not an equal to operator.</p>
+<bookmark title="Read more..." url="http://www.w3schools.com/js/js_variables.asp"/>
+		</section>
 	</part>
 	<part title="6 Conditions" icon="briefcase" type="default">
 
