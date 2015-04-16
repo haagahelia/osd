@@ -15,3 +15,7 @@ img.badgeicon {
 	float: right;
 	margin: 10px;
 }
+body {
+	background-image: url("img/escheresque.png");
+	background-repeat: repeat;
+}
