@@ -9,4 +9,9 @@ $(function() {
 		$(window.location.hash).collapse("show");
 	}
 	
+	//video stop on modal hide
+	$(".modal").on('hidden.bs.modal', function(e) {
+	    $iframe = $(this).find( "iframe" );
+	    $iframe.attr("src", $iframe.attr("src"));
+	}); 
 });

@@ -131,12 +131,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           	</xsl:attribute>
             <div class="modal-dialog">
               <div class="modal-content">
-                <!-- <div class="modal-header alert-info">
+                <div class="modal-header alert-info">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
                   <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
-                </div> -->
+                </div>
                 <div class="modal-body">
-                  VIDEO GOES HERE! :)
+                  <iframe width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><xsl:attribute name="src">https://www.youtube.com/embed/<xsl:value-of select="@youtubeid"/></xsl:attribute></iframe>
                 </div>
                 <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
