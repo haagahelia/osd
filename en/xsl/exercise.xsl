@@ -5,10 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<xsl:template match="/exercise">
 		
-		<p><button type="button" class="btn btn-success" data-toggle="modal">
-		<xsl:attribute name="data-target">
-		#<xsl:value-of select="@id"/>
-		</xsl:attribute>
+		<p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#{generate-id()}">
 		<span class="glyphicon glyphicon-pencil" title="Exercise"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		<xsl:choose>
@@ -27,13 +24,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</xsl:choose>
 		&#xA0;<span><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
 		</button></p>
-          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-          	<xsl:attribute name="id">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
-          	<xsl:attribute name="aria-labelledby">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header alert-success">

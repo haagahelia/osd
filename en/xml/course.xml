@@ -5,11 +5,11 @@
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		
-		<video id="guidelines" title="What are you able to do after this course?" youtubeid="JDw1ii7aKwg"/>
+		<video title="What are you able to do after this course?" youtubeid="JDw1ii7aKwg"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<video id="guidelines" title="Study Guidelines" youtubeid="JDw1ii7aKwg"/>
+		<video title="Study Guidelines" youtubeid="JDw1ii7aKwg"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<subpage id="timetable" icon="time" title="Timetable">
+		<subpage icon="time" title="Timetable">
 			<table class="table table-striped table-bordered table-condensed">
 				<tr><th>WEEK</th><th>CONTENT</th><th>EXERCISE DEADLINE</th></tr>
 				<tr><td>1</td><td>COURSE INFO, PART 1, PART 2</td><td>X.X.XXXX</td></tr>
@@ -21,7 +21,7 @@
 				<tr><td>7</td><td>ROUNDUP, EXAM</td><td>X.X.XXXX</td></tr>
 			</table>
 		</subpage>
-		<subpage id="facilities" icon="home" title="Facilities">
+		<subpage icon="home" title="Facilities">
 			<h4>Lectures</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<h4>Exercise sessions</h4>
@@ -29,7 +29,7 @@
 			<h4>Material</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</subpage>
-		<subpage id="learning_outcomes" icon="th-list" title="Learning outcomes">
+		<subpage icon="th-list" title="Learning outcomes">
 			<ul>
 				<li>Lorem ipsum dolor sit amet</li>
 				<li>Lorem ipsum dolor sit amet</li>
@@ -52,7 +52,7 @@
 				<li>Lorem ipsum dolor sit amet</li>
 			</ul>
 		</subpage>
-		<subpage id="assessment" icon="adjust" title="Assessment">
+		<subpage icon="adjust" title="Assessment">
 			<h4>Exam</h4>
 			<p>The exam defines the grade base.</p>
 			<h4>Exercises</h4>
@@ -90,14 +90,14 @@
 //This is example
 var jotain ="oijasd";</code></pre>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<subpage id="1_cheat_sheet" icon="th-list" title="Cheat Sheet">
+		<subpage icon="th-list" title="Cheat Sheet">
 			<ul>
 			<li>a</li>
 			<li>b</li>
 			<li>c</li>
 			</ul>
 		</subpage>
-		<video id="examplevideo" title="Screencast" youtubeid="dgrB4f5mOtA"/>
+		<video title="Screencast" youtubeid="dgrB4f5mOtA"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

@@ -83,20 +83,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="subpage">
-		<p><button type="button" class="btn btn-info" data-toggle="modal">
-		<xsl:attribute name="data-target">
-		#<xsl:value-of select="@id"/>
-		</xsl:attribute>
+		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
-          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-          	<xsl:attribute name="id">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
-          	<xsl:attribute name="aria-labelledby">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header alert-info">
@@ -115,20 +106,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="video">
-		<p><button type="button" class="btn btn-info" data-toggle="modal">
-		<xsl:attribute name="data-target">
-		#<xsl:value-of select="@id"/>
-		</xsl:attribute>
+		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Watch video" class="glyphicon glyphicon-facetime-video"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
-          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-          	<xsl:attribute name="id">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
-          	<xsl:attribute name="aria-labelledby">
-          		<xsl:value-of select="@id"/>
-          	</xsl:attribute>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header alert-info">
