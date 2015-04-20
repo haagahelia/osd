@@ -1,0 +1,19 @@
+Harjoitus 9: Lämpötilamuunnin
+
+Yleinen idea
+JavaScriptillä voidaan tehdä laskureita, jotka toimivat pelkästään selaimeen perustuen. Pankeilla on monasti lainalaskureita ja verkossa on monenlaisia yksikkömuuntimia. Tämä tehtävä on ajateltu esimerkiksi henkilöä varten, joka matkustaa Yhdysvaltoihin ja haluaisi ymmärtää kotimaisissa yksiköissä suureen arvon.
+Tehtäväksianto
+Tee lämpötilamuunnin, joka muuntaa lämpötilan celsiuksista fahrenheiteiksi tai fahrenheiteistä celsiuksiksi. Allaolevassa kuvassa on päällä myös Firefoxin Web Developer Tools, jossa console välilehdeltä seurataan saatuja muuttujien arvoja. Web Developer Toolsin saat Firefoxissa näkyviin näppäimellä F12.
+
+
+Yksityiskohtaiset ohjeet
+1.	Hae tiedosto lampotilamuunnin.html osoitteesta http://myy.haaga-helia.fi/~jusju/javascript/pohjat/t9/lampotilamuunnin.html
+2.	Ohjelmoi logiikka, joka tulostaa Tuloslämpötilan kohdalle oikean lämpötilan
+
+Jäljitä ohjelmasi mahdollisia virheitä käyttämällä komentoa console.log muuttujien arvojen tulostamiseen ja Developer Toolbaria kirjoitusvirheiden havaitsemiseen. Kokeile Firefoxissa debuggeria.
+
+Muuntokaavat menevät siten, että Fahrenheitit saadaan muutettua Celsiukseksi vähentämällä ensin 32, sitten kertomalla viidellä ja lopuksi jakamalla yhdeksällä.
+
+Celsiuksesta saadaan Fahrenheittejä ensin kertomalla yhdeksällä, sitten jakamalla viidellä ja lopuksi lisäämällä 32.
+3.	Tallenna tiedosto ja testaa
+
