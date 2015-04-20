@@ -1,19 +1,31 @@
-Harjoitus 9: Lämpötilamuunnin
+Temperature Converter
 
-Yleinen idea
-JavaScriptillä voidaan tehdä laskureita, jotka toimivat pelkästään selaimeen perustuen. Pankeilla on monasti lainalaskureita ja verkossa on monenlaisia yksikkömuuntimia. Tämä tehtävä on ajateltu esimerkiksi henkilöä varten, joka matkustaa Yhdysvaltoihin ja haluaisi ymmärtää kotimaisissa yksiköissä suureen arvon.
-Tehtäväksianto
-Tee lämpötilamuunnin, joka muuntaa lämpötilan celsiuksista fahrenheiteiksi tai fahrenheiteistä celsiuksiksi. Allaolevassa kuvassa on päällä myös Firefoxin Web Developer Tools, jossa console välilehdeltä seurataan saatuja muuttujien arvoja. Web Developer Toolsin saat Firefoxissa näkyviin näppäimellä F12.
+General idea
 
+JavaScript can be used to make converters, which only need a web browser to function. Many banks have loan calculators and in internet
+you can find all kinds of converters, mainly integrated into google search already. This exercise is designed for a person travelling to USA,
+who needs to convert weather forecast values from Fahrenheit to Celcius and from Celsius to Fahrenheit.  This is done in order to better
+understand the temperature and enable means to do conversion even offline.
 
-Yksityiskohtaiset ohjeet
-1.	Hae tiedosto lampotilamuunnin.html osoitteesta http://myy.haaga-helia.fi/~jusju/javascript/pohjat/t9/lampotilamuunnin.html
-2.	Ohjelmoi logiikka, joka tulostaa Tuloslämpötilan kohdalle oikean lämpötilan
+Specific task
 
-Jäljitä ohjelmasi mahdollisia virheitä käyttämällä komentoa console.log muuttujien arvojen tulostamiseen ja Developer Toolbaria kirjoitusvirheiden havaitsemiseen. Kokeile Firefoxissa debuggeria.
+Implement temperature converter, which converts temperature from fahrenheit to celsius and from celsius to fahrenheit. In the attached picture
+you can also see Firefox Web Developer Tools, where at the console tab values of variables can be observed. You can get Web Developer to be
+displayed by pressing F12 (works in many browsers). 
 
-Muuntokaavat menevät siten, että Fahrenheitit saadaan muutettua Celsiukseksi vähentämällä ensin 32, sitten kertomalla viidellä ja lopuksi jakamalla yhdeksällä.
+Step-by-step instructions
 
-Celsiuksesta saadaan Fahrenheittejä ensin kertomalla yhdeksällä, sitten jakamalla viidellä ja lopuksi lisäämällä 32.
-3.	Tallenna tiedosto ja testaa
+1. Get template lampotilamuunnin.html from address http://myy.haaga-helia.fi/~jusju/javascript/pohjat/t9/lampotilamuunnin.html
+2. Program logic, which prints to the field of result temperature the right converted temperature.
+
+Trace possible mistakes in your program by using command console.log to print out variable values and use Developer Toolbar to find
+possible typing errors. Try for example in Firefox the functionality of debugger. 
+
+Converting calculation is done so, that Fahrenheits can be converted to Celsius by deducting 32, then multiplying with 5 and
+at the end dividing with 9.
+
+Celsius is the same formula opposite way, which means that first you multiply celsius degrees with 9, then divide by five and
+at last add 32. It is a good idea to use parenthesis to define which calculation is done first.
+
+3. Save the file and test.
 
