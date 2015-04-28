@@ -333,6 +333,33 @@ else {
 	</part>
 	<part title="8 Loops" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<p>There are situations when we need to execute a block of code several number of times, and is often referred to as a loop</p>
+		<p>JavaScript has three main looping mechanism</p>
+		<ul>
+		<li>For loop</li>
+		<li>While loop</li>
+		<li>Do-While loop</li>		
+		</ul>
+		<h2>For loop</h2>
+		<p>The syntax of a for loop is</p>
+		<p><pre><code>for(initialization; condition; update)
+{
+   block of code to be executed
+}</code></pre></p>
+		<h2>While loop</h2>
+		<p>A while loop is suitable, if you don't know how many times loop should be repeated</p>
+		<p>The syntax of a while loop is</p>
+		<p><pre><code>while(condition)
+{
+   block of code to be executed
+}</code></pre></p>
+		<h2>Do While loop</h2>
+		<p>A do-while loop is similar to a while loop, except that a do-while loop will always execute at least once</p>
+		<p>The syntax of a do-while loop is</p>
+		<p><pre><code>do
+{
+   block of code to be executed
+} while(condition);</code></pre></p>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
