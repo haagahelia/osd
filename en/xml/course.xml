@@ -197,7 +197,13 @@ Variables can be used in expressions.
 		<pre><code>//Example: expression
 var c = a + b;</code></pre><p>All variables must be indentified with unique names. Identifiers are case-sensitive in javascript.
 
-In javascript '=' operator is an assignment operator, not an equal to operator.</p>
+In javaScript '=' operator is an assignment operator, not an equal to operator.</p>
+<p>In JavaScript, there are tree primitive <b>datatypes</b>: String, Number and Boolean.</p>
+<p>JavaScript is loosely typed which means that you don't have to declare the type of a variable.</p>
+		<pre><code>// JavaScript primitive datatypes
+var length = 100; // Number (Either integer or floating point numbers
+var name = "John" // String
+var x = true; // Boolean: true or false </code></pre>
 <bookmark title="Read more..." url="http://www.w3schools.com/js/js_variables.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
