@@ -128,5 +128,29 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           </div>
 	</xsl:template>
 
+	<xsl:template match="slides">
+		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<span title="Open presentation slides" class="glyphicon glyphicon-blackboard"></span>
+		&#xA0;&#xA0;<xsl:value-of select="@title"/>
+		</button></p>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header alert-info">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+                  <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <iframe width="560" height="315" frameborder="0"><xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute></iframe>
+                </div>
+                <div class="modal-footer">
+                <a class="btn btn-info" target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute><span title="Open in new window" class="glyphicon glyphicon-new-window"></span>&#xA0;&#xA0;Open Presentation in new window</a>
+                </div>
+              </div>
+            </div>
+          </div>
+	</xsl:template>
+
 
 </xsl:stylesheet>
