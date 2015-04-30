@@ -346,12 +346,26 @@ else {
 {
    block of code to be executed
 }</code></pre></p>
+<p>The following for statement starts by declaring the variable i and initializing it to 0. It checks that i is less than ten, performs the two succeeding statements, and increments i by 1 after each pass through the loop.</p>
+		<p><pre><code>
+// For loop example
+for (var i = 0; i &lt; 10; i++) {
+   console.log(i);
+   // more statements
+}
+</code></pre></p>
 		<h2>While loop</h2>
 		<p>A while loop is suitable, if you don't know how many times loop should be repeated</p>
 		<p>The syntax of a while loop is</p>
 		<p><pre><code>while(condition)
 {
    block of code to be executed
+}</code></pre></p>
+<p>The following while loop iterates as long as n is less than five.</p>
+<p><pre><code>var n = 0;
+while (n &lt; 5) {
+  n++;
+  //more statements
 }</code></pre></p>
 		<h2>Do While loop</h2>
 		<p>A do-while loop is similar to a while loop, except that a do-while loop will always execute at least once</p>
@@ -360,6 +374,12 @@ else {
 {
    block of code to be executed
 } while(condition);</code></pre></p>
+<p>In the following example, the do-while loop iterates at least once and continues until i is no longer less than 5.</p>
+<p><pre><code>var i = 0;
+do {
+   i++;
+   console.log(i);
+} while (i &lt; 5);</code></pre></p>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
