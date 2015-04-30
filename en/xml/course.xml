@@ -338,8 +338,21 @@ else {
 		<ul>
 		<li>For loop</li>
 		<li>While loop</li>
-		<li>Do-While loop</li>		
+		<li>Do-While loop (not covered in this course)</li>		
 		</ul>
+		<h2>While loop</h2>
+		<p>A while loop is suitable, if you don't know how many times loop should be repeated</p>
+		<p>The syntax of a while loop is</p>
+		<p><pre><code>while(condition)
+{
+   block of code to be executed
+}</code></pre></p>
+<p>The following while loop iterates as long as n is less than five.</p>
+<p><pre><code>var n = 0;
+while (n &lt; 5) {
+  n++;
+  //more statements
+}</code></pre></p>
 		<h2>For loop</h2>
 		<p>The syntax of a for loop is</p>
 		<p><pre><code>for(initialization; condition; update)
@@ -354,32 +367,6 @@ for (var i = 0; i &lt; 10; i++) {
    // more statements
 }
 </code></pre></p>
-		<h2>While loop</h2>
-		<p>A while loop is suitable, if you don't know how many times loop should be repeated</p>
-		<p>The syntax of a while loop is</p>
-		<p><pre><code>while(condition)
-{
-   block of code to be executed
-}</code></pre></p>
-<p>The following while loop iterates as long as n is less than five.</p>
-<p><pre><code>var n = 0;
-while (n &lt; 5) {
-  n++;
-  //more statements
-}</code></pre></p>
-		<h2>Do While loop</h2>
-		<p>A do-while loop is similar to a while loop, except that a do-while loop will always execute at least once</p>
-		<p>The syntax of a do-while loop is</p>
-		<p><pre><code>do
-{
-   block of code to be executed
-} while(condition);</code></pre></p>
-<p>In the following example, the do-while loop iterates at least once and continues until i is no longer less than 5.</p>
-<p><pre><code>var i = 0;
-do {
-   i++;
-   console.log(i);
-} while (i &lt; 5);</code></pre></p>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
