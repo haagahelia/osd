@@ -15,3 +15,9 @@ img.badgeicon {
 	float: right;
 	margin: 10px;
 }
+
+.jsbin-embed {
+	border-color: black;
+	border: 1px;
+	border-style: solid;
+}
