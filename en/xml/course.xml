@@ -141,7 +141,26 @@ var jotain ="oijasd";</code></pre>
 		</ol>
 		</section>
 	</part>
-	<part title="3 JavaScript" icon="briefcase" type="default">
+	<part title="3 Development Environment" icon="briefcase" type="default">
+		<section type="info" title="KNOWLEDGE">
+		</section>
+		<section type="success" title="SKILLS">
+		</section>
+		<section type="info" title="CHECKPOINT">
+		<img src="img/badge04.png" alt="Badge 4" class="badgeicon"/>
+		<ol>
+		<li>Why do I need a development environment?</li>
+		<li>What kind of tools does a software developer need?</li>
+		<li>How to use the editor?</li>
+		<li>What kind of server can I use?</li>
+		<li>How to use a browser developer toolbar?</li>
+		<li>How to print logs to the console?</li>
+		<li>How to publish my first application on localhost?</li>
+		<li>How to publish my first application on the Internet?</li>
+		</ol>
+		</section>
+	</part>
+		<part title="4 JavaScript" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		</section>
 		<section type="success" title="SKILLS">
@@ -160,25 +179,6 @@ var jotain ="oijasd";</code></pre>
 		<li>How are html and JavaScript linked?</li>
 		<li>What is a dom tree?</li>
 		<li>How to attach an event listener to a button?</li>
-		</ol>
-		</section>
-	</part>
-	<part title="4 Development Environment" icon="briefcase" type="default">
-		<section type="info" title="KNOWLEDGE">
-		</section>
-		<section type="success" title="SKILLS">
-		</section>
-		<section type="info" title="CHECKPOINT">
-		<img src="img/badge04.png" alt="Badge 4" class="badgeicon"/>
-		<ol>
-		<li>Why do I need a development environment?</li>
-		<li>What kind of tools does a software developer need?</li>
-		<li>How to use the editor?</li>
-		<li>What kind of server can I use?</li>
-		<li>How to use a browser developer toolbar?</li>
-		<li>How to print logs to the console?</li>
-		<li>How to publish my first application on localhost?</li>
-		<li>How to publish my first application on the Internet?</li>
 		</ol>
 		</section>
 	</part>
