@@ -295,6 +295,7 @@ else {
 		<tr><td>||</td><td>  or</td></tr>
 		<tr><td>!</td><td>  not</td></tr>	
 		</table></p>			
+<bookmark title="Read more..." url="http://www.w3schools.com/js/js_if_else.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -312,6 +313,26 @@ else {
 	</part>
 	<part title="7 Functions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<p>
+		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).
+		Values can be passed to a function, and the function can return a value.
+		</p>
+		<p>Function is defined with <b>function</b> keyword followed by a function name and parentheses. The code to be executed by the function, is placed inside curly brackets {}</p>
+<p><pre><code>
+function name(parameter1, parameter2) {
+ code to be executed
+}</code></pre></p>
+<p>
+The function will stop when <b>return</b> statement is reached. If the function was invoked from JavaScript statement, it will return executing the code after invoking statement.
+</p>
+<p><pre><code>
+// Function example
+var a = calcSum(5, 12);  // Function call, sum is returned to variable a
+
+function calcSum(x, y) {
+  return x + y;         // Function stops and returns  
+}</code></pre></p>
+<bookmark title="Read more..." url="http://www.w3schools.com/js/js_functions.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
