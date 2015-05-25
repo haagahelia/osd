@@ -332,6 +332,10 @@ var a = calcSum(5, 12);  // Function call, sum is returned to variable a
 function calcSum(x, y) {
   return x + y;         // Function stops and returns  
 }</code></pre></p>
+<p>
+<b>Why functions?</b>
+You can reuse code by defining the code once, and use it many times. You can use the same code many times with different arguments, to produce different results.
+</p>
 <bookmark title="Read more..." url="http://www.w3schools.com/js/js_functions.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
@@ -407,6 +411,26 @@ for (var i = 0; i &lt; 10; i++) {
 	</part>
 	<part title="9 Arrays" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<p><b>Arrays</b> are used to store multiple values in a single variable</p>
+<p><pre><code>// Array syntax
+var arrayName = [item1, item2, item3,...];</code></pre></p>	
+<p><pre><code>// Array example
+var pets = ["Dog", "Cat", "Snake"];</code></pre></p>
+<p>You refer to array elements by using the index number. Indexing of array elements starts from 0.</p>
+<p><pre><code>// Referring example
+var myPet = pets[0]; // myPet is Dog</code></pre></p>
+<p>Arrays has property <b>length</b> which returns the number of elements in the array.</p>
+<p><pre><code>// Array length property
+var a = pets.length;</code></pre></p>
+<h3>Looping the arrays</h3>
+<p>The best way to loop through arrays are using <b>for</b>-loops and <b>length</b> property</p>
+<p><pre><code>// Looping the arrays
+var index;
+var pets = ["Dog", "Cat", "Snake"];
+for (index = 0; index &lt; pets.length; index++) {
+	text = text + pets[index];
+}</code></pre></p>
+<bookmark title="Read more..." url="http://www.w3schools.com/js/js_arrays.asp"/>			
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
