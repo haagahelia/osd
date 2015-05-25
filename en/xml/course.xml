@@ -430,6 +430,7 @@ var pets = ["Dog", "Cat", "Snake"];
 for (index = 0; index &lt; pets.length; index++) {
 	text = text + pets[index];
 }</code></pre></p>
+
 <bookmark title="Read more..." url="http://www.w3schools.com/js/js_arrays.asp"/>			
 		</section>
 		<section type="success" title="SKILLS">
