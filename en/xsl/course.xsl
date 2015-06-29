@@ -15,10 +15,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="part">
 	<div>
 	  <xsl:attribute name="class">
-	  panel panel-<xsl:value-of select="@type"/> accordion-caret
+	  panel panel-<xsl:value-of select="@type"/> accordion-caret 
 	  </xsl:attribute>
-      <div class="panel-heading">
-        <h2 class="panel-title">
+      <div class="panel-heading ">
+        <h2 class="panel-title ">
+        
           <a data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed">
           	<xsl:attribute name="href">#collapse<xsl:number/></xsl:attribute>
           	<span aria-hidden="true"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>&#xA0;<xsl:value-of select="@title"/>
@@ -28,15 +29,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div class="panel-collapse collapse">
       	<xsl:attribute name="id">collapse<xsl:number/></xsl:attribute>
         <div class="panel-body">
-          <h2><xsl:value-of select="@title"/></h2>
+          <h2><xsl:value-of select="@title"/></h2>	
           <xsl:apply-templates/>
         </div>
       </div>
     </div>
 	</xsl:template>
 	
-	<xsl:template match="pre | p | img | a | ul | ol | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
+	<xsl:template match="pre | p | a | ul | ol | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
+	<div>
 		<xsl:copy-of select="."/>
+	</div>
+	</xsl:template>
+	
+	<xsl:template match="img">
+		<div class="col-xs-12 col-sm-3 col-md-3 col-xl-3">
+		<xsl:copy-of select="."/>
+		</div>
+	</xsl:template>
+		<xsl:template match="ol">
+		<div class="col-xs-12 col-sm-9 col-md-9 col-xl-9">
+		<xsl:copy-of select="."/>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="exam">
@@ -151,6 +165,5 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             </div>
           </div>
 	</xsl:template>
-
 
 </xsl:stylesheet>
