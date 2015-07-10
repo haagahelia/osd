@@ -2,6 +2,7 @@
 
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html"/> <!-- tarvitaan ie9-ie11 renderöintiin -->
 	
 	<xsl:template match="/course">
 	 	<a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" alt="HH Logo"/></a>
@@ -43,18 +44,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="img">
-		<div class="col-xs-12 col-sm-3 col-md-3 col-xl-3">
+		<div class="img-responsive col-xs-4 col-sm-3 col-md-3 col-xl-3 pull-right" id="hidden-xs">
 		<xsl:copy-of select="."/>
 		</div>
-	</xsl:template>
-		<xsl:template match="ol">
-		<div class="col-xs-12 col-sm-9 col-md-9 col-xl-9">
+		
+		<div class="col-xs-12" id="visible-xs">
 		<xsl:copy-of select="."/>
 		</div>
 	</xsl:template>
 	
+		<xsl:template match="ol">
+		<div class="col-xs-8 col-sm-9 col-md-9 col-xl-9" id="hidden-xs">
+		<xsl:copy-of select="."/>	
+		</div>
+		
+		<div class="col-xs-12" id="visible-xs">
+		<xsl:copy-of select="."/>
+		</div>
+	</xsl:template>
+	
+	
 	<xsl:template match="exam">
-			<p><a type="submit" target="_blank" class="btn btn-success">
+			<p><a type="submit" target="_blank" class="btn btn-success col-xs-12">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -64,7 +75,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="bookmark">
-			<p><a type="submit" target="_blank" class="btn btn-info">
+			<p><a type="submit" target="_blank" class="btn btn-info col-xs-12">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -74,7 +85,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="section">
-	  <div>
+	  <div class="">
 		<xsl:attribute name="class">
 		panel panel-<xsl:value-of select="@type"/>
 		</xsl:attribute>
@@ -88,12 +99,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="exercise">
+	<div class="col-xs-12 col-sm-8 col-md-6">
 		 <div class="exercise" data-xslt="xsl/exercise.xsl">
 		 <xsl:attribute name="data-xml">
 			<xsl:value-of select="@file"/>
 		</xsl:attribute>
 		</div>
-
+</div>
 	</xsl:template>
 	
 	<xsl:template match="subpage">
