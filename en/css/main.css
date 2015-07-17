@@ -13,9 +13,7 @@ body{
 	text-align: left; /*tekstin oletuksena vasemmalta*/
 	font-size: 10px; /*Yleinen fontti 10px koska silloin 1.2em = 12px etc..*/
 	}
-h1 img {
-	display:none;
-	}
+
 .container{
 	max-width:100%;
 	width:98%%;
@@ -25,6 +23,7 @@ h1{
 	font-size:2em;	
 	text-align: center;
 	}
+
 h2{
 	font-size:1.8em;
 	text-align: center;
@@ -37,10 +36,11 @@ ol{
 	}
 /* MUUT */
 .btn{
+	text-align:center;
 	max-width:100%;
 	margin:1%;
 	}
-img.badgeicon { /*<--TODO: -->*/
+img.badgeicon {
 	margin: 2%;
 	width:100%;
 	}
@@ -59,7 +59,23 @@ img.badgeicon { /*<--TODO: -->*/
 #visible-xs{
 	display:none;
 	}
-	
+.video-responsive {
+  position: relative;
+  padding-bottom: 75%; /*Aspect ratio: 4:3 -> 3 / 4 * 100 = 75%, for 16:9 aspect ratio -> 9 / 16 * 100 = 56.25% */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed,
+.video-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 	
   /* Custom fixes for XXXS Devices, custom, Phones */
 @media only screen and (max-width : 320px){
@@ -71,13 +87,6 @@ h2{
 	}
 .container{
 	font-size: 1.2em;
-	}
-
-	#hidden-xs{
-	display:none;
-	}
-	#visible-xs{
-	display:block;
 	}
 }
 
@@ -95,12 +104,20 @@ h2{
 	}
 /*Buttoneille asetetaan whitespace normal -> Jakautuu kahdelle riville */
 .btn{
-	white-space:normal !important;
+	white-space: normal; !important;
+	min-width: 100%;
 	}
-	img.badgeicon { /*<--TODO: -->*/
+
+img.badgeicon { /*<--TODO: -->*/
 	margin: 2%;
 	width:100%;
 	max-width: 5em;
+	}
+#hidden-xs{
+	display:none;
+	}
+#visible-xs{
+	display:block;
 	}
 }
 

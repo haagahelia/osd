@@ -28,15 +28,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header alert-success">
-                  <button type="button" class="close col-xs-12 col-sm-8" data-dismiss="modal" aria-hidden="true">&#215;</button>
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
                   <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
                 </div>
                 <div class="modal-body">
                   <xsl:copy-of select="node()"/>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-default col-xs-12 col-sm-6 col-md-4 col-lg-3" data-dismiss="modal">Close</button>
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-6 col-md-4 col-lg-3"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
+                <button type="button" class="btn btn-default col-xs-12 col-sm-4 col-md-4" data-dismiss="modal">Close</button>
+                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4 col-md-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
                 </div>
               </div>
             </div>

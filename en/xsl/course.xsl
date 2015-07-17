@@ -5,8 +5,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/> <!-- tarvitaan ie9-ie11 renderöintiin -->
 	
 	<xsl:template match="/course">
-	 	<a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" alt="HH Logo"/></a>
-		<h1><img alt="App"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/> (<xsl:value-of select="@ects"/> ects)</h1>
+	 	<a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" class="center-block" alt="HH Logo"/></a>
+		<h1><img alt="App" class="hidden-xs"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/> (<xsl:value-of select="@ects"/> ects)</h1>
 		<div class="exercise" data-xslt="foo.xsl" data-xml="foo.xml"/> <!-- TODO: why the first transformation on the second round is not done? -->
 		<div class="panel-group" id="accordion">
 		<xsl:apply-templates/>
@@ -14,12 +14,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="part">
-	<div>
+	<div >
 	  <xsl:attribute name="class">
-	  panel panel-<xsl:value-of select="@type"/> accordion-caret 
+	  panel panel-<xsl:value-of select="@type"/> accordion-caret
 	  </xsl:attribute>
-      <div class="panel-heading ">
-        <h2 class="panel-title ">
+      <div class="panel-heading">
+        <h2 class="panel-title">
         
           <a data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed">
           	<xsl:attribute name="href">#collapse<xsl:number/></xsl:attribute>
@@ -37,24 +37,24 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div>
 	</xsl:template>
 	
-	<xsl:template match="pre | p | a | ul | ol | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
+	<xsl:template match="pre | p | a | ul | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
 	<div>
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
 	
 	<xsl:template match="img">
-		<div class="img-responsive col-xs-4 col-sm-3 col-md-3 col-xl-3 pull-right" id="hidden-xs">
+		<div class="img-responsive col-xs-4 col-sm-3 col-md-2 pull-right" id="hidden-xs">
 		<xsl:copy-of select="."/>
 		</div>
 		
-		<div class="col-xs-12" id="visible-xs">
+		<div class="img-responsive col-xs-12 pull-right" id="visible-xs">
 		<xsl:copy-of select="."/>
 		</div>
 	</xsl:template>
 	
 		<xsl:template match="ol">
-		<div class="col-xs-8 col-sm-9 col-md-9 col-xl-9" id="hidden-xs">
+		<div class="col-xs-8 col-sm-9 col-md-10" id="hidden-xs">
 		<xsl:copy-of select="."/>	
 		</div>
 		
@@ -65,7 +65,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	
 	<xsl:template match="exam">
-			<p><a type="submit" target="_blank" class="btn btn-success col-xs-12">
+			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-success">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -75,7 +75,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="bookmark">
-			<p><a type="submit" target="_blank" class="btn btn-info col-xs-12">
+			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -85,7 +85,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="section">
-	  <div class="">
+	  <div>
 		<xsl:attribute name="class">
 		panel panel-<xsl:value-of select="@type"/>
 		</xsl:attribute>
@@ -99,7 +99,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="exercise">
-	<div class="col-xs-12 col-sm-8 col-md-6">
+	<div class="btn-group col-md-6" role="group">
 		 <div class="exercise" data-xslt="xsl/exercise.xsl">
 		 <xsl:attribute name="data-xml">
 			<xsl:value-of select="@file"/>
@@ -109,7 +109,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="subpage">
-		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -132,7 +132,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="video">
-		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Watch video" class="glyphicon glyphicon-facetime-video"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -144,7 +144,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
                 </div>
                 <div class="modal-body">
+                <div class="video-responsive">
                   <iframe width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><xsl:attribute name="src">https://www.youtube.com/embed/<xsl:value-of select="@youtubeid"/></xsl:attribute></iframe>
+                </div>
                 </div>
                 <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -155,7 +157,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="slides">
-		<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Open presentation slides" class="glyphicon glyphicon-blackboard"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -167,8 +169,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <h4 class="modal-title"><xsl:value-of select="@title"/></h4>
                 </div>
                 <div class="modal-body">
-                  
+                  <div class="video-responsive">
                   <iframe width="560" height="315" frameborder="0"><xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute></iframe>
+	              </div>   
                 </div>
                 <div class="modal-footer">
                 <a class="btn btn-info" target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute><span title="Open in new window" class="glyphicon glyphicon-new-window"></span>&#xA0;&#xA0;Open Presentation in new window</a>
