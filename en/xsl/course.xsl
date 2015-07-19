@@ -32,6 +32,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <div class="panel-body">
           <h2><xsl:value-of select="@title"/></h2>	
           <xsl:apply-templates/>
+          <a href="#"><button class="btn btn-danger closeall" >Close</button></a> <!--added button -> close all accordions to avoid unnecessary scrolling on mobile-->
         </div>
       </div>
     </div>
@@ -44,7 +45,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="img">
-		<div class="img-responsive col-xs-4 col-sm-3 col-md-2 pull-right" id="hidden-xs">
+		<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right" id="hidden-xs">
 		<xsl:copy-of select="."/>
 		</div>
 		
@@ -54,7 +55,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 		<xsl:template match="ol">
-		<div class="col-xs-8 col-sm-9 col-md-10" id="hidden-xs">
+		<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10" id="hidden-xs">
 		<xsl:copy-of select="."/>	
 		</div>
 		
@@ -75,7 +76,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="bookmark">
-			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
+			<p class="btn-group col-xs-12" role="group"><a type="submit" target="_blank" class="btn btn-info">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -99,7 +100,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="exercise">
-	<div class="btn-group col-md-6" role="group">
+	<div class="btn-group col-xs-12 col-md-6" role="group">
 		 <div class="exercise" data-xslt="xsl/exercise.xsl">
 		 <xsl:attribute name="data-xml">
 			<xsl:value-of select="@file"/>
@@ -109,7 +110,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="subpage">
-		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p class="btn-group"><button type="button" class="btn btn-info col-xs-12" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>

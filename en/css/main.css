@@ -36,8 +36,13 @@ ol{
 	}
 /* MUUT */
 .btn{
-	text-align:center;
 	max-width:100%;
+	width:auto;
+	margin:1%;
+	}
+.btn-group .col-xs-12{
+	max-width:100%;
+	width:auto;
 	margin:1%;
 	}
 img.badgeicon {
@@ -106,18 +111,25 @@ h2{
 .btn{
 	white-space: normal; !important;
 	min-width: 100%;
+	padding-left:2%;
+	padding-right:2%;
 	}
+.btn-group{
+	white-space: normal; !important;
+	min-width: 100%;
+	padding-left:2%;
+	padding-right:2%;
+}
 
-img.badgeicon { /*<--TODO: -->*/
-	margin: 2%;
-	width:100%;
-	max-width: 5em;
-	}
 #hidden-xs{
 	display:none;
 	}
 #visible-xs{
 	display:block;
+	}
+img.badgeicon {
+	margin: 2%;
+	max-width:8em;
 	}
 }
 

@@ -14,4 +14,15 @@ $(function() {
 	    $iframe = $(this).find( "iframe" );
 	    $iframe.attr("src", $iframe.attr("src"));
 	}); 
+	//close all accordions
+	$('.closeall').click(function(){
+		  $('.panel-collapse.in')
+		    .collapse('hide');
+		});
+	//open all accordions
+		$('.openall').click(function(){
+		  $('.panel-collapse:not(".in")')
+		    .collapse('show');
+		});
+		
 });
