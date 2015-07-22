@@ -35,8 +35,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <xsl:copy-of select="node()"/>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-default col-xs-12 col-sm-4 col-md-4" data-dismiss="modal">Close</button>
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4 col-md-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
+                <button type="button" class="btn btn-default col-xs-12 col-sm-4" data-dismiss="modal">Close</button>
+                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@
 		<video title="What are you able to do after this course?" youtubeid="JDw1ii7aKwg"/>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<video title="Study Guidelines" youtubeid="JDw1ii7aKwg"/>
+		<img src="img/testikuva.png" alt="testikuva"/>	
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<subpage icon="time" title="Timetable">
 			<table class="table table-striped table-bordered table-condensed">
@@ -67,7 +68,7 @@
 			</table>
 		</subpage>
 		<section type="info" title="CHECKPOINT">
-			<img src="img/badge00.png" alt="Badge 0" class="badgeicon"/>
+			<badgeImg><img src="img/badge00.png" alt="Badge 0" class="badgeicon"/></badgeImg>
 			<ol>
 				<li>Why this course is important?</li>
 				<li>What can I do after this course?</li>
@@ -85,6 +86,7 @@
 	</part>
 	<part title="1 Software Development" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+			<p><img src="img/hh_logo_en.png"/></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <pre><code>
 //This is example
@@ -108,7 +110,7 @@ var jotain ="oijasd";</code></pre>
 			<exercise file="xml/exercises/example_applied.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
-			<img src="img/badge01.png" alt="Badge 1" class="badgeicon"/>
+			<badgeImg><img src="img/badge01.png" alt="Badge 1" class="badgeicon"/></badgeImg>
 			<ol>
 				<li>Why software development is interesting?</li>
 				<li>What is a program?</li>
@@ -131,7 +133,7 @@ var jotain ="oijasd";</code></pre>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge02.png" alt="Badge 2" class="badgeicon"/>
+		<badgeImg><img src="img/badge02.png" alt="Badge 2" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Where do I need algorithms?</li>
 		<li>How to instruct the computer?</li>
@@ -148,7 +150,7 @@ var jotain ="oijasd";</code></pre>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge04.png" alt="Badge 4" class="badgeicon"/>
+		<badgeImg><img src="img/badge04.png" alt="Badge 4" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why do I need a development environment?</li>
 		<li>What kind of tools does a software developer need?</li>
@@ -167,7 +169,7 @@ var jotain ="oijasd";</code></pre>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge03.png" alt="Badge 3" class="badgeicon"/>
+		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why JavaScript is important?</li>
 		<li>What kind of language is JavaScript?</li>
@@ -210,7 +212,7 @@ var x = true; // Boolean: true or false </code></pre>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge05.png" alt="Badge 5" class="badgeicon"/>
+		<badgeImg><img src="img/badge05.png" alt="Badge 5" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need variables?</li>
 		<li>What is the concept of a variable?</li>
@@ -342,7 +344,7 @@ You can reuse code by defining the code once, and use it many times. You can use
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge07.png" alt="Badge 7" class="badgeicon"/>
+		<badgeImg><img src="img/badge07.png" alt="Badge 7" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need functions?</li>
 		<li>How do I define a function?</li>
@@ -397,7 +399,7 @@ for (var i = 0; i &lt; 10; i++) {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge08.png" alt="Badge 8" class="badgeicon"/>
+		<badgeImg><img src="img/badge08.png" alt="Badge 8" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need loops?</li>
 		<li>How do I make an endless loop?</li>
@@ -437,7 +439,7 @@ for (index = 0; index &lt; pets.length; index++) {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge09.png" alt="Badge 9" class="badgeicon"/>
+		<badgeImg><img src="img/badge09.png" alt="Badge 9" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need arrays?</li>
 		<li>How do I put numbers in an array?</li>
@@ -453,7 +455,7 @@ for (index = 0; index &lt; pets.length; index++) {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge10.png" alt="Badge 10" class="badgeicon"/>
+		<badgeImg><img src="img/badge10.png" alt="Badge 10" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need Objects?</li>
 		<li>How do I save structured data on a single variable?</li>
@@ -476,7 +478,7 @@ for (index = 0; index &lt; pets.length; index++) {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge11.png" alt="Badge 11" class="badgeicon"/>
+		<badgeImg><img src="img/badge11.png" alt="Badge 11" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>What is a software development project?</li>
 		<li>How to gather software requirements?</li>
@@ -495,7 +497,7 @@ for (index = 0; index &lt; pets.length; index++) {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge12.png" alt="Badge 12" class="badgeicon"/>
+		<badgeImg><img src="img/badge12.png" alt="Badge 12" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>What is a waterfall model?</li>
 		<li>What is an agile method?</li>
