@@ -39,7 +39,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="pre | p | a | ul | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
-	<div class="col-xs-12">
+	<div>
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
