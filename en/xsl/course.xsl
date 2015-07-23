@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="part">
-	<div >
+	<div class="col-xs-12">
 	  <xsl:attribute name="class">
 	  panel panel-<xsl:value-of select="@type"/> accordion-caret
 	  </xsl:attribute>
@@ -39,19 +39,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="pre | p | a | ul | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
-	<div>
+	<div class="col-xs-12">
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
 	
 	<xsl:template match="img">
-		<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right" id="hidden-xs">
+	<div class="img-responsive col-xs-12 thumbnail">
 		<xsl:copy-of select="."/>
-		</div>
+	</div>
+	</xsl:template>
+	
+	<xsl:template match="badgeImg">
+			<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right" id="hidden-xs">
+			<xsl:copy-of select="."/>
+			</div>
 		
-		<div class="img-responsive col-xs-12 pull-right" id="visible-xs">
-		<xsl:copy-of select="."/>
-		</div>
+			<div class="img-responsive col-xs-12 pull-right" id="visible-xs">
+				<xsl:copy-of select="."/>
+			</div>
 	</xsl:template>
 	
 		<xsl:template match="ol">
@@ -76,7 +82,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="bookmark">
-			<p class="btn-group col-xs-12" role="group"><a type="submit" target="_blank" class="btn btn-info">
+			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -110,7 +116,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="subpage">
-		<p class="btn-group"><button type="button" class="btn btn-info col-xs-12" data-toggle="modal" data-target="#{generate-id()}">
+		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -125,7 +131,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <xsl:copy-of select="node()"/>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default col-xs-12 col-sm-4" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -146,7 +152,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </div>
                 <div class="modal-body">
                 <div class="video-responsive">
-                  <iframe width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><xsl:attribute name="src">https://www.youtube.com/embed/<xsl:value-of select="@youtubeid"/></xsl:attribute></iframe>
+                  <iframe  frameborder="0" allowfullscreen="allowfullscreen"><xsl:attribute name="src">https://www.youtube.com/embed/<xsl:value-of select="@youtubeid"/></xsl:attribute></iframe>
                 </div>
                 </div>
                 <!-- <div class="modal-footer">
@@ -175,7 +181,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	              </div>   
                 </div>
                 <div class="modal-footer">
-                <a class="btn btn-info" target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute><span title="Open in new window" class="glyphicon glyphicon-new-window"></span>&#xA0;&#xA0;Open Presentation in new window</a>
+                <a class="btn btn-info col-xs-12 col-sm-4" target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute><span title="Open in new window" class="glyphicon glyphicon-new-window"></span>&#xA0;&#xA0;Open Presentation in new window</a>
                 </div>
               </div>
             </div>
