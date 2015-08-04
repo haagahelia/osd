@@ -1,32 +1,26 @@
-/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,100,400italic);
-
-* {
-	font-family: 'Roboto';
-	font-weight: 200;
-}
-
-*/
 
 /* Universal styles Extra small devices (phones, less than 768px)*/
 /* No media query since this is the default in Bootstrap */
 body{
-	text-align: left; /*tekstin oletuksena vasemmalta*/
-	font-size: 10px; /*Yleinen fontti 10px koska silloin 1.2em = 12px etc..*/
+	text-align: left;	 /*tekstin oletuksena vasemmalta*/
+	font-size: 10px; 	/*Yleinen fontti 10px koska silloin 1.2em = 12px etc..*/
+	font-family: arial,sans-serif;
+	font-weight: 400; 	/* 400 = normal -> w3c*/
 	}
-
 .container{
 	max-width:100%;
-	width:98%%;
 	}
 /* FONTIT*/
 h1{
 	font-size:2em;	
 	text-align: center;
 	}
-
-h2{
+h2, h3, h4, h5{
 	font-size:1.8em;
 	text-align: center;
+	}
+.panel-title{
+	text-align:left;
 	}
 .container{
 	font-size: 1.4em;
@@ -34,29 +28,24 @@ h2{
 ol{
 	padding:2%;
 	}
-/* MUUT */
+/* Misc */
 .btn{
 	max-width:100%;
 	width:auto;
 	margin:1%;
 	}
-.btn-group .col-xs-12{
-	max-width:100%;
-	width:auto;
-	margin:1%;
-	}
+
+img{
+	max-width:768px;
+}
 img.badgeicon {
 	margin: 2%;
 	width:100%;
 	}
-
 .jsbin-embed {
 	border-color: black;
 	border: 1px;
 	border-style: solid;
-	}
-.panel-title{
-	text-align:left;
 	}
 #hidden-xs{
 	display:block;
@@ -70,7 +59,6 @@ img.badgeicon {
   height: 0;
   overflow: hidden;
 }
-
 .video-responsive iframe,
 .video-responsive object,
 .video-responsive embed,
@@ -81,18 +69,22 @@ img.badgeicon {
   width: 100%;
   height: 100%;
 }
+
 	
   /* Custom fixes for XXXS Devices, custom, Phones */
 @media only screen and (max-width : 320px){
 h1{
 	font-size: 1.8em;	
 	}
-h2{
+h2, h3, h4, h5{
 	font-size: 1.6em;
 	}
 .container{
 	font-size: 1.2em;
 	}
+	img{
+	max-width:320px;
+}
 }
 
 
@@ -101,7 +93,7 @@ h2{
 	h1{
 	font-size: 1.9em;	
 	}
-h2{
+h2, h3, h4, h5{
 	font-size: 1.7em;
 	}
 .container{
@@ -120,20 +112,20 @@ h2{
 	padding-left:2%;
 	padding-right:2%;
 }
-
 #hidden-xs{
 	display:none;
 	}
 #visible-xs{
 	display:block;
 	}
+img{
+	max-width:480px;
+}
 img.badgeicon {
 	margin: 2%;
-	max-width:8em;
+	max-width:80px;
 	}
 }
-
-
 
 /* Small Devices, .visible-sm-* */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -141,11 +133,14 @@ img.badgeicon {
 h1{
 	font-size: 2.2em;	
 	}
-h2{
+h2, h3, h4, h5{
 	font-size: 2em;
 	}
 .container{
 	font-size: 1.6em;
+	}
+img{
+	max-width:991px;
 	}
 }
 
@@ -154,13 +149,15 @@ h2{
 h1{
 	font-size: 2.4em;	
 	}
-h2{
+h2, h3, h4, h5{
 	font-size: 2.2em;
 	}
 .container{
 	font-size: 1.8em;
 	}
-
+img{
+	max-width:100%;
+	}
 }
 
 /* Large Devices, .visible-lg-* */
@@ -173,6 +170,7 @@ h2{
 	}
 .container{
 	font-size: 1.8em;
+	max-width:85%;
 	}
 }
 

@@ -8,13 +8,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	 	<a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" class="center-block" alt="HH Logo"/></a>
 		<h1><img alt="App" class="hidden-xs"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/> (<xsl:value-of select="@ects"/> ects)</h1>
 		<div class="exercise" data-xslt="foo.xsl" data-xml="foo.xml"/> <!-- TODO: why the first transformation on the second round is not done? -->
-		<div class="panel-group" id="accordion">
+		<div class="panel-group row" id="accordion">
 		<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 	
 	<xsl:template match="part">
-	<div class="col-xs-12">
+	<div class="col-xs-12"> <!-- Parent to all xml-content -> full width -->
 	  <xsl:attribute name="class">
 	  panel panel-<xsl:value-of select="@type"/> accordion-caret
 	  </xsl:attribute>
@@ -38,18 +38,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div>
 	</xsl:template>
 	
-	<xsl:template match="pre | p | a | ul | li | b | table | tr | td | h1 | h2 | h3 | h4 | h5">
+	<!-- All content must be inside div element -->
+	<xsl:template match="pre | p | a | ul | li | b | table | tr | td">
 	<div>
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
 	
+	<!-- All headlines must be full width within parent -->
+	<xsl:template match="h1 | h2 | h3 | h4 | h5">
+	<div class="col-xs-12">
+		<xsl:copy-of select="."/>
+	</div>
+	</xsl:template>
+	
+	<!-- Responsive image elements -->
 	<xsl:template match="img">
 	<div class="img-responsive col-xs-12 thumbnail">
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
 	
+	<!-- Responsive badgeicon elements and ol- list -->
 	<xsl:template match="badgeImg">
 			<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right" id="hidden-xs">
 			<xsl:copy-of select="."/>
@@ -120,6 +130,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
+		
           <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -177,7 +188,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </div>
                 <div class="modal-body">
                   <div class="video-responsive">
-                  <iframe width="560" height="315" frameborder="0"><xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute></iframe>
+                  <iframe><xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute></iframe>
 	              </div>   
                 </div>
                 <div class="modal-footer">

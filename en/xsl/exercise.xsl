@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/exercise">
 		
 		<p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#{generate-id()}">
-		<span class="glyphicon glyphicon-pencil hidden-xs" title="Exercise"></span>
+		<span class="glyphicon glyphicon-pencil" title="Exercise"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		<xsl:choose>
 			<xsl:when test="@difficulty = 'easy'">
