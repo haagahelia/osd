@@ -1,2 +1,5 @@
 # Orientation to Software Development
-Live at http://teemuer.github.io/osd/en
+
+Live @ http://haagahelia.github.io/oswd/en :)
+
+
