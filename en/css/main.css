@@ -130,7 +130,7 @@ img.badgeicon {
 }
 
 /* Small Devices, .visible-sm-* */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {/*and (max-width: 991px) {*/
 	
 h1{
 	font-size: 2.2em;	
@@ -140,15 +140,15 @@ h2, h3, h4, h5{
 	}
 .container{
 	font-size: 1.6em;
-	max-width: 768px;
+	max-width: 760px;
 	}
 img{
-	max-width:991px;
+	max-width:750px;
 	}
 }
 
-/* Medium Devices, .visible-md-* */
-@media (min-width: 992px) {/*}and (max-width: 1199px) {*/
+/* Medium Devices, .visible-md-* 
+@media (min-width: 992px) and (max-width: 1199px) {
 h1{
 	font-size: 2.4em;	
 	}
@@ -156,7 +156,7 @@ h2, h3, h4, h5{
 	font-size: 2.2em;
 	}
 .container{
-	font-size: 1.8em;
+	font-size: 1.6em;
 	max-width:992px;
 	}
 img{

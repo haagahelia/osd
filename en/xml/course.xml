@@ -90,24 +90,9 @@
 	</part>
 	<part title="1 Software Development" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
-			<p><img src="img/hh_logo_en.png"/></p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<pre><code>
-//This is example
-var jotain ="oijasd";</code></pre>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<subpage icon="th-list" title="Cheat Sheet">
-			<ul>
-			<li>a</li>
-			<li>b</li>
-			<li>c</li>
-			</ul>
-		</subpage>
-		<video title="Screencast" youtubeid="dgrB4f5mOtA"/>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p><bookmark title="W3C JavaScript Tutorial" url="http://www.google.com"/></p>
+		<p>Let's take a look at the industry, discuss the basic concepts and view what kind of education our curriculum provides.</p> 
+		<slides title="Slideshow" url="slides/part1.html"/>
+		<p>Learning to make applications by yourself is a vital skill to understand the challenges that there is in software development.</p> 
 		</section>
 		<section type="success" title="SKILLS">
 			<exercise file="xml/exercises/example.xml"/>
@@ -121,7 +106,7 @@ var jotain ="oijasd";</code></pre>
 				<li>What kind of programs there are?</li>
 				<li>What is an application?</li>
 				<li>What is programming?</li>
-				<li>What kind of programming languages there is?</li>
+				<li>What kind of programming languages there are?</li>
 				<li>What is a compiler?</li>
 				<li>What is an interpreter?</li>
 				<li>How applications are developed?</li>
