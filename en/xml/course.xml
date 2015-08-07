@@ -119,6 +119,7 @@
 	<part title="2 Algorithms" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part2.html"/>
+		<bookmark title="Blockly Maze Game" url="https://blockly-games.appspot.com/maze?lang=en"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
