@@ -118,6 +118,7 @@
 	</part>
 	<part title="2 Algorithms" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<slides title="Slideshow" url="slides/part2.html"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -128,6 +129,7 @@
 		<li>How to instruct the computer?</li>
 		<li>What is the idea of a condition?</li>
 		<li>What is the idea of a loop?</li>
+		<li>When do we need variables?</li>
 		<li>What is a flow chart?</li>
 		<li>How to make my first algorithm with blockly?</li>
 		</ol>
