@@ -295,7 +295,7 @@ else {
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<img src="img/badge06.png" alt="Badge 6" class="badgeicon"/>
+		<badgeImg><img src="img/badge06.png" alt="Badge 6" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why and where do I need conditions?</li>
 		<li>How can I write a conditional statement (if)?</li>
