@@ -61,21 +61,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<!-- Responsive badgeicon elements and ol- list -->
 	<xsl:template match="badgeImg">
-			<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right" id="hidden-xs">
+			<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right hide-xs">
 			<xsl:copy-of select="."/>
 			</div>
 		
-			<div class="img-responsive col-xs-12 pull-right" id="visible-xs">
+			<div class="img-responsive col-xs-12 pull-right show-xs">
 				<xsl:copy-of select="."/>
 			</div>
 	</xsl:template>
 	
 		<xsl:template match="ol">
-		<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10" id="hidden-xs">
+		<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10 hide-xs">
 		<xsl:copy-of select="."/>	
 		</div>
 		
-		<div class="col-xs-12" id="visible-xs">
+		<div class="col-xs-12 show-xs">
 		<xsl:copy-of select="."/>
 		</div>
 	</xsl:template>

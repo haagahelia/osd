@@ -49,10 +49,10 @@ img.badgeicon {
 	border: 1px;
 	border-style: solid;
 	}
-#hidden-xs{
+.hide-xs{
 	display:block;
 	}
-#visible-xs{
+.show-xs{
 	display:none;
 	}
 .video-responsive {
@@ -114,10 +114,10 @@ h2, h3, h4, h5{
 	/*padding-left:2%;
 	padding-right:2%;*/
 }
-#hidden-xs{
+.hide-xs{
 	display:none;
 	}
-#visible-xs{
+.show-xs{
 	display:block;
 	}
 img{
