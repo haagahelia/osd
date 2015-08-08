@@ -14,7 +14,17 @@ $(function() {
 	    $iframe = $(this).find( "iframe" );
 	    $iframe.attr("src", $iframe.attr("src"));
 	}); 
-	//close all accordions
+	
+	//use bootstraps built-in event callback to scroll up to accordion header
+	$("#accordion").on("shown.bs.collapse", function () {
+	    var myEl = $(this).find('.collapse.in').prev('.panel-heading');
+
+	    $('html, body').animate({
+	        scrollTop: $(myEl).offset().top
+	    }, 500);
+	});
+	
+	/*//close all accordions
 	$('.closeall').click(function(){
 		  $('.panel-collapse.in')
 		    .collapse('hide');
@@ -24,5 +34,6 @@ $(function() {
 		  $('.panel-collapse:not(".in")')
 		    .collapse('show');
 		});
+		*/
 		
 });
