@@ -26,7 +26,7 @@ $(function() {
 	        scrollTop: $(myEl).offset().top
 	    }, 500);
 	});
-	
+
 	// when .modal-wide opened, set content-body height based on browser height; 200 is approx height of modal padding, modal title and button bar
 	$(".modal-wide").on("show.bs.modal", function() {
 	  var height = $(window).height() - 200;
