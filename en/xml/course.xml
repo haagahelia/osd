@@ -212,7 +212,7 @@ In javaScript '=' operator is an assignment operator, not an equal to operator.<
 var length = 100; // Number (Either integer or floating point numbers
 var name = "John" // String
 var x = true; // Boolean: true or false </code></pre>
-<bookmark title="Read more..." url="http://www.w3schools.com/js/js_variables.asp"/>
+<bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -303,7 +303,7 @@ else {
 		<tr><td>||</td><td>  or</td></tr>
 		<tr><td>!</td><td>  not</td></tr>	
 		</table></p>			
-<bookmark title="Read more..." url="http://www.w3schools.com/js/js_if_else.asp"/>
+<bookmark title="w3schools Conditions" url="http://www.w3schools.com/js/js_if_else.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -344,7 +344,7 @@ function calcSum(x, y) {
 <b>Why functions?</b>
 You can reuse code by defining the code once, and use it many times. You can use the same code many times with different arguments, to produce different results.
 </p>
-<bookmark title="Read more..." url="http://www.w3schools.com/js/js_functions.asp"/>
+<bookmark title="w3schools Functions" url="http://www.w3schools.com/js/js_functions.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -439,7 +439,7 @@ for (index = 0; index &lt; pets.length; index++) {
 	text = text + pets[index];
 }</code></pre></p>
 
-<bookmark title="Read more..." url="http://www.w3schools.com/js/js_arrays.asp"/>			
+<bookmark title="w3schools Arrays" url="http://www.w3schools.com/js/js_arrays.asp"/>			
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -456,6 +456,11 @@ for (index = 0; index &lt; pets.length; index++) {
 	</part>
 	<part title="10 Objects" icon="briefcase" type="default">
 		<section type="success" title="KNOWLEDGE">
+            <p>Objects are variables that can contain multiple values. The following code assigns many values to variable named student.</p>
+            <p><pre><code>
+                var student = {name:"John Smith", studentnr=100232, department="IT"};</code></pre></p>    
+            <p>The values are written as <b>name:value</b> pairs. The name:value pairs are called as <b>properties</b></p>
+<bookmark title="w3schools Objects" url="http://www.w3schools.com/js/js_objects.asp"/>	                     
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
