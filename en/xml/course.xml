@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/course.xsl"?>
 <course logo="img/app.svg" title="Orientation to Software Development">
+
+
 	<part title="COURSE INFO" icon="off" type="default">
 		<p>Welcome to the course Orientation to Software Production (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
@@ -88,6 +90,7 @@
 			</ol>
 		</section>
 	</part>
+
 	<part title="1 Software Development" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p>Let's take a look at the industry, discuss the basic concepts and view what kind of education our curriculum provides.</p> 
@@ -116,6 +119,8 @@
 		</ol>
 		</section>
 	</part>
+
+
 	<part title="2 Algorithms" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part2.html"/>
@@ -136,22 +141,45 @@
 		</ol>
 		</section>
 	</part>
+	
 	<part title="3 Environments" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
-		In what kind of environment does the software run?
-		What kind of an environment does the software developer need?
+		In what kind of an environment does the software run?
+		What kind of an environment does a software developer need?
 		This part will answer to these and some other important questions.
 		<slides title="Slideshow" url="slides/part3.html"/>
+		<video title="Haaga-Helia Xubuntu desktop" youtubeid="JDw1ii7aKwg"/>
+		<video title="Writing and publishing a simple web page" youtubeid="JDw1ii7aKwg"/>
+		<p>To see how to install Chromium browser on Xubuntu and how to use the developer toolbar, see the instructions below</p> 
+		<subpage icon="wrench" title="Chromium">
+				<p><strong>Open Terminal Window</strong> by pressing</p>
+				<pre><code class="language-none">Ctrl+Alt+T</code></pre>
+				<p><strong>Install Chromium Browser</strong> by typing the following text into the terminal window</p>
+				<pre><code class="language-bash">sudo apt-get install chromium-browser</code></pre>
+				<p><strong>Open Chromium Browser</strong> by typing the following text into the terminal window</p>
+				<pre><code class="language-bash">chromium-browser &amp;</code></pre>
+				<p><strong>Open Developer Toolbar</strong> by pressing </p>
+				<pre><code class="language-none">Ctrl+Shift+I</code></pre>
+				<p>You can write a <strong>log</strong> text from your web page to the browser console by writing the following JavaScript-code. The console is located at the developer toolbar.</p>
+				<pre><code class="language-javascript">Console.log("The text to be logged.");</code></pre>
+		</subpage>
 		
-		<h2>TODO VIDEO: XUBUNTU VDI START</h2>
-		<h2>TODO VIDEO: MAKE AND PUBLISH HTML WITH MOUSEPAD</h2>
-		<h2>TODO CHROMIUM INSTALLATION INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
-		<h2>TODO LOGGING INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
-		<h2>TODO BROWSER DEVELOPER TOOLBAR INSTRUCTIONS (SUBPAGE TEXT AND SCREENSHOT)</h2>
-		<h2>TODO SCP INSTRUCTIONS (SUBPAGE CODE TEXT)</h2>
-		<h2>TODO SSH INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
-		
+		<subpage icon="transfer" title="Accessing the production environment">
+			<p>You can access the production environment with <strong>Secure Shell (SSH)</strong> by writing the following command in the terminal window</p>
+			<pre><code class="language-bash">ssh username@servername
+#for example
+ssh a1234567@myy.haaga-helia.fi</code></pre>
+			<p>On the remote host you can run common shell commands.</p>
+			<p>Transferring a file from your local machine to the remote machine is easily done with <strong>Secure Copy (SCP)</strong> with the following command</p>
+			<pre><code class="language-bash">scp filename username@servername:destinationfolder
+#for example
+scp mypage.html a1234567@myy.haaga-helia.fi:public_html
+#or a folder and all of its subfolders recursively
+scp -r foldername username@servername:destinationfolder</code></pre>
+		</subpage>
 		</section>
+		
+		
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
@@ -168,6 +196,7 @@
 		</ol>
 		</section>
 	</part>
+	
 		<part title="4 JavaScript" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		</section>
@@ -190,6 +219,8 @@
 		</ol>
 		</section>
 	</part>
+	
+
 	<part title="5 Variables" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p>
@@ -229,6 +260,8 @@ var x = true; // Boolean: true or false </code></pre>
 		</ol>
 		</section>
 	</part>
+	
+	
 	<part title="6 Conditions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<h3>If statement</h3>
@@ -319,6 +352,8 @@ else {
 		</ol>
 		</section>
 	</part>
+	
+
 	<part title="7 Functions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p>
@@ -364,6 +399,7 @@ You can reuse code by defining the code once, and use it many times. You can use
 		</ol>
 		</section>
 	</part>
+	
 	<part title="8 Loops" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p>There are situations when we need to execute a block of code several number of times, and is often referred to as a loop</p>
@@ -417,6 +453,8 @@ for (var i = 0; i &lt; 10; i++) {
 		</ol>
 		</section>
 	</part>
+	
+
 	<part title="9 Arrays" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p><b>Arrays</b> are used to store multiple values in a single variable</p>
@@ -454,6 +492,8 @@ for (index = 0; index &lt; pets.length; index++) {
 		</ol>
 		</section>
 	</part>
+	
+
 	<part title="10 Objects" icon="briefcase" type="default">
 		<section type="success" title="KNOWLEDGE">
             <p>Objects are variables that can contain multiple values. The following code assigns many values to variable named student.</p>
@@ -482,6 +522,8 @@ for (index = 0; index &lt; pets.length; index++) {
 		</ol>
 		</section>
 	</part>
+	
+
 	<part title="11 Application Lifecycle" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		</section>
@@ -501,6 +543,8 @@ for (index = 0; index &lt; pets.length; index++) {
 		</ol>
 		</section>
 	</part>
+	
+	
 	<part title="12 Development methods" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		</section>
@@ -518,12 +562,15 @@ for (index = 0; index &lt; pets.length; index++) {
 		</ol>
 		</section>
 	</part>
+	
 	<part title="ROUNDUP" icon="refresh" type="default">
 		<section type="info" title="KNOWLEDGE">
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
 	</part>
+
+
 	<part title="EXAM" icon="time" type="default">
 		<section type="info" title="INSTRUCTIONS">
 			<ul>
