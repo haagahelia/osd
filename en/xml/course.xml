@@ -138,20 +138,33 @@
 	</part>
 	<part title="3 Environments" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		In what kind of environment does the software run?
+		What kind of an environment does the software developer need?
+		This part will answer to these and some other important questions.
+		<slides title="Slideshow" url="slides/part3.html"/>
+		
+		<h2>TODO VIDEO: XUBUNTU VDI START</h2>
+		<h2>TODO VIDEO: MAKE AND PUBLISH HTML WITH MOUSEPAD</h2>
+		<h2>TODO CHROMIUM INSTALLATION INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
+		<h2>TODO LOGGING INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
+		<h2>TODO BROWSER DEVELOPER TOOLBAR INSTRUCTIONS (SUBPAGE TEXT AND SCREENSHOT)</h2>
+		<h2>TODO SCP INSTRUCTIONS (SUBPAGE CODE TEXT)</h2>
+		<h2>TODO SSH INSTRUCTIONS (SUBPAGE CODE AND TEXT)</h2>
+		
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<badgeImg><img src="img/badge04.png" alt="Badge 4" class="badgeicon"/></badgeImg>
+		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
 		<ol>
-		<li>Why do I need a development environment?</li>
-		<li>What kind of tools does a software developer need?</li>
-		<li>How to use the editor?</li>
-		<li>What kind of server can I use?</li>
-		<li>How to use a browser developer toolbar?</li>
-		<li>How to print logs to the console?</li>
-		<li>How to publish my first application on localhost?</li>
-		<li>How to publish my first application on the Internet?</li>
+			<li>What kind of environments does a software developer need?</li>
+			<li>What kind of tools does a software developer need?</li>
+			<li>How to use the editor?</li>
+			<li>What does the server do?</li>
+			<li>How to use a browser developer toolbar?</li>
+			<li>How to print logs to the console?</li>
+			<li>How to publish my first application on localhost?</li>
+			<li>How to publish my first application on the Internet?</li>
 		</ol>
 		</section>
 	</part>
@@ -161,7 +174,7 @@
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
-		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
+		<badgeImg><img src="img/badge04.png" alt="Badge 4" class="badgeicon"/></badgeImg>
 		<ol>
 		<li>Why JavaScript is important?</li>
 		<li>What kind of language is JavaScript?</li>
