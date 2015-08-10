@@ -175,6 +175,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="slides">
+		<!-- Slides won't work in ff or opera correctly when in modal, therefore opens in new tab
+		
 		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Open presentation slides" class="glyphicon glyphicon-blackboard"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
@@ -196,7 +198,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </div>
               </div>
             </div>
-          </div>
-	</xsl:template>
+          </div> -->
+		<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
+		<xsl:attribute name="href">
+			<xsl:value-of select="@url"/>
+		</xsl:attribute>
+			<span title="Open Url in new window" class="glyphicon glyphicon-new-window"></span>
+			&#xA0;&#xA0;<xsl:value-of select="@title"/>
+		</a></p>
+		</xsl:template>
 
 </xsl:stylesheet>
