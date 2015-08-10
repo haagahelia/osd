@@ -149,9 +149,9 @@
 		This part will answer to these and some other important questions.
 		<slides title="Slideshow" url="slides/part3.html"/>
 		<video title="Haaga-Helia Xubuntu desktop" youtubeid="JDw1ii7aKwg"/>
-		<video title="Writing and publishing a simple web page" youtubeid="JDw1ii7aKwg"/>
+		<video title="Write and publish a simple web page" youtubeid="JDw1ii7aKwg"/>
 		<p>To see how to install Chromium browser on Xubuntu and how to use the developer toolbar, see the instructions below</p> 
-		<subpage icon="wrench" title="Chromium">
+		<subpage icon="wrench" title="Install Chromium Browser">
 				<p><strong>Open Terminal Window</strong> by pressing</p>
 				<pre><code class="language-none">Ctrl+Alt+T</code></pre>
 				<p><strong>Install Chromium Browser</strong> by typing the following text into the terminal window</p>
@@ -164,7 +164,7 @@
 				<pre><code class="language-javascript">Console.log("The text to be logged.");</code></pre>
 		</subpage>
 		
-		<subpage icon="transfer" title="Accessing the production environment">
+		<subpage icon="transfer" title="Access the production environment">
 			<p>You can access the production environment with <strong>Secure Shell (SSH)</strong> by writing the following command in the terminal window</p>
 			<pre><code class="language-bash">ssh username@servername
 #for example
