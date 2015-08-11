@@ -199,6 +199,9 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 	
 		<part title="4 JavaScript" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+			<slides title="Slideshow" url="slides/part4.html"/>
+			<p>TODO: CODE BLOCKS (head js, ext js, body js, onclick js, onclick js function call to head js function, comments, event listener)</p>
+			<p>TODO: dom tree image</p>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -212,8 +215,6 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<li>How to run JavaScript Code on a web page?</li>
 		<li>How do I write code comments?</li>
 		<li>Why do I write code comments?</li>
-		<li>How to make a HelloWorld-application?</li>
-		<li>How are html and JavaScript linked?</li>
 		<li>What is a dom tree?</li>
 		<li>How to attach an event listener to a button?</li>
 		</ol>
