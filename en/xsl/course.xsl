@@ -203,7 +203,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:attribute name="href">
 			<xsl:value-of select="@url"/>
 		</xsl:attribute>
-			<span title="Open Url in new window" class="glyphicon glyphicon-new-window"></span>
+			<span title="Open Url in new window" class="glyphicon glyphicon-blackboard"></span>
 			&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</a></p>
 		</xsl:template>
