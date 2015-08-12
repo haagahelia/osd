@@ -32,7 +32,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <div class="panel-body">
           <h2><xsl:value-of select="@title"/></h2>	
           <xsl:apply-templates/>
-          <a href="#"><button class="btn btn-danger closeall" >Close</button></a> <!--added button -> close all accordions to avoid unnecessary scrolling on mobile-->
         </div>
       </div>
     </div>
