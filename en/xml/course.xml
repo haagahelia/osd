@@ -202,6 +202,21 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 			<slides title="Slideshow" url="slides/part4.html"/>
 			<p>TODO: CODE BLOCKS (head js, ext js, body js, onclick js, onclick js function call to head js function, comments, event listener)</p>
 			<p>TODO: dom tree image</p>
+			<pre class="language-markup"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script&gt;
+function myListener() {
+	console.log(&quot;******************&quot;);
+	console.log(&quot;* BUTTON PRESSED *&quot;);
+	console.log(&quot;******************&quot;);
+}
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;button onclick=&quot;myListener()&quot;&gt;Press me!&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -359,10 +374,11 @@ else {
 
 	<part title="7 Functions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		
 		<p>
-		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).
-		Values can be passed to a function, and the function can return a value.
-		</p>
+		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).</p>
+		<p>Values can be passed to a function, and the function can return a value.</p>
+		<p><img src="img/urlsquirrel_function.png" class="bordered"/></p>
 		<p>Function is defined with <b>function</b> keyword followed by a function name and parentheses. The code to be executed by the function, is placed inside curly brackets {}</p>
 <p><pre><code>
 function name(parameter1, parameter2) {
