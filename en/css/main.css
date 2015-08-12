@@ -32,13 +32,14 @@ ol{
 .btn{
 	max-width:100%;
 	width:auto;
-	text-align:left;
-	
+	text-align:left;	
 	margin:1%;
 	}
-
-img{
-	max-width:768px;
+p img{
+	max-width:100%;
+	height:auto;
+	display:block;
+  /*  margin: 0 auto;*/ /* Centers images */
 }
 img.bordered {
 	border: 1px;
@@ -92,9 +93,6 @@ h2, h3, h4, h5{
 .container{
 	font-size: 1.2em;
 	}
-	img{
-	max-width:320px;
-}
 }
 
 
@@ -128,9 +126,6 @@ h2, h3, h4, h5{
 .show-xs{
 	display:block;
 	}
-img{
-	max-width:480px;
-}
 img.badgeicon {
 	margin: 2%;
 	max-width:80px;
@@ -150,9 +145,7 @@ h2, h3, h4, h5{
 	font-size: 1.6em;
 	max-width: 760px;
 	}
-img{
-	max-width:750px;
-	}
+
 }
 
 /* Medium Devices, .visible-md-* 
@@ -166,9 +159,6 @@ h2, h3, h4, h5{
 .container{
 	font-size: 1.6em;
 	max-width:992px;
-	}
-img{
-	max-width:100%;
 	}
 }
 
