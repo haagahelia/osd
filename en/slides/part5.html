@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Welcome to the course</title>
+
+		<meta name="description" content="Slides">
+		<meta name="author" content="Haaga-Helia">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			
+				<section>
+					<h1>VARIABLES</h1>
+					<p class="fragment">Where do I need them?</p>
+				</section>
+	
+				<section>
+					<h2>CONCEPT</h2>
+					<p class="fragment">How to visualize a variable?</p>
+					<p class="fragment"><img src="../img/urlsquirrel_variable.png" alt="variables"></p>
+				</section>
+				
+				<section>
+					<h2>USING VARIABLES</h2>
+					<pre class="fragment" style="font-size:1.1em"><code>// create a variable
+var age;
+// store a value
+age = 23;
+// change the value
+age = 24;
+// read the value and log it
+console.log(age);
+</code></pre>
+				</section>
+				
+				<section>
+					<h2>TYPES</h2>
+					<ul>
+						<li class="fragment">Number</li>
+						<li class="fragment">String</li>
+						<li class="fragment">Array</li>
+						<li class="fragment">Object</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Example</h2>
+					<pre><code>var length = 16;                                  // Number
+var lastName = "Johnson";                         // String
+var carNames = ["Saab", "Volvo", "BMW"];          // Array
+var person = {firstName:"John", lastName:"Doe"};  // Object</code></pre>
+				
+				</section>
+				
+				<section>
+					<h2>DEBUGGING VAR VALUES</h2>
+					<p class="fragment">Let's see how to do it with the developer toolbar..</p>	
+				</section>
+			
+				<section>
+					<h2>SHOW A VAR VALUE ON THE PAGE</h2>
+					<pre class="fragment"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;div id=&quot;firstNameElement&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+var firstName = &quot;Anna&quot;;
+document.getElementById(&quot;firstNameElement&quot;).innerHTML = firstName;
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

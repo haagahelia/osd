@@ -224,9 +224,11 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 
 	<part title="5 Variables" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<p><img src="img/urlsquirrel_variable.png" class="bordered"/></p>
 		<p>
-		Variables are containers for storing data values.		
+		Variables are containers for storing data values.
 		</p>
+		<slides title="Slideshow" url="slides/part5.html"/>
 		<pre><code>
 //Example: a and b are variables
 var a = 5;
