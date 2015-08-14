@@ -60,7 +60,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<!-- Responsive badgeicon elements and ol- list -->
 	<xsl:template match="badgeImg">
-			<div class="img-responsive col-xs-4 col-sm-3 col-md-2 col-lg-2 pull-right hide-xs">
+			<div class="img-responsive col-xs-3 pull-right hide-xs">
 			<xsl:copy-of select="."/>
 			</div>
 		
@@ -70,7 +70,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 		<xsl:template match="ol">
-		<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10 hide-xs">
+		<div class="col-xs-9  hide-xs">
 		<xsl:copy-of select="."/>	
 		</div>
 		
