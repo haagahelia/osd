@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Part 2</title>
+		<title>Part 6</title>
 
 		<meta name="description" content="Slides">
 		<meta name="author" content="Haaga-Helia">
@@ -40,79 +40,83 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>ALGORITHMS</h1>
-					<p class="fragment">For what?</p>
-				</section>
-				
-				<section>
-					<h2>DUMMY COMPUTER</h2>
-					<p class="fragment">Needs specific instructions</p>
-				</section>
-				
-				<section>
-					<h2>CONDITIONS</h2>
-					<p class="fragment">Where to use em?</p>
-				</section>
-
-				<section>
-					<h2>LOOPS</h2>
-					<p class="fragment">Where to use em?</p>	
-				</section>
-					
-				<section>
-					<h2>VARIABLES</h2>
-					<p class="fragment">When do we need them?</p>
-				</section>
-				
-				<section>
-					<h2>TOOLS FOR ALGORITHM DESIGN</h2>
-					<ul>
-						<li class="fragment">Pseudo code</li>
-						<li class="fragment">Flow Chart</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>SIMPLE PSEUDO CODE</h2>
-					<pre><code>START ENGINE
-GO 10 STEPS FORWARD
-TURN 90 DEGREES RIGHT
-GO 20 STEPS FORWARD
-STOP ENGINE</code></pre>
-				</section>
-				
-				<section>
-					<h2>ADVANCED PSEUDO CODE</h2>
-					<pre><code>START ENGINE
-DO THE FOLLOWING STEPS 100 TIMES
-	IF NO OBSTACLES
-		GO 1 STEP FORWARD
-	OTHERWISE
-		TURN 10 DEGREES RIGHT
-STOP ENGINE</code></pre>
-				</section>
-
-				<section>
-					<h2>SIMPLE FLOW CHART</h2>
-					<p><img src="../img/simpleFlowChart.png" alt="simple flow chart" style="border:none;"></p>
-				</section>
 			
 				<section>
-					<h2>ADVANCED FLOW CHART</h2>
-					<p><img src="../img/advancedFlowChart.png" alt="advanced flow chart" style="border:none;"></p>
+					<h1>CONDITIONS</h1>
+					<p class="fragment">Where do I need them?</p>
 				</section>
-			
+	
 				<section>
-					<h2>BLOCKLY</h2>
-					<p class="fragment">What is it?</p>
-				</section>
-				
-								<section>
-					<h2>BLOCKLY EXAMPLE</h2>
-					<p><img src="../img/blockly.png" alt="advanced flow chart" style="border:none;"></p>
+					<h2>IF</h2>
+					<pre class="fragment" style="font-size:1.1em"><code>if (age &lt; 18) {
+    console.log("Go home!");
+}</code></pre>
 				</section>
 
+				<section>
+					<h2>ELSE</h2>
+					<pre class="fragment" style="font-size:1.1em"><code>if (age &lt; 18) {
+    console.log("Go home!");
+} else {
+    console.log("Welcome!");
+}</code></pre>
+				</section>	
+				
+				<section>
+					<h2>ELSE IF</h2>
+					<pre class="fragment" style="font-size:0.7em"><code>if (age &lt; 18) {
+    console.log("Go home!");
+} else if (age &lt; 24) {
+    console.log("Welcome to the first floor!");
+} else {
+    console.log("Welcome to the second floor!");
+}</code></pre>
+				</section>		
+				
+				<section>
+					<h2>COMPARISON OPERATORS</h2>
+					<table>
+						<tr><td>==</td><td>equal to</td></tr>
+						<tr><td>===</td><td>equal value and equal type</td></tr>
+						<tr><td>!=</td><td>not equal</td></tr>
+						<tr><td>!==</td><td>not equal value or not equal type</td></tr>
+						<tr><td>&gt;</td><td>greater than</td></tr>
+						<tr><td>&lt;</td><td>less than</td></tr>
+						<tr><td>&gt;=</td><td>greater than or equal to</td></tr>
+						<tr><td>&lt;=</td><td>less than or equal to</td></tr>
+					</table>
+				</section>
+				
+				<section>
+					<h2>BOOLEAN VARIABLES</h2>
+					<p class="fragment">Where do we need them?</p>
+					<pre class="fragment" style="font-size:0.7em"><code>var isAnAdult = age &gt;= 18;
+var isReady = true;
+var hasPaid = false;</code></pre>
+				
+				</section>
+				
+				<section>
+					<h2>LOGICAL OPERATORS</h2>
+					<table>
+						<tr><td>&amp;&amp;</td><td>AND</td></tr>
+						<tr><td>||</td><td>OR</td></tr>
+						<tr><td>!</td><td>NOT</td></tr>
+					</table>
+				</section>
+				
+				<section>
+					<h2>ADVANCED</h2>
+					<p>If the customer is an emloyee or a child without celiac, who's age is between 3 and 5, we will serve meatballs.
+					<pre class="fragment" style="font-size:0.6em"><code class="javascript">if ( isAnEmployee || (!hasCeliac &amp;&amp; age &gt; 3 &amp;&amp; age &lt; 15) ) {
+    console.log("We will serve you meatballs!");
+}</code></pre>
+				</section>
+				
+				<section>
+					<h2>HOW TO DEBUG CONDITIONAL CODE ON A WEB PAGE</h2>
+					<p class="fragment">Lets see...</p>
+				</section>
 			</div>
 
 		</div>

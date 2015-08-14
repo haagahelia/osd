@@ -131,7 +131,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</button></p>
 		
           <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header alert-info">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
