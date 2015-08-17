@@ -37,23 +37,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div>
 	</xsl:template>
 	
-	<!-- All content must be inside div element -->
-	<xsl:template match="pre | p | a | ul | li | b | table | tr | td">
-	<div>
-		<xsl:copy-of select="."/>
-	</div>
-	</xsl:template>
-	
-	<!-- All headlines must be full width within parent -->
-	<xsl:template match="h1 | h2 | h3 | h4 | h5">
+	<!-- All content must be inside div element + content is col-xs-12 default-->
+	<xsl:template match="pre | a | ul | li | b | table | tr | td| img| h1 | h2 | h3 | h4 | h5  | p">
 	<div class="col-xs-12">
-		<xsl:copy-of select="."/>
-	</div>
-	</xsl:template>
-	
-	<!-- Responsive image elements -->
-	<xsl:template match="img">
-	<div class="img-responsive col-xs-12 thumbnail">
 		<xsl:copy-of select="."/>
 	</div>
 	</xsl:template>
@@ -81,7 +67,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	
 	<xsl:template match="exam">
-			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-success">
+			<p><a type="submit" target="_blank" class="btn btn-success col-xs-12 col-sm-4">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -91,7 +77,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="bookmark">
-			<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
+			<p><a type="submit" target="_blank" class="btn btn-info col-xs-12 col-sm-4">
 		<xsl:attribute name="href">
 		<xsl:value-of select="@url"/>
 		</xsl:attribute>
@@ -115,7 +101,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="exercise">
-	<div class="btn-group col-xs-12 col-md-6" role="group">
+	<div>
 		 <div class="exercise" data-xslt="xsl/exercise.xsl">
 		 <xsl:attribute name="data-xml">
 			<xsl:value-of select="@file"/>
@@ -125,7 +111,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 	
 	<xsl:template match="subpage">
-		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p><button type="button" class="btn btn-info col-xs-12 col-sm-4" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Read more"><xsl:attribute name="class">glyphicon glyphicon-<xsl:value-of select="@icon"/></xsl:attribute></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -149,7 +135,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="video">
-		<p class="btn-group"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#{generate-id()}">
+		<p><button type="button" class="btn btn-info col-xs-12 col-sm-4" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Watch video" class="glyphicon glyphicon-facetime-video"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -198,7 +184,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </div>
             </div>
           </div> -->
-		<p class="btn-group" role="group"><a type="submit" target="_blank" class="btn btn-info">
+		<p><a type="submit" target="_blank" class="btn btn-info col-xs-12 col-sm-4">
 		<xsl:attribute name="href">
 			<xsl:value-of select="@url"/>
 		</xsl:attribute>
