@@ -5,24 +5,24 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<xsl:template match="/exercise">
 		
-		<p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#{generate-id()}">
+		<p><button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#{generate-id()}">
 		<span class="glyphicon glyphicon-pencil" title="Exercise"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		<xsl:choose>
 			<xsl:when test="@difficulty = 'easy'">
-			&#xA0;&#xA0;<span title="Difficulty: Easy"><span class="glyphicon glyphicon-star hidden-xs"></span><span class="glyphicon glyphicon-star-empty hidden-xs"></span><span class="glyphicon glyphicon-star-empty hidden-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: Easy"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'medium'">
-			&#xA0;&#xA0;<span title="Difficulty: Medium"><span class="glyphicon glyphicon-star hidden-xs"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty hidden-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: Medium"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'hard'">
-			&#xA0;&#xA0;<span title="Difficulty: Hard"><span class="glyphicon glyphicon-star hidden-xs"></span><span class="glyphicon glyphicon-star hidden-xs"></span><span class="glyphicon glyphicon-star hidden-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: Hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
 			</xsl:when>
 			<xsl:otherwise>
-			&#xA0;&#xA0;<span title="Difficulty: Adjustable"><span class="glyphicon glyphicon-question-sign hidden-xs"></span><span class="glyphicon glyphicon-question-sign hidden-xs"></span><span class="glyphicon glyphicon-question-sign hidden-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: Adjustable"><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span></span>
 			</xsl:otherwise>
 		</xsl:choose>
-		&#xA0;<span class="hidden-xs"><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
+		&#xA0;<span class="hide-xs"><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
 		</button></p>
           <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog modal-lg">
