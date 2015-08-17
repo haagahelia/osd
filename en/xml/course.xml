@@ -426,6 +426,8 @@ You can reuse code by defining the code once, and use it many times. You can use
 	
 	<part title="8 Loops" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+		<slides title="Slideshow" url="slides/part8.html"/>
+		<p><img src="img/urlsquirrel_loop.png" class="bordered"/></p>
 		<p>There are situations when we need to execute a block of code several number of times, and is often referred to as a loop</p>
 		<p>JavaScript has three main looping mechanism</p>
 		<ul>
@@ -473,7 +475,7 @@ for (var i = 0; i &lt; 10; i++) {
 		<li>How do I make a for loop?</li>
 		<li>When should I use a for loop?</li>
 		<li>When should I use a while loop?</li>
-		<li>How do I make an animation on a web page with a loop?</li>
+		<li>How do I make an animation on a web?</li>
 		</ol>
 		</section>
 	</part>
