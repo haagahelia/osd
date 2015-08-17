@@ -4,6 +4,7 @@
 
 
 	<part title="COURSE INFO" icon="off" type="default">
+		<section type="info" title="KNOWLEDGE">
 		<p>Welcome to the course Orientation to Software Production (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
@@ -73,6 +74,7 @@
 				<li>Lorem ipsum dolor sit amet</li>
 			</ul>
 		</subpage>
+		</section>
 		<section type="info" title="CHECKPOINT">
 			<badgeImg><img src="img/badge00.png" alt="Badge 0" class="badgeicon"/></badgeImg>
 			<ol>
