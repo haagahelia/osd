@@ -10,6 +10,10 @@ body{
 .container{
 	max-width:100%;
 	}
+p{ 
+	margin:0px; /* inherited margin set to 0 to set slide buttons on same height */
+	}
+	
 /* FONTIT*/
 h1{
 	font-size:2em;	
@@ -59,7 +63,7 @@ img.badgeicon {
 	border-style: solid;
 	}
 .hide-xs{
-	display:block;
+	display:inline-block;
 	}
 .show-xs{
 	display:none;
@@ -114,17 +118,11 @@ h2, h3, h4, h5{
 	/*padding-left:2%;
 	padding-right:2%;*/
 	}
-.btn-group{
-	white-space: normal; !important;
-	min-width: 100%;
-	/*padding-left:2%;
-	padding-right:2%;*/
-}
 .hide-xs{
 	display:none;
 	}
 .show-xs{
-	display:block;
+	display:inline-block;
 	}
 img.badgeicon {
 	margin: 2%;
