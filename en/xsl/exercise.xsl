@@ -36,7 +36,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default col-xs-12 col-sm-4" data-dismiss="modal">Close</button>
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>
+                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute>Return Box</a>               
+                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="a/@href"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Open Jsbin in new window</a>
                 </div>
               </div>
             </div>
