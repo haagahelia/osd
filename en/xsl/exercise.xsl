@@ -24,7 +24,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</xsl:choose>
 		&#xA0;<span class="hide-xs"><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
 		</button></p>
-          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
+          <div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="{generate-id()}" aria-labelledby="{generate-id()}">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header alert-success">
