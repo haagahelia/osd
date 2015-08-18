@@ -13,7 +13,14 @@ body{
 p{ 
 	margin:0px; /* inherited margin set to 0 to set slide buttons on same height */
 	}
-	
+/* wider modal settings used for editor*/
+.modal.modal-wide .modal-dialog {
+	  width: 95%;
+	  margin: 0 auto;
+}
+.modal-wide .modal-body {
+ 	 overflow-y: auto;
+	}
 /* FONTIT*/
 h1{
 	font-size:2em;	
@@ -143,7 +150,11 @@ h2, h3, h4, h5{
 	font-size: 1.6em;
 	max-width: 760px;
 	}
-
+.modal.modal-wide .modal-dialog {
+  	width: 75%; /* modal takes 75% of page-width until max-width; */
+  	margin: 0 auto;
+ 	max-width:1200px; 
+	}
 }
 
 /* Medium Devices, .visible-md-* 
