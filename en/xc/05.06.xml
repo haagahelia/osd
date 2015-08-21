@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="05.06 Unit Fine" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=373577&amp;action=editsubmission" template="xc/05.06.html">
+
+<p class="exercise_text">A car driver (a motorist) was driving too fast. He drove 20 km/h over the speedlimit, so the police needed to fine him. Finnish fine units are based on the net income of the driver. One fine unit can be calculated as: (net income * 255)/60. 
+Create a program that tells how much is one fine unit for inputed net income.
+<ul>
+<li>Define a function that calculates the fine unit (euros) based on given net income (euros).</li>
+<li>toFixed(2)-metodilla saa muotoiltua luvun kahdella desimaalilla</li>
+<li>Function call toFixed(2) returns the value of a number rounded to two decimals</li>
+</ul>
+</p>
+
+<p class="exercise_gui_title">One sample output for shown input:</p>
+<p><img src="xc/05.06.png" class="bordered"/></p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/mosibu/embed?js">JS Bin</a>
+</exercise>

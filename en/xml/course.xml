@@ -100,8 +100,7 @@
 		<p>Learning to make applications by yourself is a vital skill to understand the challenges that there is in software development.</p> 
 		</section>
 		<section type="success" title="SKILLS">
-			<exercise file="xml/exercises/example.xml"/>
-			<exercise file="xml/exercises/example_applied.xml"/>
+			<exercise file="xc/example.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 			<badgeImg><img src="img/badge01.png" alt="Badge 1" class="badgeicon"/></badgeImg>
@@ -267,6 +266,7 @@ var x = true; // Boolean: true or false </code></pre>
 <bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
+			<exercise file="xc/05.06.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge05.png" alt="Badge 5" class="badgeicon"/></badgeImg>
