@@ -231,7 +231,7 @@ function myListener() {
 &lt;/script&gt;</code></pre></p>
     <p>You can place any number of scripts in an HTML document.</p><p>Scripts can be placed in the &lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or in both.</p>
     <p>Scripts can also be placed in external files. External scripts are practical when the same code is used in many different web pages. JavaScript files have the file extension<b>.js</b>.
-</p><<p>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
+</p><p>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
 </p>
             <p>Example<pre><code>//This is my First comment
 &lt;script&gt;
