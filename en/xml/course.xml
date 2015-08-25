@@ -218,6 +218,26 @@ function myListener() {
 	&lt;button onclick=&quot;myListener()&quot;&gt;Press me!&lt;/button&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+<p>JavaScript is an object oriented dynamic language. Its syntax comes from Java and C languages. With JavaScript you can for example:
+    <ul>
+        <li>Change HTML content</li>
+        <li>Change HTML attributes</li>
+        <li>Change HTML styles</li>
+        <li>Validate data</li>
+    </ul></p>
+    <p><br/>In HTML, JavaScript code must be inserted between &lt;script&gt; and &lt;/script&gt; tags.</p>
+    <p>Example<pre><code>&lt;script&gt;
+  document.getElementById("demo").innerHTML = "My First JavaScript";
+&lt;/script&gt;</code></pre></p>
+    <p>You can place any number of scripts in an HTML document.</p><p>Scripts can be placed in the &lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or in both.</p>
+    <p>Scripts can also be placed in external files. External scripts are practical when the same code is used in many different web pages. JavaScript files have the file extension<b>.js</b>.
+</p><<p>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
+</p>
+            <p>Example<pre><code>//This is my First comment
+&lt;script&gt;
+  document.getElementById("demo").innerHTML = "My First JavaScript";
+&lt;/script&gt;</code></pre></p><p>Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored by JavaScript.
+</p><bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/>        
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
