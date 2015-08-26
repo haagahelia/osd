@@ -270,7 +270,7 @@ function myListener() {
 var a = 5;
 var b = 10;</code></pre>
 		<p>
-Variables can be used in expressions.		
+Variables can be used in expressions (see artihmetic operators below).		
 		</p>
 		<pre><code>//Example: expression
 var c = a + b;</code></pre><p>All variables must be indentified with unique names. Identifiers are case-sensitive in javascript.
@@ -282,6 +282,24 @@ In javaScript '=' operator is an assignment operator, not an equal to operator.<
 var length = 100; // Number (Either integer or floating point numbers
 var name = "John" // String
 var x = true; // Boolean: true or false </code></pre>
+            
+		<p><b>Arithmetic operators</b> in JavaScript.</p>
+		<p><table class="table table-striped table-bordered table-condensed">
+		<tr><td>+</td><td>Addition</td></tr>
+		<tr><td>-</td><td>Subtraction</td></tr>
+		<tr><td>*</td><td>Multiplication</td></tr>
+		<tr><td>/</td><td>Division</td></tr>
+		<tr><td>%</td><td>Modulus</td></tr>
+		<tr><td>++</td><td>Increment</td></tr>
+		<tr><td>--</td><td>Decrement</td></tr>
+		</table></p>
+        <p>Operator precedence describes the order in which operations are performed in an arithmetic expression. As in traditional school      mathematics, multiplication (*) and division (/) have higher precedence than addition (+) and subraction (-). And the precedence can be changed by using parentheses.
+        </p>
+        <p>The increment operator (++) increments numbers and the decrement operator (--) decrements numbers.</p>
+		<p><pre><code>// Example
+var x = 3;
+x++; // Increments x by one
+ </code></pre></p>            
 <p style="color:red">TODO: arithmetic operators, string catenation</p>
 <bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
 		</section>
