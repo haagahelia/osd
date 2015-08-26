@@ -563,9 +563,14 @@ for (index = 0; index &lt; pets.length; index++) {
 	<part title="10 Objects" icon="briefcase" type="default">
 		<section type="success" title="KNOWLEDGE">
             <p>Objects are variables that can contain multiple values. The following code assigns many values to variable named student.</p>
-            <p><pre><code>
-                var student = {name:"John Smith", studentnr=100232, department="IT"};</code></pre></p>    
+            <p><pre><code>var student = {firstname:"John", lastname:"Smith", studentnr=100232, department="IT"};</code></pre></p>    
             <p>The values are written as <b>name:value</b> pairs. The name:value pairs are called as <b>properties</b></p>
+            <p>You can access object properties in two ways:</p>
+<p><pre><code>objectName.propertyName</code></pre></p>
+            <p>or</p>
+<p><pre><code>objectName[propertyName]</code></pre></p>
+<p><pre><code>//Example
+student.firstname; // is John</code></pre></p>
 <bookmark title="w3schools Objects" url="http://www.w3schools.com/js/js_objects.asp"/>	                     
 		</section>
 		<section type="success" title="SKILLS">
