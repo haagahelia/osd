@@ -502,6 +502,12 @@ for (var i = 0; i &lt; 10; i++) {
    // more statements
 }
 </code></pre></p>
+
+		<subpage icon="play-circle" title="Animation">
+			<p>With <b>setInterval</b>-function you can create animations on your web page. Executing setInterval(callbackFunction, timeout) will continue calling the given callbackFunction continuously with the given timeout.</p>
+			<br/>
+			<a class="jsbin-embed" href="http://jsbin.com/ludowo/embed?js">Example on JSBin</a>
+		</subpage>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
