@@ -30,6 +30,11 @@ $(function() {
 	  $(this).find(".modal-body").css("max-height", height);
 	});
 
+	// Close all open accordions when sidemenu is clicked. -> href opens next accordion.	
+	$('#sidebar li a').click(function() {           
+		$('.panel-collapse.in').collapse('hide');
+	});
+	
 	/*//close all accordions
 	$('.closeall').click(function(){
 		  $('.panel-collapse.in')

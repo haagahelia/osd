@@ -11,6 +11,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<div class="panel-group row" id="accordion">
 		<xsl:apply-templates/>
 		</div>
+		
+		       <!-- Sidebar -->
+        <div id="sidebar" class="hidden-xs hidden-sm">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <h3>
+                   	 <span class="hidden-lg visible-md">Menu</span>
+                      <span class="visible-lg hidden-md"><span class="glyphicon glyphicon-th-list"></span>&#xA0;&#xA0;Menu</span>
+                    </h3>
+               	 </li>
+                  <xsl:for-each select="part">
+                 <li>
+		                <a data-toggle="collapse">
+			      			<xsl:attribute name="href">#collapse<xsl:number/></xsl:attribute>
+			      			<xsl:attribute name="data-parent">#collapse<xsl:number/></xsl:attribute>
+				          		<span class="hide-xs hidden-md hidden-sm"><span class="glyphicon glyphicon-briefcase"/>&#xa0;&#xa0;<xsl:value-of select="@title"/></span>
+				          		<span class="hide-xs visible-md"><span class="glyphicon glyphicon-briefcase"/>&#xa0;&#xa0;<xsl:number/></span>
+		          		</a>
+	          	</li> 
+				   </xsl:for-each>
+            </ul><!-- /sidebar-nav -->
+        </div> <!-- /#sidebar -->
 	</xsl:template>
 	
 	<xsl:template match="part">
