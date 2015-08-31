@@ -5,12 +5,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/> <!-- tarvitaan ie9-ie11 renderöintiin -->
 	
 	<xsl:template match="/course">
+	 	<div id="content-wrapper">
 	 	<br/><a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" alt="HH Logo"/></a>
 		<h1><img alt="App" class="hidden-xs"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/></h1>
 		<div class="exercise" data-xslt="foo.xsl" data-xml="foo.xml"/> <!-- TODO: why the first transformation on the second round is not done? -->
 		<div class="panel-group row" id="accordion">
 		<xsl:apply-templates/>
 		</div>
+		</div><!-- /content-wrapper -->
 		
 		       <!-- Sidebar -->
         <div id="sidebar" class="hidden-xs hidden-sm">
@@ -26,8 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		                <a data-toggle="collapse">
 			      			<xsl:attribute name="href">#collapse<xsl:number/></xsl:attribute>
 			      			<xsl:attribute name="data-parent">#collapse<xsl:number/></xsl:attribute>
-				          		<span class="hide-xs hidden-md hidden-sm"><span class="glyphicon glyphicon-briefcase"/>&#xa0;&#xa0;<xsl:value-of select="@title"/></span>
-				          		<span class="hide-xs visible-md"><span class="glyphicon glyphicon-briefcase"/>&#xa0;&#xa0;<xsl:number/></span>
+				          		<span class="hide-xs hidden-sm"><span class="glyphicon glyphicon-briefcase hidden-md"/>&#xa0;&#xa0;<xsl:value-of select="@title"/></span>
 		          		</a>
 	          	</li> 
 				   </xsl:for-each>

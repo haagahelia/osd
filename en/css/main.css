@@ -7,6 +7,16 @@ body{
 	font-family: arial,sans-serif;
 	font-weight: 400; 	/* 400 = normal -> w3c*/
 	}
+	
+	#content-wrapper{ /* need wrapper for stacking content over sidemenu */
+	background-color: #fff;
+	z-index:10;
+	position:relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+	
 .container{
 	max-width:100%;
 	}
@@ -97,20 +107,19 @@ img.badgeicon {
 /* wrapper for menu elements */
 #sidebar{
 	height:100%;
-    z-index: 1000;
 	position:fixed; /* stays still when scrolling */
 	top:0;
 	left:0;
 	height:100%;
 	background-color: #F5F5F5;
-	border-right: 1px solid grey;
+	border-right: 1px solid #808080;
     overflow-y:auto;
+    z-index:1;
 }
 
 /* wrapper for menu buttons */
 .sidebar-nav {
-	position:relative;
-	padding :5px;
+	padding :6px;
     list-style: none;
 }
 
@@ -208,11 +217,14 @@ h2, h3, h4, h5{
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-/* Sidebar Settings for when only numbers show*/
+/* Sidebar Settings for partially hidden menu */
 #sidebar{
-	width:100%;
-	max-width:105px;
-	padding-left:0px;
+	direction: rtl; /* scrollbar on the left */
+	padding-left:20px; /* scrollbar padding */
+	}
+	
+#content-wrapper{
+	border-left: 1px solid #808080;
 	}
 
 /*
