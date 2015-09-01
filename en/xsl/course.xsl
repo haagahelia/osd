@@ -5,17 +5,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/> <!-- tarvitaan ie9-ie11 renderöintiin -->
 	
 	<xsl:template match="/course">
-	 	<div id="content-wrapper">
 	 	<br/><a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" alt="HH Logo"/></a>
 		<h1><img alt="App" class="hidden-xs"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/></h1>
 		<div class="exercise" data-xslt="foo.xsl" data-xml="foo.xml"/> <!-- TODO: why the first transformation on the second round is not done? -->
 		<div class="panel-group row" id="accordion">
 		<xsl:apply-templates/>
 		</div>
-		</div><!-- /content-wrapper -->
 		
 		       <!-- Sidebar -->
-        <div id="sidebar" class="hidden-xs hidden-sm">
+        <div id="sidebar" class="hidden-xs hidden-sm hidden-md">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <h3>

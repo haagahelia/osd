@@ -8,21 +8,14 @@ body{
 	font-weight: 400; 	/* 400 = normal -> w3c*/
 	}
 	
-	#content-wrapper{ /* need wrapper for stacking content over sidemenu */
-	background-color: #fff;
-	z-index:10;
-	position:relative;
-	padding-right: 15px;
-	padding-left: 15px;
-	padding-bottom: 15px;
-}
-	
 .container{
 	max-width:100%;
 	}
+	
 p{ 
 	margin:0px; /* inherited margin set to 0 to set slide buttons on same height */
 	}
+	
 /* wider modal settings used for editor*/
 .modal.modal-wide .modal-dialog {
 	  width: 95%;
@@ -119,7 +112,7 @@ img.badgeicon {
 
 /* wrapper for menu buttons */
 .sidebar-nav {
-	padding :6px;
+	padding :0px;
     list-style: none;
 }
 
@@ -214,20 +207,10 @@ h2, h3, h4, h5{
 	}
 }
 
-/* Medium Devices, .visible-md-* */
+/* Medium Devices, .visible-md-* 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-/* Sidebar Settings for partially hidden menu */
-#sidebar{
-	direction: rtl; /* scrollbar on the left */
-	padding-left:20px; /* scrollbar padding */
-	}
-	
-#content-wrapper{
-	border-left: 1px solid #808080;
-	}
 
-/*
 h1{
 	font-size: 2.4em;	
 	}
