@@ -7,6 +7,16 @@ body{
 	font-family: arial,sans-serif;
 	font-weight: 400; 	/* 400 = normal -> w3c*/
 	}
+	
+	#content-wrapper{ /* need wrapper for stacking content over sidemenu */
+	background-color: #fff;
+	z-index:10;
+	position:relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+	
 .container{
 	max-width:100%;
 	}
@@ -44,7 +54,7 @@ ol{
 	max-width:100%;
 	width:auto;
 	text-align:left;	
-	margin:1%;
+	margin:2%;
 	}
 p img{
 	max-width:100%;
@@ -92,6 +102,53 @@ img.badgeicon {
   height: 100%;
 }
 
+/* Sidebar Settings */
+
+/* wrapper for menu elements */
+#sidebar{
+	height:100%;
+	position:fixed; /* stays still when scrolling */
+	top:0;
+	left:0;
+	height:100%;
+	background-color: #F5F5F5;
+	border-right: 1px solid #808080;
+    overflow-y:auto;
+    z-index:1;
+}
+
+/* wrapper for menu buttons */
+.sidebar-nav {
+	padding :6px;
+    list-style: none;
+}
+
+/* menu buttons */
+.sidebar-nav li {
+	width:100%;
+	font-size:14px;
+    line-height: 35px;
+    padding-left:5px; 
+    margin-right:20px; /*padding for scrollbar*/
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:focus,
+.sidebar-nav li a:hover{
+	color: #000000;
+}
+
+/* menu brand */
+.sidebar-nav .sidebar-brand h3 {
+	height:50px;
+	color:#000000;
+	text-indent:5px;
+}
 	
   /* Custom fixes for XXXS Devices, custom, Phones */
 @media only screen and (max-width : 320px){
@@ -157,8 +214,20 @@ h2, h3, h4, h5{
 	}
 }
 
-/* Medium Devices, .visible-md-* 
+/* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+/* Sidebar Settings for partially hidden menu */
+#sidebar{
+	direction: rtl; /* scrollbar on the left */
+	padding-left:20px; /* scrollbar padding */
+	}
+	
+#content-wrapper{
+	border-left: 1px solid #808080;
+	}
+
+/*
 h1{
 	font-size: 2.4em;	
 	}
@@ -169,6 +238,7 @@ h2, h3, h4, h5{
 	font-size: 1.6em;
 	max-width:992px;
 	}
+*/
 }
 
 /* Large Devices, .visible-lg-
