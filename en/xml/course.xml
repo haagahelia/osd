@@ -306,6 +306,7 @@ x++; // Increments x by one
 		<section type="success" title="SKILLS">
 			<exercise file="xc/05.06.xml"/>
 			<exercise file="xc/05.09.xml"/>
+			<exercise file="xc/05.10.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge05.png" alt="Badge 5" class="badgeicon"/></badgeImg>
