@@ -404,6 +404,7 @@ else {
 <bookmark title="w3schools Conditions" url="http://www.w3schools.com/js/js_if_else.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
+		<exercise file="xc/06.01.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge06.png" alt="Badge 6" class="badgeicon"/></badgeImg>
