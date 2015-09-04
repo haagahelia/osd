@@ -405,6 +405,7 @@ else {
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/06.01.xml"/>
+		<exercise file="xc/06.02.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge06.png" alt="Badge 6" class="badgeicon"/></badgeImg>

@@ -6,8 +6,10 @@
 The fee is 3.44% selling price but always at least 2 400 euros. For example, if the price is 120 000 euros then the fee is 4 128 euros (as that is above the 2 400 minimum fee). If the selling price would be 50 000, then the fee would be 2 400 euros.
 </p>
 
-<p class="exercise_gui_title">One sample output for shown input:</p>
-<p><img src="xc/06.01.png" class="bordered"/></p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.01.png" class="bordered"/> 
+<img src="xc/06.01b.png" class="bordered"/>
+</p>
 
 
 	<a class="jsbin-embed" href="http://jsbin.com/bakati/embed?js">JS Bin</a>
