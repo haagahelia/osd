@@ -408,6 +408,7 @@ else {
 		<exercise file="xc/06.02.xml"/>
 		<exercise file="xc/06.03.xml"/>
 		<exercise file="xc/06.05.xml"/>
+		<exercise file="xc/06.07.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge06.png" alt="Badge 6" class="badgeicon"/></badgeImg>
