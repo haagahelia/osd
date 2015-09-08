@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="06.03 Package Comparison" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=xxx&amp;action=editsubmission" template="xc/06.03.html">
+<exercise title="06.03 Package Comparison" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392287&amp;action=editsubmission" template="xc/06.03.html">
 
 <p class="exercise_text"> 
 Make a program for comparing two mobile phone subscription packages. 
