@@ -126,7 +126,9 @@
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part2.html"/>
 		<bookmark title="Blockly Maze Game" url="https://blockly-games.appspot.com/maze?lang=en"/>
-		</section>
+		<p>"An algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task. (<i>Introduction to algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</i>)</p>
+            <p><br/>One example of the algorithms is a code that calculates the terms of the Fibonacci sequence. Even a simple function for adding two numbers is an algorithm in a sense.</p>
+        </section>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
@@ -300,7 +302,6 @@ var x = true; // Boolean: true or false </code></pre>
 var x = 3;
 x++; // Increments x by one
  </code></pre></p>            
-<p style="color:red">TODO: arithmetic operators, string catenation</p>
 <bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
@@ -429,11 +430,14 @@ else {
 	<part title="7 Functions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part7.html"/>
-		<p style="color:red">TODO: USING API FUNCTIONS</p>
 		<p>
 		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).</p>
 		<p>Values can be passed to a function, and the function can return a value.</p>
 		<p><img src="img/urlsquirrel_function.png" class="bordered"/></p>
+        <p>JavaScript contains a lot of core API functions for different purposes. One example is alert function which is used to show alert messages to the user.</p>
+        <p><pre><code>//Example usage of alert function
+alert("This is alert message");</code></pre></p> 
+            <bookmark title="Try it yourself" url="http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert"/>            
 		<p>Function is defined with <b>function</b> keyword followed by a function name and parentheses. The code to be executed by the function, is placed inside curly brackets {}</p>
 <p><pre><code>
 function name(parameter1, parameter2) {
