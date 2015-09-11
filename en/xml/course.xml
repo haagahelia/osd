@@ -127,7 +127,22 @@
 		<slides title="Slideshow" url="slides/part2.html"/>
 		<bookmark title="Blockly Maze Game" url="https://blockly-games.appspot.com/maze?lang=en"/>
 		<p>"An algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task. (<i>Introduction to algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</i>)</p>
+        <p><img src="img/algorithm1.png"/></p>    
             <p><br/>One example of the algorithms is a code that calculates the terms of the Fibonacci sequence. Even a simple function for adding two numbers is an algorithm in a sense.</p>
+            <p><br/>Algorithms can be expressed in many ways. One example is Pseudocode. Pseudocode contains following logical structures.</p>
+			<ul>
+				<li>Sequence logic</li>
+				<li>Selection logic</li>
+				<li>Iteration logic</li> 
+            </ul>
+            <p>These structures are proven to be sufficient for writing any computer program.</p>
+            <p><pre><code>Pseudocode example
+IF HoursWorked > NormalMax THEN
+  Display overtime message
+ELSE 
+  Display regular time message
+ENDIF</code></pre></p>    
+<bookmark title="What's an algorithm?" url="https://www.youtube.com/watch?v=6hfOvs8pY1k"/>            
         </section>
 		<section type="success" title="SKILLS">
 		</section>
