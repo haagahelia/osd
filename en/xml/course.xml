@@ -219,7 +219,6 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<section type="info" title="KNOWLEDGE">
 			<slides title="Slideshow" url="slides/part4.html"/>
 			<p style="color:red">TODO: CODE BLOCKS (head js, ext js, body js, onclick inline js)</p>
-			<p style="color:red">TODO: dom tree image</p>
 			<pre class="language-markup"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -248,14 +247,25 @@ function myListener() {
 &lt;/script&gt;</code></pre></p>
     <p>You can place any number of scripts in an HTML document.</p><p>Scripts can be placed in the &lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or in both.</p>
     <p>Scripts can also be placed in external files. External scripts are practical when the same code is used in many different web pages. JavaScript files have the file extension<b>.js</b>.
-</p><p>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
+</p><p><br/>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
 </p>
             
             <p>Example<pre><code>//This is my First comment
 &lt;script&gt;
   document.getElementById("demo").innerHTML = "My First JavaScript";
 &lt;/script&gt;</code></pre></p><p>Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored by JavaScript.
-</p><bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/>        
+</p>
+    <p><br/>The HTML <b>DOM</b> is a standard object model and programming interface for HTML. It defines:</p>
+    <ul>
+        <li>The HTML elements as objects</li>
+        <li>The properties of all HTML elements </li>
+        <li>The methods to access all HTML elements</li>
+        <li>The events for all HTML elements</li>
+    </ul>
+    <p><br/>In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.</p>
+    <p>The HTML DOM model is constructed as a tree of Objects</p>
+    <p><img src="img/dom_tree.png"/></p>              
+    <bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/>        
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
@@ -275,7 +285,6 @@ function myListener() {
 		</section>
 	</part>
 	
-
 	<part title="5 Variables" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<p><img src="img/urlsquirrel_variable.png" class="bordered"/></p>
