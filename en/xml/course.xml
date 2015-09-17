@@ -485,6 +485,7 @@ You can reuse code by defining the code once, and use it many times. You can use
 <bookmark title="w3schools Functions" url="http://www.w3schools.com/js/js_functions.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
+			<exercise file="xc/07.05.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge07.png" alt="Badge 7" class="badgeicon"/></badgeImg>
