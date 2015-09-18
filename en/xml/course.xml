@@ -457,7 +457,7 @@ else {
 		<slides title="Slideshow" url="slides/part7.html"/>
 		<p>
 		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).</p>
-		<p>Values can be passed to a function, and the function can return a value.</p>
+		<p><br/>Values can be passed to a function, and the function can return a value.</p>
 		<p><img src="img/urlsquirrel_function.png" class="bordered"/></p>
         <p>JavaScript contains a lot of core API functions for different purposes. One example is alert function which is used to show alert messages to the user.</p>
         <p><pre><code>//Example usage of alert function
@@ -478,6 +478,11 @@ var a = calcSum(5, 12);  // Function call, sum is returned to variable a
 function calcSum(x, y) {
   return x + y;         // Function stops and returns  
 }</code></pre></p>
+            <p>JavaScript <b>methods</b> are the actions that can be performed on objects. Methods are saved as a property containing a function definition. Good example of methods are Math objects methods. The Math object allows you to perform mathematical tasks.</p>
+<p><pre><code>
+// Math example
+Math.sqrt(10);  // Returns the square root of 10 
+</code></pre></p>
 <p>
 <b>Why functions?</b>
 You can reuse code by defining the code once, and use it many times. You can use the same code many times with different arguments, to produce different results.
