@@ -487,6 +487,8 @@ You can reuse code by defining the code once, and use it many times. You can use
 		<section type="success" title="SKILLS">
 			<exercise file="xc/07.05.xml"/>
 			<exercise file="xc/07.06.xml"/>
+			<exercise file="xc/07.07.xml"/>
+			<exercise file="xc/07.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge07.png" alt="Badge 7" class="badgeicon"/></badgeImg>

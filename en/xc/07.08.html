@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Identity Number</title>
+
+<script type="text/javascript">
+	
+	// function shows details about Identity Number
+	function show() {
+		// Read value of identity number from the input field
+	
+
+		// Check gender
+		// Get the second last character with charAt() method 
+		// Convert digit text to number with parseInt() function
+		// Check gender with modulo (%) operation (even number-> female, odd number-> male)
+		
+		
+		// Parse birth day information
+		// Take certain characters (dd, mm, yy and separator character)) from the string with subString() method 
+		// Calculate the year with four digits
+		// Concatenate birth day text
+		
+
+		// Write the answer on the page, to the answer div, as content of the div
+	
+	}
+</script>
+</head>
+<body>
+	<h3>Identity Number</h3>
+
+	<form>
+		<label>Identity Number: </label> <input type="text" name="identityNumber" id="identityNumber"
+			size="11"> <input type="button" value="Show"
+			onClick="show()">
+	</form>
+
+	<!-- This is the target where the JavaScript will write the answer -->
+	<div id="answer"></div>
+</body>
+</html>
+
+<!-- test example:
+identityNumber = 241289-123A -> Male, born 24.12.1989
+identityNumber = 280210A122B -> Female, born 28.02.2010	
+identityNumber = 150989+1239 -> Male, born 15.09.1889 			
+-->
