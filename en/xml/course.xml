@@ -98,7 +98,11 @@
 		<p>Let's take a look at the industry, discuss the basic concepts and view what kind of education our curriculum provides.</p> 
 		<slides title="Slideshow" url="slides/part1.html"/>
 		<p>Learning to make applications by yourself is a vital skill to understand the challenges that there is in software development.</p> 
-		</section>
+		<p><br/>An <b>Application</b> is a program, or group of programs, that is designed for the end user. Application software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases.</p>
+            <p><br/>A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. </p>
+            <p><br/><b>Interpreters</b> and <b>Compilers</b></p>
+            <bookmark title="What are they?" url="https://www.youtube.com/watch?v=_C5AHaS1mOA"/>
+        </section>
 		<section type="success" title="SKILLS">
 			<exercise file="xc/example.xml"/>
 		</section>
@@ -129,7 +133,7 @@
 		<p>"An algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task. (<i>Introduction to algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</i>)</p>
         <p><img src="img/algorithm1.png"/></p>    
             <p><br/>One example of the algorithms is a code that calculates the terms of the Fibonacci sequence. Even a simple function for adding two numbers is an algorithm in a sense.</p>
-            <p><br/>Algorithms can be expressed in many ways. One example is Pseudocode. Pseudocode contains following logical structures.</p>
+            <p><br/>Algorithms can be expressed in many ways. One example is <b>Pseudocode</b>. Pseudocode contains following logical structures.</p>
 			<ul>
 				<li>Sequence logic</li>
 				<li>Selection logic</li>
@@ -141,7 +145,9 @@ IF HoursWorked > NormalMax THEN
   Display overtime message
 ELSE 
   Display regular time message
-ENDIF</code></pre></p>    
+ENDIF</code></pre></p>  
+        <p><br/>The other example is <b>Flowcharts</b> which graphically shows the logical steps to carry out a task.</p>
+        <p><img width="400" src="img/flowchart.png"/></p>                
 <bookmark title="What's an algorithm?" url="https://www.youtube.com/watch?v=6hfOvs8pY1k"/>            
         </section>
 		<section type="success" title="SKILLS">
