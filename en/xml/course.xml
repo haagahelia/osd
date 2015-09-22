@@ -141,13 +141,20 @@
             </ul>
             <p>These structures are proven to be sufficient for writing any computer program.</p>
             <p><pre><code>Pseudocode example
-IF HoursWorked > NormalMax THEN
+IF HoursWorked > NormalMax
   Display overtime message
 ELSE 
   Display regular time message
-ENDIF</code></pre></p>  
-        <p><br/>The other example is <b>Flowcharts</b> which graphically shows the logical steps to carry out a task.</p>
-        <p><img width="400" src="img/flowchart.png"/></p>                
+</code></pre></p>  
+        <p><br/>The other example is <b>Flowchart</b> which graphically shows the logical steps to carry out a task.</p>
+        <p><img width="400" src="img/flowchart.png"/></p>               
+        <p>Both of these techniques are widely used today. There are lot of benefits to achive by using these techiques like:
+  			<ul>
+				<li>Effective analysis and design</li>
+				<li>Proper documentation</li>
+				<li>Efficient Coding</li> 
+            </ul>      
+        </p>
 <bookmark title="What's an algorithm?" url="https://www.youtube.com/watch?v=6hfOvs8pY1k"/>            
         </section>
 		<section type="success" title="SKILLS">
