@@ -565,6 +565,10 @@ for (var i = 0; i &lt; 10; i++) {
 		</subpage>
 		</section>
 		<section type="success" title="SKILLS">
+		<exercise file="xc/08.04.xml"/>
+		<exercise file="xc/08.05.xml"/>
+		<exercise file="xc/08.06.xml"/>
+		<exercise file="xc/08.07.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge08.png" alt="Badge 8" class="badgeicon"/></badgeImg>

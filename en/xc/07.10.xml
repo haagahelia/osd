@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.10 Price of Work" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397967&amp;action=editsubmission" template="xc/07.10.html">
+<exercise title="07.10 Price of Work" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397967&amp;action=editsubmission" template="xc/07.10.html">
 
 <p class="exercise_text"> 
 A construction firm is doing small repairs. Make a program for inputting the repair work details and calculating its price. The price for an hour of work is 48 during the workdays and 72 on Sundays. 
