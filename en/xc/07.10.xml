@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="07.10 Price of Work" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397967&amp;action=editsubmission" template="xc/07.10.html">
+
+<p class="exercise_text"> 
+A construction firm is doing small repairs. Make a program for inputting the repair work details and calculating its price. The price for an hour of work is 48 during the workdays and 72 on Sundays. 
+
+Create a script file 07.10_functions.js and define there the following functions. The functions will be used later in this task.
+<ul>
+<li>
+a function <b>allCapsTitleTrimmed(originalText)</b> for the Work title input field so that the function changes the title given to it to be ALL CAPS and removes any empty white space from the beginning or the end of the title. That event handler should be called when the onfocusout event occurs. The method should modify the title input field directly.</li>
+<li>
+a function <b>isSunday(dateText)</b>. This function gets the date text in the format "dd.MM.yyyy". The function should return Boolean value true if the date is for a Sunday, otherwise false. For example for the date text "05.04.2015" it would return true.
+</li>
+<ul>
+<li>First split the given date text into day, month and year parts using the subStr() method.</li>
+<li>Create a new Date object to a variable asDate Date asDate = new Date();</li>
+<li>Set day, month and year properties of asDate object with setFullYear() method. (Observe! You’ll need to give month as one number smaller than how we write it => 0 = January, 1= February...)</li>
+<li>After creating a valid date object in the asDate variable, you can get the day of the week with its getDay() method. Sunday is 0 .</li>
+</ul>
+</ul>
+</p> 
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.10.png" class="bordered"/>
+<img src="xc/07.10b.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/lilina/embed?html,js,output">JS Bin</a>
+</exercise>
