@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="01.03 Try JavaScript" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission"  template="xc/01.03_js.txt">
+
+<p class="exercise_text"> 
+Step 1. Create a new folder with the name oswd on the M:-drive. Then create an empty HTML page with the name first.html and save it in the folder oswd. Open the page in a web browser (Chrome).
+</p>
+<p>
+Step 2. Add a new &lt;script&gt; element to the &lt;body&gt; element of the HTML page. Then  copy/paste the following JavaScript code to the &lt;script&gt; element:
+</p>
+<p>
+Step 3. Open the page again in a web browser (Chrome). Move the cursor on the page and see what happens. Finally, submit the complete source code of the HTML page.
+</p>
+
+
+
+
+
+	
+</exercise>

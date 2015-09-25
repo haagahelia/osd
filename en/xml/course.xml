@@ -106,7 +106,8 @@
             <bookmark title="What are they?" url="https://www.youtube.com/watch?v=_C5AHaS1mOA"/>
         </section>
 		<section type="success" title="SKILLS">
-			<exercise file="xc/example.xml"/>
+			<exercise file="xc/01.02.xml"/>
+			<exercise file="xc/01.03.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 			<badgeImg><img src="img/badge01.png" alt="Badge 1" class="badgeicon"/></badgeImg>
@@ -160,6 +161,8 @@ ELSE
 <bookmark title="What's an algorithm?" url="https://www.youtube.com/watch?v=6hfOvs8pY1k"/>            
         </section>
 		<section type="success" title="SKILLS">
+			<exercise file="xc/02.01.xml"/>
+			<exercise file="xc/02.02.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge02.png" alt="Badge 2" class="badgeicon"/></badgeImg>
