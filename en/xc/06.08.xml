@@ -10,16 +10,13 @@ var pips = Math.round( (Math.random( ) * 5) + 1 );</li>
 <li>No pay if the randomized pips is 1, 3 or 5</li>
 <li>The pips 2 and 4 return the set coins back 125% (=multiplied by 1.25)</li>
 <li>The pips 6 returns the inserted bet 150%</li>
-<li>The selection structure follows this idea:
-var pips
-if (pips is 1 or pips is 3 or pips is 5) {
-    no pay
-}
-otherwise if (pips is 2 or pips is 4) {
-    returned pay is 1.25 * bet (=inserted amount of money)
-}
-otherwise {
-    the pay is 1.5 * bet
+<li>The selection structure follows this idea: <br />
+if (pips is 1 or pips is 3 or pips is 5) { <br />
+    no pay  <br />
+}otherwise if (pips is 2 or pips is 4) {  <br />
+    returned pay is 1.25 * bet (=inserted amount of money)  <br />
+} otherwise {  <br />
+    the pay is 1.5 * bet  <br />
 }</li>
 </ul>
 </p> 

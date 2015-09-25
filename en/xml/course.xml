@@ -458,6 +458,7 @@ else {
 		<exercise file="xc/06.02.xml"/>
 		<exercise file="xc/06.03.xml"/>
 		<exercise file="xc/06.05.xml"/>
+		<exercise file="xc/06.06.xml"/>
 		<exercise file="xc/06.07.xml"/>
 		<exercise file="xc/06.08.xml"/>
 		<exercise file="xc/06.09.xml"/>
@@ -587,6 +588,7 @@ for (var i = 0; i &lt; 10; i++) {
 		<exercise file="xc/08.05.xml"/>
 		<exercise file="xc/08.06.xml"/>
 		<exercise file="xc/08.07.xml"/>
+		<exercise file="xc/08.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge08.png" alt="Badge 8" class="badgeicon"/></badgeImg>

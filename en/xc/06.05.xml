@@ -19,16 +19,14 @@ Make a program that asks for the user’s weight and height and calculates, and 
 </tr>
 </table>
 
-Selection structure follows this idea:
-if (bmi &lt;= 18.4) {
-    // Weight less than normal weight
-}
-otherwise if (bmi &lt;= 24.9) {
-    // Normal weight
-}
-otherwise {
-    // Overweight
-}
+Selection structure follows this idea: <br />
+if (bmi &lt;= 18.4) { <br />
+    // Weight less than normal weight <br />
+} otherwise if (bmi &lt;= 24.9) { <br />
+    // Normal weight <br />
+}otherwise { <br />
+    // Overweight <br />
+} <br />
 </p>
 
 <p class="exercise_gui_title">Sample output for shown input:</p>

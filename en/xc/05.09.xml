@@ -3,15 +3,15 @@
 <exercise title="05.09 Summer Cottage" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=382335&amp;action=editsubmission" template="xc/05.09.html">
 
 <p class="exercise_text">A group of people goes to a summer cottage for one weekend. The program asks for the total rent and number of participants and then calculates the cost per person.
-
-(Hint: you can put the input fields in one horizontal row by using the following style element in the head element)
+</p>
+<p>(Hint: you can put the input fields in one horizontal row by using the following style element in the head element)
 </p>
 <p class="exercise_code">
-label {
-  display: block;
-  width: 6em;
-  float: left;
-}
+label { <br />
+  display: block;  <br />
+  width: 6em;  <br />
+  float: left;  <br />
+}  <br />
 </p>
 <p class="exercise_gui_title">One sample output for shown input:</p>
 <p><img src="xc/05.09.png" class="bordered"/></p>
