@@ -163,6 +163,7 @@ ELSE
 		<section type="success" title="SKILLS">
 			<exercise file="xc/02.01.xml"/>
 			<exercise file="xc/02.02.xml"/>
+			<exercise file="xc/02.03.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge02.png" alt="Badge 2" class="badgeicon"/></badgeImg>
@@ -217,6 +218,10 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		
 		
 		<section type="success" title="SKILLS">
+		<exercise file="xc/03.01.xml"/>
+		<exercise file="xc/03.02.xml"/>
+		<exercise file="xc/03.03.xml"/>
+		<exercise file="xc/03.04.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>

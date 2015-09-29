@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="02.01 Design and create a game" difficulty="easy" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399475&amp;action=editsubmission">
+<exercise title="02.01 Design and Create a Game" difficulty="easy" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399475&amp;action=editsubmission">
 
 <p class="exercise_text"> 
 First, open the page <a href="http://code.org/flappy" target="_blank">http://code.org/flappy</a> and watch the intro video. 
