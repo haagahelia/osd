@@ -35,13 +35,22 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <xsl:copy-of select="node()"/>
                 </div>
                 <div class="modal-footer">
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="a/@href"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Open JSBin in new window</a>
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@template"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Download raw template code</a>
-                  <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Go to Return Box</a>
+                  <xsl:choose>
+    				<xsl:when test="@template">
+ 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@template"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Download Template Code</a>
+    				</xsl:when>
+  				  </xsl:choose> 
+                 <xsl:choose>
+    				<xsl:when test="a/@href and a/@class ='jsbin-embed'">
+ 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="a/@href"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Open JSBin</a>
+    				</xsl:when>
+  				</xsl:choose>                   
+                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Go to Return Box</a>
                 </div>
               </div>
             </div>
           </div>
 	</xsl:template>
+	
 	
 </xsl:stylesheet>

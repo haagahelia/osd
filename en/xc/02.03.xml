@@ -6,9 +6,11 @@
 Please create a Body Mass Index (BMI) calculator using Blocklies. The BM-index is calculated with the formula: BMI = weight in kilograms / (height in meters * height in meters). So e.g. if you weigh 70 kilograms and you are 1.8 meters tall, then your BMI is 70 / (1.8 * 1.8) = 22</p>
 <p>Your application first asks the user for his name, then for his weight and height. Then it shows a message telling: "Hi name! Your body mass index is x"</p>
 
-<p></p>From this URL you can find all the blocks you´ll need for creating the application:
+<p></p>From this URL you can find all the blocks you'll need for creating the application:
 <a href="https://blockly-demo.appspot.com/static/demos/code/index.html#nmni35" target="_blank">https://blockly-demo.appspot.com/static/demos/code/index.html#nmni35 </a><p>
-<p>Here is a video instructions:<a href="https://youtu.be/Od_wHc7_kT0" target="_blank">https://youtu.be/Od_wHc7_kT0</a></p>
+<p>Here is a video instructions:<a href="https://youtu.be/Od_wHc7_kT0" target="_blank">https://youtu.be/Od_wHc7_kT0</a>
+<!--  <video title="Here is a video instructions" youtubeid="Od_wHc7_kT0"/>  -->
+</p>
 </p>
 <p>
 Please submit a link to your ready application. 
