@@ -97,9 +97,13 @@
 		<p><br/>An <b>Application</b> is a program, or group of programs, that is designed for the end user. Application software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases. (<a href="http://www.webopedia.com/TERM/A/application.html">Webopedia</a>)</p>
             <p><br/>A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more. (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
                         <bookmark title="Wikipedia: List of programming languages" url="https://en.wikipedia.org/wiki/List_of_programming_languages"/>
+            <p><br/><b>Programming</b></p>
+            <video title="What is programming" youtubeid="3tWMQ3ZMjbg"/>
             <p><br/><b>Interpreters</b> and <b>Compilers</b></p>
             <bookmark title="What are they?" url="https://www.youtube.com/watch?v=_C5AHaS1mOA"/>
         </section>
+        		
+        
 		<section type="success" title="SKILLS">
 			<exercise file="xc/01.02.xml"/>
 			<exercise file="xc/01.03.xml"/>
@@ -708,6 +712,7 @@ student.firstname; // is John</code></pre></p>
 	
 	<part title="12 Development methods" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+            <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
