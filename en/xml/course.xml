@@ -641,6 +641,9 @@ for (index = 0; index &lt; pets.length; index++) {
 		<section type="success" title="SKILLS">
 		<exercise file="xc/09.04.xml"/>
 		<exercise file="xc/09.05.xml"/>
+		<exercise file="xc/09.06.xml"/>
+		<exercise file="xc/09.07.xml"/>
+		<exercise file="xc/09.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge09.png" alt="Badge 9" class="badgeicon"/></badgeImg>

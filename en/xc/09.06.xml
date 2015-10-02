@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="09.06 Rainfall" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402290&amp;action=editsubmission" template="xc/09.06.html">
+
+<p class="exercise_text"> 
+Make a program that calculates the annual rainfall in Helsinki and displays it on the HTML page. This is how you can create an array object of twelve monthly rainfall values:<br />
+ var rainfall = [47.0, 36.6, 34.7, 37.0, 41.9, 47.5, 61.7, 74.8, 65.4, 
+                  69.7, 66.1, 54.6]; <br />
+
+The idea of the code: <br />
+initialize the sum variable to start from 0 <br />
+for (var i = 0; i &lt; &lt;size-of-the-Array&gt;; i++) { <br />
+    sum = sum + value at the i:th index in the array <br />
+} <br />
+write the answer on the HTML page <br />
+</p> 
+<p class="exercise_gui_title">Sample output:</p>
+<p><img src="xc/09.06.png" class="bordered"/>
+</p>
+	<a class="jsbin-embed" href="http://jsbin.com/putete/embed?html,js,output">JS Bin</a>
+</exercise>
