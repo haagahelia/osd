@@ -8,11 +8,6 @@
 		<p>Welcome to the course Orientation to Software Production (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
-		<p>Watch a video to understand what kind of skills you are about to obtain.
-		Watch another video to know how to get the best possible learning experience.
-		</p>
-		<video title="What are you able to do after this course?" youtubeid="JDw1ii7aKwg"/>
-		<video title="Study Guidelines" youtubeid="JDw1ii7aKwg"/>
 		<p>Check out the schedule of this course and the deadlines for the exercises from the timetable page.
 		More information is also provided about the course facilities, such as lectures, exercise sessions and the learning material.
 		Click the assessment button if you want to see how to pass this course and how many points you can get from an exercise.</p>
@@ -102,9 +97,13 @@
 		<p><br/>An <b>Application</b> is a program, or group of programs, that is designed for the end user. Application software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases. (<a href="http://www.webopedia.com/TERM/A/application.html">Webopedia</a>)</p>
             <p><br/>A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more. (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
                         <bookmark title="Wikipedia: List of programming languages" url="https://en.wikipedia.org/wiki/List_of_programming_languages"/>
+            <p><br/><b>Programming</b></p>
+            <video title="What is programming" youtubeid="3tWMQ3ZMjbg"/>
             <p><br/><b>Interpreters</b> and <b>Compilers</b></p>
             <bookmark title="What are they?" url="https://www.youtube.com/watch?v=_C5AHaS1mOA"/>
         </section>
+        		
+        
 		<section type="success" title="SKILLS">
 			<exercise file="xc/01.02.xml"/>
 			<exercise file="xc/01.03.xml"/>
@@ -716,6 +715,7 @@ student.firstname; // is John</code></pre></p>
 	
 	<part title="12 Development methods" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+            <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
 		</section>
