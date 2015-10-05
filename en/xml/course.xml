@@ -728,7 +728,7 @@ student.firstname; // is John</code></pre></p>
             <p><br/>
                 <img src="img/waterfall.png" width="350" heigth="350"/>
             </p>
-            <p><br/>Agile development is a term that was derived from the Agile Manifesto, which was written in 2001.<br/>Agile manifesto: The four main principles
+            <p><br/>Agile development is a term that was derived from the Agile Manifesto, which was written in 2001.<br/><br/>Agile manifesto: The four main principles
             <ul>
                 <li>Individuals and interactions over processes and tools</li>
                 <li>Working software over comprehensive documentation</li>
@@ -738,7 +738,9 @@ student.firstname; // is John</code></pre></p>
             <a href="http://www.agilemanifesto.org/">Manifesto for Agile Software Development</a>
             </p>
             <p><br/>'Agile' is an umbrella term used for identifying various models used for agile development, such as Scrum. Scrum is a management framework for incremental product development using one or more cross-functional, self-organizing teams.</p>
-            <p><br/>The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. (<a href="https://www.scrumalliance.org/why-scrum/scrum-guide#sthash.pxeDKa6k.dpuf">Scrum Alliance</a>)</p>            
+            <p><br/>The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. (<a href="https://www.scrumalliance.org/why-scrum/scrum-guide#sthash.pxeDKa6k.dpuf">Scrum Alliance</a>)
+            </p>            
+            <bookmark title="Learn About Scrum" url="https://www.scrumalliance.org/why-scrum"/>
             <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
