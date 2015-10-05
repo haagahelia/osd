@@ -737,7 +737,8 @@ student.firstname; // is John</code></pre></p>
             </ul>
             <a href="http://www.agilemanifesto.org/">Manifesto for Agile Software Development</a>
             </p>
-            <p><br/>'Agile' is an umbrella term used for identifying various models used for agile development, such as Scrum.</p>
+            <p><br/>'Agile' is an umbrella term used for identifying various models used for agile development, such as Scrum. Scrum is a management framework for incremental product development using one or more cross-functional, self-organizing teams.</p>
+            <p><br/>The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. (<a href="https://www.scrumalliance.org/why-scrum/scrum-guide#sthash.pxeDKa6k.dpuf">Scrum Alliance</a>)</p>            
             <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
