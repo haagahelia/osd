@@ -156,7 +156,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</xsl:template>
 
 	<xsl:template match="video">
-		<p><button type="button" class="btn btn-info col-xs-12 col-sm-4" data-toggle="modal" data-target="#{generate-id()}">
+		<!-- <p><button type="button" class="btn btn-info col-xs-12 col-sm-4" data-toggle="modal" data-target="#{generate-id()}">
 		<span title="Watch video" class="glyphicon glyphicon-facetime-video"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@title"/>
 		</button></p>
@@ -171,13 +171,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <div class="video-responsive">
                   <iframe  frameborder="0" allowfullscreen="allowfullscreen"><xsl:attribute name="src">https://www.youtube.com/embed/<xsl:value-of select="@youtubeid"/></xsl:attribute></iframe>
                 </div>
-                </div>
+                </div> -->
                 <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div> -->
+                </div> 
               </div>
             </div>
-          </div>
+          </div>-->
+        <p><a type="button" target="_blank" class="btn btn-info col-xs-12 col-sm-4">
+		<xsl:attribute name="href">https://www.youtube.com/watch?v=<xsl:value-of select="@youtubeid"/></xsl:attribute>
+			<span title="Open video in new window" class="glyphicon glyphicon-facetime-video"></span>
+			&#xA0;&#xA0;<xsl:value-of select="@title"/>
+		</a></p>
 	</xsl:template>
 
 	<xsl:template match="slides">
