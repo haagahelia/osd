@@ -715,6 +715,29 @@ student.firstname; // is John</code></pre></p>
 	
 	<part title="12 Development methods" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
+            <p>There are various software development methodologies
+            <ul>
+            <li>Waterfall</li>
+            <li>Agile</li>
+            <li>RAD</li>
+            <li>And so on...</li>
+            </ul>
+            A methodology is a model, which project managers employ for the design, planning, implementation and achievement of their project objectives. There are different project management methodologies to benefit different projects.
+            </p>
+            <p><br/>Waterfall is traditional method for software development project. Development moves from concept, through design, implementation, testing, installation, troubleshooting, and ends up at operation and maintenance. Each phase of development proceeds in strict order. (<a href="http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm">Tutorialspoint</a>)</p>
+            <p><br/>
+                <img src="img/waterfall.png" width="350" heigth="350"/>
+            </p>
+            <p><br/>Agile development is a term that was derived from the Agile Manifesto, which was written in 2001.<br/>Agile manifesto: The four main principles
+            <ul>
+                <li>Individuals and interactions over processes and tools</li>
+                <li>Working software over comprehensive documentation</li>
+                <li>Customer collaboration over contract negotiation</li>
+                <li>Responding to change over following a plan</li>
+            </ul>
+            <a href="http://www.agilemanifesto.org/">Manifesto for Agile Software Development</a>
+            </p>
+            <p><br/>'Agile' is an umbrella term used for identifying various models used for agile development, such as Scrum.</p>
             <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
