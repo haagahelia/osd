@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="07.01 Function Call" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403295&amp;action=editsubmission" template="xc/07.01.html">
+
+<p> 
+<i>First, we try out a simple function call.</i>
+</p>
+<p><img src="xc/07.01.png" class="bordered"/>
+</p>
+<p>
+Call the existing <b>addASnowFlake()</b> function three times.
+ </p>
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/riyiqa/embed?html,js,output">JS Bin</a>
+</exercise>

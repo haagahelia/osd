@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="05.01 Sum of Two Numbers" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403441&amp;action=editsubmission">
+
+
+<p> 
+<i>Can you use JavaScript to add two numbers together and write the sum into the browser console?</i>
+</p>
+<p>Define the following three variables: <b>x</b>, <b>y</b>, <b>z</b>. Assign 3 to <b>x</b>. Assign 4 to <b>y</b>. After that, assign the sum of x and y to <b>z</b>. Finally, write the value of <b>z</b> into the browser console.</p>
+
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>
+ 
