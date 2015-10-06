@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="04.08 Link Collection" difficulty="easy" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403761&amp;action=editsubmission">
+
+
+<p> 
+Search Internet for JavaScript learning and reference materials. Make a list of four links to the JavaScript sources that you find most useful for your own use.
+</p>
+
+ <p>
+Submit your list of four links.
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>
