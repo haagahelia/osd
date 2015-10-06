@@ -694,7 +694,24 @@ student.firstname; // is John</code></pre></p>
 
 	<part title="11 Application Lifecycle" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
-		</section>
+            <p>The software requirements are description of features and functionalities of the target system. Requirements gathering is an essential part of the software development process. There are multiple techinques for requirement gathering like
+        <ul>
+            <li>Questionnaires</li>
+            <li>Interviews</li>
+            <li>Observation</li>
+            <li>Prototyping</li>    
+        </ul>
+        <br/>Software requirements specification is a documented description of the intended purpose and environment for the software.</p>
+        <p><br/>Software design is a process to transform user requirements into some form, which helps the programmers in software implementation. There are different aspects in software design:
+        <ul>
+            <li>Architecture design: How subsystems and components will be connected and how they interact</li>
+            <li>Class design: Different features of classes</li>
+            <li>User interface design</li>
+            <li>Algorithm design</li>    
+        </ul>                
+        </p>
+        <p>The goals of a good design are: Increasing profit by redusing the cost, fulfilling the requirements, accelerating development and good quality.</p>
+        </section>
 		<section type="success" title="SKILLS">
 		</section>
 		<section type="info" title="CHECKPOINT">
