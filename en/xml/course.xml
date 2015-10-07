@@ -222,6 +222,7 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<exercise file="xc/03.03.xml"/>
 		<exercise file="xc/03.04.xml"/>
 		<exercise file="xc/03.05.xml"/>
+		<exercise file="xc/03.06.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
