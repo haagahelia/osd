@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weight </title>
+
+<script type="text/javascript">
+	
+	function showWeightGoals() {
+		//  Read the original weight to a variable
+		
+		//  Calculate how many kgs one should get lighter each week = weight* 0.1 / 7
+	
+		// Initialize output text variable to start from empty text: ""
+	
+		// for loop, continue while i &lt;= 7
+		
+			 // Give the weight variable a new value which is weight after last
+			// measurement reduced by the how much to lose this week.
+        	 
+			// Add this week's text + line break to the output text variable
+
+		// Write the answer on the page, to the answer div, as content of the div
+		
+	}
+</script>
+</head>
+<body>
+	<h3>Weight</h3>
+
+	<form>
+		<p>
+			<label>Original weight: </label> <input type="text" name="weight"
+				id="weight" size="3"> <input type="button"
+				value="Show weight goals" onClick="showWeightGoals()">
+		</p>
+	</form>
+
+	<!-- This is the target where the JavaScript will write the answer -->
+	<div id="answer"></div>
+</body>
+</html>
+
+<!-- test example:
+weight = 80,  -> After 1.week 78.9 kg   After 2.week 77.7 kg After 3.week 76.6 kg... After 7. week 72.0 kg
+						
+-->
+
+

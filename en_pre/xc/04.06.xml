@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="04.06 WebGL Earth API" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;action=editsubmission">
+
+
+<p> 
+<i>In this exercise, you extend your own application by using the API (Application Programming Interface) of an open source service. This time, you use The WebGL Earth service. It  provides a mechanism for inserting interactive maps into web pages.</i>
+</p>
+<p><img src="xc/04.06.png" class="bordered"/></p>
+<p>
+<ol type="1">
+<li>
+ In the HTML document, add two new buttons inside the buttons  &lt; div&gt; . The texts shown on the buttons should be "<b>GO HOME</b>" and "SHOW COORDS". When the user clicks the button "GO HOME"  the function <b>goHome()</b> should be called. When the user clicks the button "SHOW COORDS"  the function <b>showCoords()</b> should be called.</li>
+<li>
+ In your JavaScript code, write a function called <b>showCoords()</b>. When the function is called it should show the current coordinates of the map center in an alert dialog box. </li>
+<li>
+In your JavaScript code, write a function called <b>goHome()</b>. When the function is called it should set the map center to the latitude / longitude position of your own home and zoom the map close enough. </li>
+</ol> 
+
+</p>
+<p>HINTS:
+You can get the current coordinates of the map center by calling the method earth.getCenter(). You can show the coordinates in an alert dialog box as follows: alert(earth.getCenter());
+
+You can set the map center to desired latitude / longitude position as follows:
+<code>earth.setView([41.893292620836945,12.483070431973514]); </code>
+ 
+You can set the zoom level of the Earth at desired level (0-18) as follows:
+<code>earth.setZoom(13);</code>
+</p>
+<p>
+To find the latitude / longitude position of your home: scroll (zoom) and drag (location) with your mouse to view your own home on the map center and press the button "SHOW COORDS".
+</p>
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>

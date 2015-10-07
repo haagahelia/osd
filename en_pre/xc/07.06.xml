@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="07.06 Doctor's Visit" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396936&amp;action=editsubmission" template="xc/07.06.html">
+
+<p class="exercise_text"> 
+One of the cottage retreat participants is hurt and needs to visit a private doctor. Kela pays back some part of the private medical treatment, e.g. of the doctor’s fee. Make a program that, 
+<ul>
+<li>
+calculates the amount of Kela reimbursement (Kelakorvaus) for a doctor visit. The maximum reimbursement is decided based on the following table: 
+<ul>
+<li>Doctor’s visit, no more than 10 min, 8.00 euros </li>
+<li>Doctor’s visit, no more than 20 min, 11.00 euros </li>
+<li>Doctor’s visit, no more than 30 min, 13.50 euros </li>
+<li>Doctor’s visit, no more than 45 min, 16.50 euros </li>
+<li>Doctor’s visit, no more than 60 min, 21.00 euros </li>
+</ul>
+Make a function (1.), which gets the length of the visit as a parameter and returns the maximum Kela reimbursement.
+Convert the length to a number value with the parseInt() function before calculation.
+</li>
+<li>
+calculates the how much the customer has to pay after the Kela reimbursement has been given (usually given already at the cash counter). The office fee is 15.90 euros (no Kela reimbursement available for that).
+Make a function (2.) which gets as parameters the Doctor’s fee before reimbursement and the maximum Kela reimbursement. The function returns the amount left for the customer to pay. 
+Convert any needed input values as number using the parseInt() or parseFloat() functions before calculations.
+</li>
+<li>
+Make a function (3.) that is called when the button is clicked. It naturally uses the functions (1.) and (2.). Use descriptive and long enough function and variable names.
+</li>
+</ul>
+</p> 
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.06.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/zewija/embed?html,js,output">JS Bin</a>
+</exercise>

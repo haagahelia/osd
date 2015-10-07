@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="05.02 Product of Three Numbers" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403554&amp;action=editsubmission">
+
+
+<p> 
+<i>Can you use JavaScript to compute the product of three numbers and write the product into the browser console?</i>
+</p>
+<p>Define the following four variables: <b>first</b>, <b>second</b>, third, <b>product</b>. Assign 5 to <b>first</b>. Assign 7 to <b>second</b>. Assign 10 to third. After that, compute the product of the values of these three variables and assign the result to the variable <b>product</b>. Finally, write the value of the variable <b>product</b> into the browser console.</p>
+
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>
+ 

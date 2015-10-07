@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="exercise">
+    <xs:complexType mixed="true">
+        <xs:attribute name="title" type="xs:string" />
+        <xs:attribute name="id" type="xs:string" />
+        <xs:attribute name="difficulty" type="difficulty" />
+		<!-- <xs:choice>
+        <xs:element name="img">
+			<xs:complexType>
+				<xs:attribute name="src" type="xs:string" />
+				<xs:attribute name="title" type="title" />
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="b" type="xs:string"/>
+        </xs:choice> -->
+    </xs:complexType>
+</xs:element>
+
+<xs:simpleType name="difficulty">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="easy"/>
+    <xs:enumeration value="medium"/>
+    <xs:enumeration value="hard"/>
+    <xs:enumeration value="adjustable"/>
+  </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

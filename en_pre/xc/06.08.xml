@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="06.08 Game" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392605&amp;action=editsubmission" template="xc/06.08.html">
+
+<p class="exercise_text"> 
+In a coin slot machine (One-handed robber) a game returns pay (won money) according to the following rules:
+<ul>
+<li>The game will randomize dice pips between 1-6. You can randomize the pips with 
+var pips = Math.round( (Math.random( ) * 5) + 1 );</li>
+<li>No pay if the randomized pips is 1, 3 or 5</li>
+<li>The pips 2 and 4 return the set coins back 125% (=multiplied by 1.25)</li>
+<li>The pips 6 returns the inserted bet 150%</li>
+<li>The selection structure follows this idea: <br />
+if (pips is 1 or pips is 3 or pips is 5) { <br />
+    no pay  <br />
+}otherwise if (pips is 2 or pips is 4) {  <br />
+    returned pay is 1.25 * bet (=inserted amount of money)  <br />
+} otherwise {  <br />
+    the pay is 1.5 * bet  <br />
+}</li>
+</ul>
+</p> 
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.08.png" class="bordered"/>
+<img src="xc/06.08b.png" class="bordered"/>
+<img src="xc/06.08c.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/hijuqe/embed?html,js,output">JS Bin</a>
+</exercise>

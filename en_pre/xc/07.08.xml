@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="07.08 Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/07.08.html">
+
+<p class="exercise_text"> 
+Make a program, that asks for the identity number (Finnish 'hetu', 11 characters) and 
+<ul>
+<li>tells, whether the person is male or female. The second last character of the identity number tells the gender: even digit/number means woman, odd number man.
+<ul> 
+<li>The charAt() method can be used to get the second last character.</li> 
+<li>The parseInt() function can be used to convert number text to number.</li>
+<li>If you take a remainder of that number divided by 2 with the remainder/modulo operator % you will get to know if the number is odd or even. (E.g. 7 % 2 gives 1 for the remainder, thus 7 is an odd number).</li>
+</ul>
+</li>
+<li>  tells the date of birth in the format of dd.mm.yyyy. If the identity number has '+' as the separator character then the century is 1800. If the separator is '-', the century is 1900. If the separator is 'A', the century is 2000. 
+<ul>
+<li>With the subStr() method you can take certain characters from the original string. </li>
+<li>The charAt() method gives you the separator.</li>
+<li>The parseInt() function can be used to convert number text to number.</li>
+<li>You need to do some calculation with numbers to attach the century to the year.</li>
+</ul>
+</li> 
+</ul>
+</p> 
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.08.png" class="bordered"/>
+<img src="xc/07.08b.png" class="bordered"/>
+<img src="xc/07.08c.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/xacujo/embed?html,js,output">JS Bin</a>
+</exercise>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="05.05 Addition Assignment" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403589&amp;action=editsubmission">
+
+
+<p> 
+<i>The addition assignment operator += adds a value to a variable. For example, <b>x += 5</b> does exactly the same as <b>x = x + 5</b>.</i>
+</p>
+<p>Define a variable called <b>fullText</b> and assign "<b>aaa</b>" to it. Next, use the addition assignment operator to add "<b>bbb</b>" to the variable <b>fullText</b>. After that, use the addition assignment operator to add "<b>ccc</b>" to the variable <b>fullText</b>. Finally, write the value of variable <b>fullText</b> into the browser console.
+</p>
+
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>

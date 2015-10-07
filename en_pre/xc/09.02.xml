@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="09.02 Sort Array" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403417&amp;action=editsubmission">
+
+
+<p> 
+First, sort the given array in reverse alphabetical order (z-a). After that, write all the array element values into the browser console. Each value should be displayed on a separate line.
+</p>
+<p>The Array:</p>
+<p><code>var array = ["Milk", "Bread", "Juice", "Eggs", "Butter", "Salt", "Oranges", "Apples"];
+</code></p>
+<p>HINTS:
+<ul>
+<li>The sort() method sorts the elements of an array in ascending order. Example:  <code>words.sort();</code> </li>
+<li>The reverse() method reverses the order of the elements in an array. Example:  <code>words.reverse().</code></li>
+</ul>
+</p>
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com">JS Bin</a>
+</exercise>
+ 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="06.05 Body Mass Index" difficulty="easy" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392289&amp;action=editsubmission" template="xc/06.05.html">
+
+<p class="exercise_text"> 
+
+
+Make a program that asks for the user’s weight and height and calculates, and tells the body mass index class. The body mass index is BMI = weight / (height/100.0 * height/100.0).
+
+<table>
+<tr>
+<td>Weight less than normal weight </td><td>18,4 or less</td>
+</tr>	 	
+<tr>
+<td>Normal weight</td><td>18,5 - 24,9</td>
+</tr>
+<tr>
+<td>Overweight</td><td>25,0 or more</td>
+</tr>
+</table>
+
+Selection structure follows this idea: <br />
+if (bmi &lt;= 18.4) { <br />
+    // Weight less than normal weight <br />
+} otherwise if (bmi &lt;= 24.9) { <br />
+    // Normal weight <br />
+}otherwise { <br />
+    // Overweight <br />
+} <br />
+</p>
+
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.05.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/jiyize/embed?html,js,output">JS Bin</a>
+</exercise>

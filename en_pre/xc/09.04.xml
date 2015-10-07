@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="09.04 Minigolf" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400643&amp;action=editsubmission" template="xc/09.04.html">
+
+<p class="exercise_text"> 
+The cottage guests were playing minigolf. The results for the eight players are in the array below: <br />
+var minigolf = [23, 19, 37, 20, 21, 30, 26, 24]; <br />
+<ul>
+<li>Make a program that that tells the smallest (winner) and biggest (last one) results.</li>
+<li>Write the code into a script element inside of the body element</li>
+<li>Sort the array with the sort() method. Then the smallest result is at the index 0.</li> 
+<li>How to get the last item then? The length of the array is minigolf.length. Taking into consideration that indexes start from 0 and not from 1, what is the index of the last one? Use the minigolf.length in calculating the last index. Hint: With 3 items (length 3), indexes are 0,1,2. With 5 items (length 5) indexes are 0,1,2,3,4. How do you calculate the last index from the length property then, no matter what is the length?</li>
+</ul>
+</p> 
+<p class="exercise_gui_title">Sample output:</p>
+<p><img src="xc/09.04.png" class="bordered"/>
+</p>
+
+	<a class="jsbin-embed" href="http://jsbin.com/cosuyi/embed?html,js,output">JS Bin</a>
+</exercise>

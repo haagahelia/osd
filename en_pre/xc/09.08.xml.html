@@ -1,0 +1,54 @@
+<p><button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#idm478666905744"><span class="glyphicon glyphicon-pencil" title="Exercise"></span>
+		  09.08 Lottery
+			  <span title="Difficulty: Hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
+		 <span class="hide-xs" title="Size: L">(L)</span></button></p><div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="idm478666905744" aria-labelledby="idm478666905744"><div class="modal-dialog modal-lg"><div class="modal-content">
+<div class="modal-header alert-success">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">09.08 Lottery</h4>
+</div>
+<div class="modal-body">
+
+<p class="exercise_text"> 
+After the successful cottage retreat people decided to make a draw (raffle/lottery, arpajaiset) for deciding who gets the remaining food. Make a program that
+<ol type="a">
+<li>Asks for the name of all the attendants
+<ul>
+<li>Define the array variable and create the array object inside the script element, but NOT inside the function. Then it will be global and thus available for all functions to read from or write to.
+<pre><code>var names = [];  // defining a variable and creating empty array object </code></pre>
+</li>
+<li>When the Add button is pressed assign the name from the input field to the array 
+<pre><code>names[index] = document.getElementById("name").value;
+index = index + 1; </code></pre> </li>
+<li>Empty the input field as that name was just put in the array
+<pre><code>document.getElementById("name").value = ""; </code></pre> </li>
+<li>Additionally show the inserted names so far under the input field:
+<ul>
+<li>Go through the array in a for loop adding each name at the end of the namesText. </li>
+<li>Set that text to HTML document</li>
+</ul>
+ </li>
+</ul>
+</li>
+
+<li>Randomize the winner
+<ul>
+<li>When "Make the draw" button is pressedRandomize the index of the winner: 
+<pre><code>var winningIndex = Math.floor(Math.random() * names.length);</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+</p> 
+<p class="exercise_gui_title">Sample output after two names have been added:</p>
+<p><img src="xc/09.08.png" class="bordered">
+</p>
+
+<p class="exercise_gui_title">Sample output after several names have been added AND the draw has been made
+<img src="xc/09.08b.png" class="bordered">
+</p>
+
+	<a class="jsbin-embed" href="http://jsbin.com/baguje/embed?html,js,output">JS Bin</a>
+</div>
+<div class="modal-footer">
+<a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="xc/09.08.html"><span class="glyphicon glyphicon-new-window"></span>  Download Template Code</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://jsbin.com/baguje/embed?html,js,output"><span class="glyphicon glyphicon-new-window"></span>  Open JSBin</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402567&amp;action=editsubmission"><span class="glyphicon glyphicon-new-window"></span>  Go to Return Box</a>
+</div>
+</div></div></div>

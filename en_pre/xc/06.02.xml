@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="06.02 Player's Age" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=391133&amp;action=editsubmission" template="xc/06.02.html">
+
+<p class="exercise_text"> 
+In Finland only the adults (18 yrs) are allowed to play coin slot machines. Make a program that will test whether the user is old enough to play. 
+
+The idea of the code:
+function checkAge() {
+    // assign the age input field value into a variable 
+    if (age smaller than 18) { 
+        // Write to the page: "Adolescents are not allowed to play."  
+    }
+    otherwise { 
+        // Write to the page: "Old enough to play."   
+    } 
+} 
+
+Call the checkAge()-function when the Check player’s age –button’s onclick event occurs.
+</p>
+
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.02.png" class="bordered"/>
+<img src="xc/06.02b.png" class="bordered"/>
+</p>
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/mijuyu/embed?html,js,output">JS Bin</a>
+</exercise>

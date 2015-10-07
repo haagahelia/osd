@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="03.02 Use Text Editor" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400449&amp;action=editsubmission">
+
+<p class="exercise_text"> 
+In the Linux environment, use the <b>gedit</b> text editor to create a new HTML page with the name <b>second.html</b>. Save the HTML page to the <b>oswd</b> folder on the M:-drive. When the HTML page is opened in a web browser, it should show the text 'Written with gedit'.
+
+Take a screenshot of the text editor window and save the screenshot image to the <b>public_html</b> folder on the M:-drive. Finally, submit a link to the screenshot image.
+
+</p>
+
+
+
+
+	
+</exercise>

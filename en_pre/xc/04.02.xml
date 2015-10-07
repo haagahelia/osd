@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="04.02 External Script File" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403686&amp;action=editsubmission">
+
+
+<p> 
+<i>In most cases, it is recommendable to place JavaScript code in external files. This has several advantages. When JavaScript and HTML codes are separated they are easier to read, maintain and reuse. In addition, this might speed up page loads in some cases</i>
+</p>
+<p><img src="xc/04.02.png" class="bordered"/></p> 
+<p> Place the following HTML code in the &lt;body&gt; section of the HTML document:
+<code> &lt;pre&gt;&lt;code class="language-css"&gt;#myDiv {
+  border-width: 3px;
+  border-style: solid;
+}&lt;/code&gt;&lt;/pre&gt; </code>
+</p><p> Place the following CSS file reference in the &lt;head&gt; section of the HTML document:
+<code>
+&lt;link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css" /&gt;
+</code>
+</p><p> Place the following external JavaScript file reference in the &lt;head&gt; section of the HTML document:
+<code>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"&gt;&lt;/script&gt;
+</code>
+</p><p>
+How does the page look now? Any difference from before?  What did the external JavaScript do?
+</p>
+
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>

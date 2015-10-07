@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="05.03 Decimal Division" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403562&amp;action=editsubmission">
+
+
+<p> 
+<i>Now we try out how decimal division works. See how many decimals the system includes in the quotient. ('quotient' = the number that results when one number is divided by another).</i>
+</p>
+
+<p>Define the following two variables: <b>a</b> and <b>b</b>. Assign 4.87 to <b>a</b> and 5.03 to and <b>b</b>.
+After that, write the <b>quotient</b> of a and b into the browser console.</p>
+
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>

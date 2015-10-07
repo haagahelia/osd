@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="06.06 Conditions" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399391&amp;amp;action=editsubmission" >
+
+<p class="exercise_text"> 
+When are the following conditions evaluated as true?
+<ol type="a">
+<li>if (dicePips == 1 || dicePips == 3 || dicePips == 5)</li>
+<li>if (dicePips == 1 &amp;&amp; dicePips == 3 &amp;&amp; dicePips == 5)</li>
+<li>if (age &gt; 18 &amp;&amp; age &lt; 65)</li>
+<li>if (age &gt; 18 || age &lt; 65)</li>
+<li>if (age &gt; 18 &amp;&amp; income &gt; 7353)</li>
+<li>if (age &gt; 18 || income &gt; 7353)</li>
+<li>if (isNaN(age) == true)  </li>
+<li>if (isNaN(age))</li>
+<li>if (isNaN(age) == false)</li>
+<li>if (! isNaN(age))</li>
+</ol>
+</p> 
+
+
+
+
+
+</exercise>
