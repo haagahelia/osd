@@ -221,6 +221,8 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<exercise file="xc/03.02.xml"/>
 		<exercise file="xc/03.03.xml"/>
 		<exercise file="xc/03.04.xml"/>
+		<exercise file="xc/03.05.xml"/>
+		<exercise file="xc/03.06.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
@@ -305,6 +307,8 @@ document.getElementById("demo").innerHTML = z;
 		<exercise file="xc/04.04.xml"/>
 		<exercise file="xc/04.05.xml"/>
 		<exercise file="xc/04.06.xml"/>
+		<exercise file="xc/04.07.xml"/>
+		<exercise file="xc/04.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge04.png" alt="Badge 4" class="badgeicon"/></badgeImg>

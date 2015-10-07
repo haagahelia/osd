@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="04.07 CodeCademy" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403760&amp;action=editsubmission">
+
+
+<p> 
+<i>Are you ready to challenge yourself with a small set of JavaScript exercises that take about an hour to complete?</i>
+</p>
+<p><img src="xc/04.07.png" class="bordered"/></p>
+
+ <p>
+Open the page <a href="https://www.codecademy.com/courses/hour-of-code" target="_blank">https://www.codecademy.com/courses/hour-of-code</a> and complete exercises 1-15. Finally, submit the complete JavaScript code of the 15th exercise.
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</exercise>
