@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="03.07  Eclipse IDE" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=xx&amp;action=editsubmission">
+
+
+<p> 
+<i>IDE (Integrated Development Environment) is single software application in which all development is done. Typically, an IDE provides a single user interface for managing source codes and other files, servers, browsers and other programmer's tools that speed up the development work.</i>
+</p>
+<p>
+ <ol type="1">
+ <li>
+Start <b>Eclipse</b>.
+</li><li>
+Enter <b>M:\osdw\eclipse_workspace</b> as the workspace name.
+</li><li>
+Close the Welcome tab.
+ </li><li>
+Create a new project in Eclipse as follows: <br/>
+File > New > Project… > General > Project <br/>
+Click on Next <br/>
+Enter <b>MyFirstEclipseProject</b> as the project name and click on Finish.
+ </li><li>
+Create the following two folders in the project: <b>css</b> and <b>js</b> <br/>
+In the Project Explorer tab, right-click on the project name <br/>
+New > Folder
+ </li><li>
+Create three new files (general.css, main.js, myPage.html) as below.
+ <img src="xc/03.07.png" class="bordered"/>
+ 
+
+</li><li>
+
+Copy/paste the following code to the file <b>myPage.html</b>:
+<pre><code>
+ &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+ &lt;head&gt;
+   &lt;title&gt;My Page &lt;/title&gt;
+   &lt;link rel="stylesheet" type="text/css" href="css/general.css"&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+   &lt;h1 id="myTitle"&gt;Hello &lt;/h1&gt;
+   &lt;script type="text/javascript" src="js/main.js"&gt; &lt;/script&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;</code></pre>
+ </li><li>
+ Copy/paste the following code to the file <b>general.css</b>:
+<pre><code>#myTitle {
+    color: #0055AA;
+}</code></pre>
+ </li><li>
+Copy/paste the following code to the file <b>main.js</b>:
+<pre><code>document.getElementById("myTitle").innerHTML += ", World!";</code></pre>
+ </li><li>
+View the HTML page in web browser as follows: <br/>
+In Project Explorer, right-click on the file name <b>myPage.html</b> <br/>
+Select <b>Open with > Web Browser</b>
+</li>
+</ol> 
+Finally, take a screenshot. Save the screenshot to <b>M:\public_html</b> and submit a link to the screenshot.
+</p>
+</exercise>
