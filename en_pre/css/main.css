@@ -43,7 +43,8 @@ ol{
 	padding:2%;
 	}
 /* Misc */
-.btn{
+.btn,
+.exercise .modal .btn{
 	max-width:100%;
 	width:auto;
 	text-align:left;	
@@ -51,8 +52,8 @@ ol{
 	}
 .exercise .btn{
 	white-space:nowrap;
-	text-overflow: ellipsis; !important;
 	overflow:hidden;
+	text-overflow: ellipsis; !important;
 	width:46%;	
 	margin:1,5%;
 	}
