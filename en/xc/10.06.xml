@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="10.06 Products" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405672&amp;action=editsubmission" template="xc/10.06.html">
+
+<p> 
+
+Make a program that lists the product information. Products are found in the JSON data. 
+<img src="xc/10.06.png" class="bordered"/>
+This is the JSON data for you to use. It represents/describes three objects inside of one array object:
+<pre><code>[ {
+    "number"     :1, 
+    "name"       :"Samsung Smart LED-TV", 
+    "price"      :449.00, 
+    "description":"HD-digi ready"
+    },
+    {
+    "number"     :2, 
+    "name"       :"Samsung 2.1 SoundBar Home Theater", 
+    "price"      :198.00, 
+    "description":"Connect to TV and stream music wireless"
+    },
+    {
+    "number"     :3, 
+    "name"       :"Dilog CI+/CA module for pay-tv-cards", 
+    "price"      :63.90, 
+    "description":"CI+ module for the table televisions"
+    }
+]</code></pre>
+<ul>
+<li>
+Define a function for listing.
+<pre><code>
+// JSON format data into an array object:
+
+var jsonText = &lt;&lt;&lt;&lt;JSON text from above&gt;&gt;&gt;&gt;;
+
+function listProducts() {
+  // Parse the JSON text into Javascript objects (1 array, 3 ‘product’ objects)
+  var productArray = JSON.parse(jsonText);
+  var i;
+  var outputText = "";
+  // Handle the product objects from the array. Use i to index the array.
+  for (i = 0; i &lt; productArray.length; i++) {
+    // INSERT YOUR CODE HERE !!!
+  }
+
+ // Write the output text to the web page (=to the DOM that browser then shows) 
+}</code></pre>
+</li><li>
+JSON.parse() method can be used to convert JSON text into JavaScript objects, like array and the object it contains.
+</li><li>
+Array is gone through with a for loop.
+</li><li>
+You refer a) to the whole array like this: productArray , productArray.length<br /> b)
+to objects in the array like this: productArray[i]    (first item: productArray[0] ) <br /> c)
+to properties of objects like this  productArray[i].number, productArray[i].price
+</li>
+</ul>
+
+
+</p> 
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/bawaca/embed?html,js,output">JS Bin</a>
+</exercise>

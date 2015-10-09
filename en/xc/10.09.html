@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather</title>
+
+</head>
+<body>
+	<h1>Weather</h1>
+	<div id="answer"></div>
+
+	<script type="text/javascript">
+		// This function fetches JSON data from internet using AJAX call:
+		function fetchWeatherInfo() {
+
+			var xmlhttp = new XMLHttpRequest();
+
+			xmlhttp.onreadystatechange = function() {
+
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+				// Line below writes the fetched JSON response (=text) to the console
+				console.log(xmlhttp.responseText);
+
+				// Call function that shows the output listing on the web page.
+				// Pass the received JSON response as a parameter
+				showWeatherInfo(xmlhttp.responseText);
+				}
+			}
+
+			xmlhttp.open(
+			"GET",
+			"http://api.openweathermap.org/data/2.5/weather?q=helsinki&units=metric",
+			true);
+			xmlhttp.send();
+		}
+
+		// This function shows the JSON text (that it receives as parameter) on the web page
+		function showWeatherInfo(json) {
+			
+			
+			// COMPLETE THIS!!! Remark: The JSON response from the web server contains a single object NOT an array. Thus no for loop needed here.
+			// You can use weather[0].description to get info out from that one object.
+			// toFixed(0) will round values to whole numbers (= 0 decimals)
+
+		}
+
+		// Call fetchWeatherInfo() function
+		fetchWeatherInfo();
+	</script>
+</body>
+</html>
+
+

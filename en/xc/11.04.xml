@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="11.04 Testing" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405737&amp;action=editsubmission" >
+
+<p> 
+Write your own answer based on your own perception, possible experience and the material that you 
+
+will find. Use concrete examples and speculate on a known application. Length: aprx. 200 words.
+</p><p>
+<b>What is testing? <br/> What kind of different types of testing will occur during different phases
+
+of the development? <br/>Why do we test in those phases?</b>
+</p>
+
+</exercise>

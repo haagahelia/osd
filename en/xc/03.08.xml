@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="03.08  JavaScript Server" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405516&amp;action=editsubmission">
+
+
+<p> 
+<i>You can also create server-side web applications with JavaScript. In this exercise, you create a small Node.js web application. Node.js is an open-source environment for developing server-side web applications with JavaScript.</i>
+</p>
+<p>
+<ol type="1">
+<li>
+  Open the page <a href="https://ondemand.cp.haaga-helia.fi" target="_blank">https://ondemand.cp.haaga-helia.fi</a> and log in to the <b>Linux</b> desktop.
+ </li><li>
+In the Linux desktop, open a <b>Terminal</b> window (select Applications > System Tools > Terminal)
+ </li><li>
+On the Linux command line, set your own home folder as the current folder as follows: <b>cd</b>
+ </li><li>
+Create a new folder as follows: <b>mkdir myscripts</b>
+ </li><li>
+Set the new folder as the current folder as follows: <b>cd myscripts</b>
+ </li><li>
+Create a new text file called <b>mysimpleserver.js</b> as follows: <b>touch mysimpleserver.js</b>
+ </li><li>
+Open the text file in the gedit editor as follows: <b>gedit mysimpleserver.js &amp;</b>
+ </li><li>
+Below is the code of a simple JavaScript server-side application. Copy/paste the JavaScript code to the gedit editor window and save the file.
+<pre><code>var http = require('http');
+ 
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello! ' + new Date() + '\n');
+}).listen(1337, "127.0.0.1");
+ 
+console.log('Server running at http://127.0.0.1:1337/');</code></pre>
+  </li><li>
+On the Linux command line, start your JavaScript server-side application as follows: <b>node mysimpleserver.js</b>
+ 
+Your server-side application is now running and can be accessed by entering its web address into a web browser's address field.
+  </li><li>
+In the Linux desktop, start a web browser and enter the following address into the web browser's address field: <b><a href="http://localhost:1337" target="_blank">http://localhost:1337</a></b>
+  </li><li>
+What do you see on the web browser window? <br />Copy the text from the web browser window and submit it.
+ </li>
+ </ol>
+<i>In the Terminal window, you can terminate your JavaScript server-side application by pressing <b>ctrl-c</b></i>
+</p>
+</exercise>

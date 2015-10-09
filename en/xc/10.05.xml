@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise title="10.05 Courses" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405650&amp;action=editsubmission" template="xc/10.05.html">
+
+<p> 
+Make a program that lists courses from an object array (specified with JSON notation) like this:
+<img src="xc/10.05.png" class="bordered"/>
+Object array with JavaScript Object Notation (JSON) 
+<pre><code>
+var courses = [ 
+{  "name": "Orientation to software engineering",
+    "code"   : "SWD1TF001",
+    "extent" : "5",
+    "timing" : "1.semester"
+      }, 
+{  "name": "Programming",
+    "code"   : "SWD1TF002",
+    "extent" : "5",
+    "timing" : "2.semester"
+      }, 
+{  "name": "Data management and databases",
+    "code"   : "SWD1TF003",
+    "extent" : "5",
+    "timing" : "2.semester"
+      }, 
+{  "name": "Mobile development project",
+    "code"   : "SWD1TF004",
+    "extent" : "10",
+    "timing" : "3.semester"
+      }
+
+];
+</code></pre>
+
+
+</p> 
+
+
+	<a class="jsbin-embed" href="http://jsbin.com/hujozi/embed?html,js,output">JS Bin</a>
+</exercise>

@@ -224,6 +224,7 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<exercise file="xc/03.05.xml"/>
 		<exercise file="xc/03.06.xml"/>
 		<exercise file="xc/03.07.xml"/>
+		<exercise file="xc/03.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
@@ -696,6 +697,10 @@ student.firstname; // is John</code></pre></p>
 <bookmark title="w3schools Objects" url="http://www.w3schools.com/js/js_objects.asp"/>	                     
 		</section>
 		<section type="success" title="SKILLS">
+		<exercise file="xc/10.01.xml"/>
+		<exercise file="xc/10.05.xml"/>
+		<exercise file="xc/10.06.xml"/>
+		<exercise file="xc/10.09.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge10.png" alt="Badge 10" class="badgeicon"/></badgeImg>
@@ -738,6 +743,11 @@ student.firstname; // is John</code></pre></p>
         <p>The goals of a good design are: Increasing profit by redusing the cost, fulfilling the requirements, accelerating development and good quality.</p>
         </section>
 		<section type="success" title="SKILLS">
+		<exercise file="xc/11.01.xml"/>
+		<exercise file="xc/11.02.xml"/>
+		<exercise file="xc/11.03.xml"/>
+		<exercise file="xc/11.04.xml"/>
+		<exercise file="xc/11.05.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge11.png" alt="Badge 11" class="badgeicon"/></badgeImg>
@@ -788,6 +798,11 @@ student.firstname; // is John</code></pre></p>
             <video title="What is Software Engineering" youtubeid="La_4LZQXAgo"/>
 		</section>
 		<section type="success" title="SKILLS">
+		<exercise file="xc/12.01.xml"/>
+		<exercise file="xc/12.02.xml"/>
+		<exercise file="xc/12.03.xml"/>
+		<exercise file="xc/12.04.xml"/>
+		<exercise file="xc/12.05.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge12.png" alt="Badge 12" class="badgeicon"/></badgeImg>
