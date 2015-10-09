@@ -7,7 +7,7 @@
 Write a loop that writes all the array element values into the browser console. Each value should be displayed on a separate line.
 </p>
 <p>The Array:</p>
-<code>var array = ["Pekka", "Minna", "Heikki", "Anna", "Jukka", "Iida"];</code>
+<pre><code>var array = ["Pekka", "Minna", "Heikki", "Anna", "Jukka", "Iida"];</code></pre>
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 

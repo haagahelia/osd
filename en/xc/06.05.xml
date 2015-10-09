@@ -19,20 +19,21 @@ Make a program that asks for the user’s weight and height and calculates, and 
 </tr>
 </table>
 
-Selection structure follows this idea: <br />
-if (bmi &lt;= 18.4) { <br />
-    // Weight less than normal weight <br />
-} otherwise if (bmi &lt;= 24.9) { <br />
-    // Normal weight <br />
-}otherwise { <br />
-    // Overweight <br />
-} <br />
+Selection structure follows this idea: 
+<pre><code>
+if (bmi &lt;= 18.4) {
+    // Weight less than normal weight 
+} otherwise if (bmi &lt;= 24.9) { 
+    // Normal weight
+}otherwise { 
+    // Overweight 
+} </code></pre>
 </p>
 
 <p class="exercise_gui_title">Sample output for shown input:</p>
 <p><img src="xc/06.05.png" class="bordered"/>
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/jiyize/embed?html,js,output">JS Bin</a>
 </exercise>

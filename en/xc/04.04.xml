@@ -18,7 +18,7 @@ The text shown on the button should be "CLICK  ME". When the user clicks the but
 </ol> 
 HINT:
 The following statement writes "Hello, dude!" inside an HTML element with id "myElement":
-<code>document.getElementById("myElement").innerHTML = "Hello, dude!";</code>
+<pre><code>document.getElementById("myElement").innerHTML = "Hello, dude!";</code></pre>
 </p>
 
 

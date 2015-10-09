@@ -60,7 +60,7 @@ function showWeatherInfo(jsonText) {
     // toFixed(0) will round values to whole numbers (= 0 decimals)
 }</code></pre>
 </p> 
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/vuhunu/embed?html,js,output">JS Bin</a>
 </exercise>

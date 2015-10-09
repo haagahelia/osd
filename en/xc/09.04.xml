@@ -3,8 +3,8 @@
 <exercise title="09.04 Minigolf" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400643&amp;action=editsubmission" template="xc/09.04.html">
 
 <p class="exercise_text"> 
-The cottage guests were playing minigolf. The results for the eight players are in the array below: <br />
-var minigolf = [23, 19, 37, 20, 21, 30, 26, 24]; <br />
+The cottage guests were playing minigolf. The results for the eight players are in the array below: 
+<pre><code>var minigolf = [23, 19, 37, 20, 21, 30, 26, 24];</code></pre> 
 <ul>
 <li>Make a program that that tells the smallest (winner) and biggest (last one) results.</li>
 <li>Write the code into a script element inside of the body element</li>
@@ -15,6 +15,6 @@ var minigolf = [23, 19, 37, 20, 21, 30, 26, 24]; <br />
 <p class="exercise_gui_title">Sample output:</p>
 <p><img src="xc/09.04.png" class="bordered"/>
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 	<a class="jsbin-embed" href="http://jsbin.com/cosuyi/embed?html,js,output">JS Bin</a>
 </exercise>

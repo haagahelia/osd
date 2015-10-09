@@ -7,13 +7,13 @@
 <i>JavaScript can be placed in the &lt;head&gt; and the &lt;body&gt; sections of an HTML page. The script location is significant.</i>
 </p>
 <p>Place the following script in the &lt;head&gt; section of the HTML page:
-<code>&lt;script&gt;document.write("A");&lt;/script&gt; </code>
+<pre><code>&lt;script&gt;document.write("A");&lt;/script&gt; </code></pre>
  
 Place the following header element in the &lt;body&gt; section:
-<code>&lt;h1&gt;Hello&lt;/h1&gt;</code>
+<pre><code>&lt;h1&gt;Hello&lt;/h1&gt;</code></pre>
  
 Place the following script in the &lt;body&gt;  section, after the header element:
-<code>&lt;script&gt;document.write("B");&lt;/script&gt; </code>
+<pre><code>&lt;script&gt;document.write("B");&lt;/script&gt; </code></pre>
  
 What is shown on the page and in which order? How does the location of the JavaScript code affect to the result?
 </p>

@@ -5,21 +5,23 @@
 <p class="exercise_text"> 
 The cottage visitors made a bet about whether they could drop their weight by 10% during seven weeks. Make a program that asks for the original weight and tells what should be the weight at the end of each week so that the general goal would be reached.
 <ul>
-<li>The idea of the code <br />
-function showWeightGoals() { <br />
-    read the original weight to a variable <br />
-    calculate how many kgs one should get lighter each week = weight * 0.1 / 7<br />
-    initialize output text variable to start from empty text: "" <br />
-    it will be used later to gather all the output lines. (String can hold also line breaks) <br />
+<li>The idea of the code
+<pre><code>
+function showWeightGoals() { 
+    // read the original weight to a variable 
+    // calculate how many kgs one should get lighter each week = weight * 0.1 / 7
+    // initialize output text variable to start from empty text: "" 
+    // it will be used later to gather all the output lines. (String can hold also line breaks) 
     
-    for (var i = 1; i &lt;= 7; i++) { <br />
-     	give the weight variable a new value which is weight after last <br />
-        measurement reduced by the how much to lose this week. <br />
-        add this week’s text + line break to the output text variable <br /> 
+    // for (var i = 1; i &lt;= 7; i++) { 
+     	// give the weight variable a new value which is weight after last
+        // measurement reduced by the how much to lose this week.
+        // add this week’s text + line break to the output text variable 
     } <br />
     
-    write the whole output text to the HTML page at once <br />
-}</li>
+    // write the whole output text to the HTML page at once 
+}</code></pre>
+</li>
 <li>Call the  showWeightGoals() function from the "Show weight goals" button’s onclick event</li>
 </ul>
 </p> 
@@ -27,7 +29,7 @@ function showWeightGoals() { <br />
 <p><img src="xc/08.05.png" class="bordered"/>
 
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/bumowa/embed?html,js,output">JS Bin</a>
 </exercise>

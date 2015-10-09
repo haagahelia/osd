@@ -6,31 +6,34 @@
 Make a program that randomizes hundred 4-digit key codes (numbers between 0-9999). Show them so that ten is shown on each row and every code is shown with four digits, e.g. 9 is shown as 0009.
 <ul>
 <li>You can use the % operator to end rows</li>
-<li>You can randomize the code with <br/>
-var codeNumber = Math.round((Math.random() * 9999) + 1);</li>
+<li>You can randomize the code with 
+<pre><code>var codeNumber = Math.round((Math.random() * 9999) + 1);</code></pre>
+</li>
 <li>With the toString() method you can convert a number to a string.</li>
 <li>The length property of the text string object tells how long is the string.</li>
 
 <li>(Spoiler warning) If you want you can use this ready-made function for randomizing the code and making it 4-digits long.  <br/>
-      function generateKeyCode(min, max) {  <br/>
-          var length;  <br/>
-        var leadingZeroCount;  <br/>
-        var keyCode = Math.round((Math.random() * max) + min);  <br/>
-          leadingZeroCount = 4 - keyCode.toString().length;  <br/>
+<pre><code>
+      function generateKeyCode(min, max) { 
+        var length; 
+        var leadingZeroCount
+        var keyCode = Math.round((Math.random() * max) + min);  
+          leadingZeroCount = 4 - keyCode.toString().length;  
 
-          for (var j = 1; j &lt;= leadingZeroCount; j++) {  <br/>
+          for (var j = 1; j &lt;= leadingZeroCount; j++) { 
               keyCode = "0" + keyCode;  <br/>
           }  <br/>
 
       return keyCode;  <br/>
-      } </li>
+      } </code></pre>
+ </li>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output for shown input:</p>
+<p class="exercise_gui_title">Sample output:</p>
 <p><img src="xc/08.07.png" class="bordered"/>
 
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/cinayi/embed?html,js,output">JS Bin</a>
 </exercise>

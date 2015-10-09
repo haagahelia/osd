@@ -13,19 +13,21 @@ Open the page <a href="http://jsbin.com" target="_blank">http://jsbin.com</a> an
  </li><li>
  If you do not have a JSBin username yet, then click on 'Login or Register' to create a username for yourself. By logging in, you can later access all your previous code that is saved on the JSBin site.
   </li><li>
-Next, you create a new Bin. Make sure that '<b>Auto-run JS</b>' is checked on the <b>Output</b> tab. In the <b>HTML</b> tab, write a new  &lt;h1&gt; header element into  &lt;body&gt; as follows:
- 
-&lt;h1 id="myTitle"&gt;Hello&lt;/h1&gt;
+Next, you create a new Bin. Make sure that '<b>Auto-run JS</b>' is checked on the <b>Output tab</b>. 
   </li><li>
-Open the <b>CSS</b> tab. In the CSS tab, write the following code to change the color of the text in the <b>myTitle</b> element:
+In the <b>HTML tab</b>, write a new  &lt;h1&gt; header element into  &lt;body&gt; as follows:
  
-<code>#myTitle {
+<pre><code>&lt;h1 id="myTitle"&gt;Hello&lt;/h1&gt;</code></pre>
+  </li><li>
+Open the <b>CSS tab</b>. In the CSS tab, write the following code to change the color of the text in the myTitle element:
+ 
+<pre><code>#myTitle {
     color: #0055AA;
-}</code>
+}</code></pre>
  </li><li>
-Open the <b>JavaScript</b> tab. In the JavaScript tab, write the following code to programmatically append more text to the <b>myTitle</b> element:
+Open the <b>JavaScript tab</b>. In the JavaScript tab, write the following code to programmatically append more text to the myTitle element:
  
-<code>document.getElementById("myTitle").innerHTML += " world!";</code>
+<pre><code>document.getElementById("myTitle").innerHTML += " world!";</code></pre>
  </li>
  </ol>
 </p>

@@ -4,18 +4,19 @@
 
 <p class="exercise_text"> 
 Make a program that calculates the annual rainfall in Helsinki and displays it on the HTML page. This is how you can create an array object of twelve monthly rainfall values:<br />
- var rainfall = [47.0, 36.6, 34.7, 37.0, 41.9, 47.5, 61.7, 74.8, 65.4, 
-                  69.7, 66.1, 54.6]; <br />
+<pre><code> var rainfall = [47.0, 36.6, 34.7, 37.0, 41.9, 47.5, 61.7, 74.8, 65.4, 69.7, 66.1, 54.6]; </code></pre>
 
-The idea of the code: <br />
-initialize the sum variable to start from 0 <br />
-for (var i = 0; i &lt; &lt;size-of-the-Array&gt;; i++) { <br />
-    sum = sum + value at the i:th index in the array <br />
-} <br />
-write the answer on the HTML page <br />
+The idea of the code:
+<pre><code>
+// initialize the sum variable to start from 0 
+for (var i = 0; i &lt; &lt;size-of-the-Array&gt;; i++) { 
+    // sum = sum + value at the i:th index in the array 
+} 
+// write the answer on the HTML page </code></pre>
 </p> 
 <p class="exercise_gui_title">Sample output:</p>
 <p><img src="xc/09.06.png" class="bordered"/>
 </p>
+<p>Submit a link to your code (myy or jsbin). </p>
 	<a class="jsbin-embed" href="http://jsbin.com/putete/embed?html,js,output">JS Bin</a>
 </exercise>

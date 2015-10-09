@@ -6,6 +6,7 @@
 In Finland only the adults (18 yrs) are allowed to play coin slot machines. Make a program that will test whether the user is old enough to play. 
 
 The idea of the code:
+<pre><code>
 function checkAge() {
     // assign the age input field value into a variable 
     if (age smaller than 18) { 
@@ -14,7 +15,7 @@ function checkAge() {
     otherwise { 
         // Write to the page: "Old enough to play."   
     } 
-} 
+} </code></pre>
 
 Call the checkAge()-function when the Check player’s age –button’s onclick event occurs.
 </p>
@@ -23,7 +24,7 @@ Call the checkAge()-function when the Check player’s age –button’s onclick
 <p><img src="xc/06.02.png" class="bordered"/>
 <img src="xc/06.02b.png" class="bordered"/>
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/mijuyu/embed?html,js,output">JS Bin</a>
 </exercise>

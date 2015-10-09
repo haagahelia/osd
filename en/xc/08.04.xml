@@ -9,15 +9,18 @@ Make a program that randomizes two dice pips (noppaluku) until both pips are the
 <li>Initialize the count variable to be zero. That variable is used to count the randomization rounds.</li>
 <li>Make a loop inside of which you randomize the two pips values until they will be the same. Use the <b>while loop</b>.</li>
 <li>You can randomize the pips by <br />
-var pips1 = Math.round((Math.random() * 5) + 1);<br />
-var pips2 = Math.round((Math.random() * 5) + 1);</li>
-<li>Idea of the code<br />
-randomize the pips once <br />
-set the count to be one (now you have randomized once) <br />
-repeat as long as (pips are not equal) { <br />
-    randomize again <br />
-    increment counter by one <br />
-} <br />
+<pre><code>
+var pips1 = Math.round((Math.random() * 5) + 1);
+var pips2 = Math.round((Math.random() * 5) + 1);</code></pre>
+</li>
+<li>Idea of the code
+<pre><code>
+// randomize the pips once 
+// set the count to be one (now you have randomized once) 
+// repeat as long as (pips are not equal) { 
+   // randomize again 
+   // increment counter by one 
+} </code></pre>
 Write the answer (including the count) to the html page with the document.write() method</li>
 </ul>
 </p> 
@@ -25,7 +28,7 @@ Write the answer (including the count) to the html page with the document.write(
 <p><img src="xc/08.04.png" class="bordered"/>
 
 </p>
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/qibaze/embed?html,js,output">JS Bin</a>
 </exercise>

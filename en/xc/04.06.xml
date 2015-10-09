@@ -22,10 +22,10 @@ In your JavaScript code, write a function called <b>goHome()</b>. When the funct
 You can get the current coordinates of the map center by calling the method earth.getCenter(). You can show the coordinates in an alert dialog box as follows: alert(earth.getCenter());
 
 You can set the map center to desired latitude / longitude position as follows:
-<code>earth.setView([41.893292620836945,12.483070431973514]); </code>
+<pre><code>earth.setView([41.893292620836945,12.483070431973514]); </code></pre>
  
 You can set the zoom level of the Earth at desired level (0-18) as follows:
-<code>earth.setZoom(13);</code>
+<pre><code>earth.setZoom(13);</code></pre>
 </p>
 <p>
 To find the latitude / longitude position of your home: scroll (zoom) and drag (location) with your mouse to view your own home on the map center and press the button "SHOW COORDS".

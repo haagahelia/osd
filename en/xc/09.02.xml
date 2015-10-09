@@ -7,12 +7,11 @@
 First, sort the given array in reverse alphabetical order (z-a). After that, write all the array element values into the browser console. Each value should be displayed on a separate line.
 </p>
 <p>The Array:</p>
-<p><code>var array = ["Milk", "Bread", "Juice", "Eggs", "Butter", "Salt", "Oranges", "Apples"];
-</code></p>
+<p><pre><code>var array = ["Milk", "Bread", "Juice", "Eggs", "Butter", "Salt", "Oranges", "Apples"];</code></pre></p>
 <p>HINTS:
 <ul>
-<li>The sort() method sorts the elements of an array in ascending order. Example:  <code>words.sort();</code> </li>
-<li>The reverse() method reverses the order of the elements in an array. Example:  <code>words.reverse().</code></li>
+<li>The sort() method sorts the elements of an array in ascending order. Example:  <pre><code>words.sort();</code></pre> </li>
+<li>The reverse() method reverses the order of the elements in an array. Example:  <pre><code>words.reverse().</code></pre></li>
 </ul>
 </p>
 

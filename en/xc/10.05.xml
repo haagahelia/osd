@@ -34,7 +34,7 @@ var courses = [
 
 
 </p> 
-
+<p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/hujozi/embed?html,js,output">JS Bin</a>
 </exercise>

@@ -10,13 +10,13 @@ To execute JavaScript code when the user clicks on the button you attach an even
 </p>
 
 <p> You can attach a JavaScript function to a button as follows:
-<code>
- &lt;button onclick="myFunction()"&gt;Click me!&lt;/button&gt;</code>
+<pre><code>
+ &lt;button onclick="myFunction()"&gt;Click me!&lt;/button&gt;</code></pre>
 Here is the code of the JavaScript function:
-<code>
+<pre><code>
 function myFunction() {
     console.log("Dude, you rock!");
-}</code>
+}</code></pre>
  </p>
 <p>Task: Add a new button tag to your HTML document. The button tag should be inside  &lt; body&gt;.
 </p>

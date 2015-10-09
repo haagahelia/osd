@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="01.03 Try JavaScript" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission"  template="xc/01.03_js.txt">
+<exercise title="01.03 Try JavaScript" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission" >
 
 <p class="exercise_text"> 
-Step 1. Create a new folder with the name oswd on the M:-drive. Then create an empty HTML page with the name first.html and save it in the folder oswd. Open the page in a web browser (Chrome).
+Step 1. Create a new folder with the name <b>oswd</b> on the M:-drive. Then create an empty HTML page with the name <b>first.html</b> and save it in the folder oswd. Open the page in a web browser (Chrome).
 </p>
 <p>
 Step 2. Add a new &lt;script&gt; element to the &lt;body&gt; element of the HTML page. Then  copy/paste the following JavaScript code to the &lt;script&gt; element:
+<pre><code>
+function repaint(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var img = new Image(180,65);
+  img.src = "http://www.haaga-helia.fi/sites/all/themes/haagahelia/images/logo.png";
+  var canvas = document.getElementById("mycanvas");
+  var ctx = canvas.getContext("2d");
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.rotate(Math.atan2(y,x));
+  ctx.drawImage(img,0,0);
+}
+
+document.body.onload = function () {
+  var canvas = document.createElement("canvas");
+  canvas.id = "mycanvas";
+  canvas.width = 600;
+  canvas.height = 600;
+  canvas.textContent = "Please, update your browser.";
+  document.body.appendChild(canvas);
+  document.body.onmousemove = repaint;
+};
+</code></pre>
 </p>
 <p>
 Step 3. Open the page again in a web browser (Chrome). Move the cursor on the page and see what happens. Finally, submit the complete source code of the HTML page.
