@@ -822,6 +822,7 @@ student.firstname; // is John</code></pre></p>
 		</section>
 		<section type="success" title="SKILLS">
         		<exercise file="xc/roundup_1.xml"/>
+        		<exercise file="xc/roundup_2.xml"/>            
 		</section>
 	</part>
 
