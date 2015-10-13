@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/course.xsl"?>
-<course logo="img/app.svg" title="Orientation to Software Development">
+<course logo="img/app.svg" title="Orientation to Software Engineering">
 
 
 	<part title="COURSE INFO" icon="off" type="default">
 		<section type="info" title="KNOWLEDGE">
-		<p>Welcome to the course Orientation to Software Production (SWD1TN001).
+		<p>Welcome to the course Orientation to Software Engineering (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
 		<p>Check out the schedule of this course and the deadlines for the exercises from the timetable page.
@@ -472,10 +472,8 @@ else {
 		<tr><td>||</td><td>  or</td></tr>
 		<tr><td>!</td><td>  not</td></tr>	
 		</table></p>
-		<subpage icon="play-circle" title="Conditional Web Application">
-			<a class="jsbin-embed" href="http://jsbin.com/jenuxa/embed?output">Example on JSBin</a>
-		</subpage>
-<bookmark title="w3schools Conditions" url="http://www.w3schools.com/js/js_if_else.asp"/>
+		<bookmark title="Conditional Web Application" url="http://jsbin.com/jenuxa/edit?js,output"/>
+		<bookmark title="w3schools Conditions" url="http://www.w3schools.com/js/js_if_else.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/06.01.xml"/>
@@ -605,11 +603,7 @@ for (var i = 0; i &lt; 10; i++) {
 }
 </code></pre></p>
 
-		<subpage icon="play-circle" title="Animation">
-			<p>With <b>setInterval</b>-function you can create animations on your web page. Executing setInterval(callbackFunction, timeout) will continue calling the given callbackFunction continuously with the given timeout.</p>
-			<br/>
-			<a class="jsbin-embed" href="http://jsbin.com/ludowo/embed?js">Example on JSBin</a>
-		</subpage>
+		<bookmark title="Animation example" url="http://jsbin.com/ludowo/edit?js,output"/>
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/08.01.xml"/>
@@ -821,6 +815,8 @@ student.firstname; // is John</code></pre></p>
 		<section type="info" title="KNOWLEDGE">
 		</section>
 		<section type="success" title="SKILLS">
+        		<exercise file="xc/roundup_1.xml"/>
+        		<exercise file="xc/roundup_2.xml"/>            
 		</section>
 	</part>
 

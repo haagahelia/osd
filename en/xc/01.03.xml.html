@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<p><button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#idm416296637536"><span class="glyphicon glyphicon-pencil" title="Exercise"/>
+		  01.03 Try JavaScript
+			  <span title="Difficulty: Easy"><span class="glyphicon glyphicon-star hide-xs"/><span class="glyphicon glyphicon-star-empty hide-xs"/><span class="glyphicon glyphicon-star-empty hide-xs"/></span>
+		 <span class="hide-xs" title="Size: S">(S)</span></button></p><div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="idm416296637536" aria-labelledby="idm416296637536"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header alert-success"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">01.03 Try JavaScript</h4></div><div class="modal-body">
+
+<p class="exercise_text"> 
+Step 1. Create a new folder with the name <b>oswd</b> on the M:-drive. Then create an empty HTML page with the name <b>first.html</b> and save it in the folder oswd. Open the page in a web browser (Chrome).
+</p>
+<p>
+Step 2. Add a new &lt;script&gt; element to the &lt;body&gt; element of the HTML page. Then  copy/paste the following JavaScript code to the &lt;script&gt; element:
+<pre><code>
+function repaint(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var img = new Image(180,65);
+  img.src = "http://www.haaga-helia.fi/sites/all/themes/haagahelia/images/logo.png";
+  var canvas = document.getElementById("mycanvas");
+  var ctx = canvas.getContext("2d");
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.rotate(Math.atan2(y,x));
+  ctx.drawImage(img,0,0);
+}
+
+document.body.onload = function () {
+  var canvas = document.createElement("canvas");
+  canvas.id = "mycanvas";
+  canvas.width = 600;
+  canvas.height = 600;
+  canvas.textContent = "Please, update your browser.";
+  document.body.appendChild(canvas);
+  document.body.onmousemove = repaint;
+};
+</code></pre>
+</p>
+<p>
+Step 3. Open the page again in a web browser (Chrome). Move the cursor on the page and see what happens. Finally, submit the complete source code of the HTML page.
+</p>
+
+
+
+
+
+	
+</div><div class="modal-footer"><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission"><span class="glyphicon glyphicon-new-window"/>  Go to Return Box</a></div></div></div></div>
