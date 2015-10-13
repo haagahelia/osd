@@ -6,7 +6,7 @@ $(function() {
 				$(this).load($(this).data("xml")+".html");
 			}
 	);
-	
+	/*
 	//we need this to make accordion open from external links
 	if (window.location.hash.indexOf("#collapse") === 0) {
 		$(window.location.hash).collapse("show");
@@ -17,7 +17,7 @@ $(function() {
 	    $iframe = $(this).find( "iframe" );
 	    $iframe.attr("src", $iframe.attr("src"));
 	}); 
-	
+	*/
 	//use bootstraps built-in event callback to scroll up to accordion header
 	$("#accordion").on("shown.bs.collapse", function () {
 	    var myEl = $(this).find('.collapse.in').prev('.panel-heading');
