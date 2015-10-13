@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/> <!-- IE spec.	x-ua-compatible -> allows users to choose what IE version should be used | content == most recent IE version | chrome=1 -> support for chromeframe plugin for ie-->
 		<meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- viewport = how the page should be showed | content -> render site as wide as browser width. allows landscape and portrait mode for mobile | initial scale=1 -> prevents content (eg. text) zoom when switching to landscape mode -->
-		<title>Orientation to Software Development</title>
+		<title>Orientation to Software Engineering</title>
 		
 		<!-- CONDITIONAL SCRIPT if <ie9 then redirect to update page -->
 		<!--[if lt IE 9]>
