@@ -5,8 +5,11 @@
 <p class="exercise_text"> 
 
 
-Make a program that asks for the user’s weight and height and calculates, and tells the body mass index class. The body mass index is BMI = weight / (height/100.0 * height/100.0).
-
+Make a program that asks for the user’s weight and height and calculates, and tells the body mass index class. </p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.05.png" class="bordered"/>
+</p>
+<p>The body mass index is BMI = weight / (height/100.0 * height/100.0).
 <table>
 <tr>
 <td>Weight less than normal weight </td><td>18,4 or less</td>
@@ -18,7 +21,10 @@ Make a program that asks for the user’s weight and height and calculates, and 
 <td>Overweight</td><td>25,0 or more</td>
 </tr>
 </table>
+</p>
 
+<p>HINTS:</p>
+<p>
 Selection structure follows this idea: 
 <pre><code>
 if (bmi &lt;= 18.4) {
@@ -30,9 +36,7 @@ if (bmi &lt;= 18.4) {
 } </code></pre>
 </p>
 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/06.05.png" class="bordered"/>
-</p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/jiyize/embed?html,js,output">JS Bin</a>

@@ -4,6 +4,12 @@
 
 <p class="exercise_text"> 
 Make a program that randomizes hundred 4-digit key codes (numbers between 0-9999). Show them so that ten is shown on each row and every code is shown with four digits, e.g. 9 is shown as 0009.
+</p>
+<p class="exercise_gui_title">Sample output:</p>
+<p><img src="xc/08.07.png" class="bordered"/>
+</p>
+<p>HINTS:</p>
+<p>
 <ul>
 <li>You can use the % operator to end rows</li>
 <li>You can randomize the code with 
@@ -29,10 +35,7 @@ Make a program that randomizes hundred 4-digit key codes (numbers between 0-9999
  </li>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output:</p>
-<p><img src="xc/08.07.png" class="bordered"/>
 
-</p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/cinayi/embed?html,js,output">JS Bin</a>

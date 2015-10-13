@@ -26,6 +26,7 @@ This is the JSON data for you to use. It represents/describes three objects insi
     "description":"CI+ module for the table televisions"
     }
 ]</code></pre>
+HINTS:
 <ul>
 <li>
 Define a function for listing.

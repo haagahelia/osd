@@ -4,6 +4,12 @@
 
 <p class="exercise_text"> 
 Make a program that calculates the gross salary based on the hours done and the hourly salary. Define a salary calculation function, which receives the hours and hourly salary as parameters and returns the gross salary. 
+</p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.05.png" class="bordered"/>
+</p>
+<p>HINTS:</p>
+<p>
 The idea of the code is this 
 <ul>
 <li>
@@ -29,9 +35,7 @@ Call the showSalary() function from the Calculate button’s onclick event.
 </li>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/07.05.png" class="bordered"/>
-</p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/kihofo/embed?html,js,output">JS Bin</a>

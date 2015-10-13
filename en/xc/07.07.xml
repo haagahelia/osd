@@ -3,7 +3,13 @@
 <exercise title="07.07 String" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397029&amp;action=editsubmission" template="xc/07.07.html">
 
 <p class="exercise_text"> 
-Make a program, that asks for a text string (line of text), and 
+Make a program, that asks for a text string (line of text), and tells information about the text string.
+</p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.07.png" class="bordered"/>
+</p>
+<p>HINTS:</p>
+<p>The program
 <ul>
 <li>shows it with "ALL CAPS" using toUpperCase() and with "all small letters" using toLowerCase(),</li> 
 <li>tells how many characters are there (length, includes also all spaces) </li>
@@ -12,9 +18,7 @@ Make a program, that asks for a text string (line of text), and
 <li>tells which ones are the first three characters using subStr().</li>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/07.07.png" class="bordered"/>
-</p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/penabe/embed?html,js,output">JS Bin</a>

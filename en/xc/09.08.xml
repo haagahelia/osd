@@ -3,7 +3,17 @@
 <exercise title="09.08 Lottery" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402567&amp;action=editsubmission" template="xc/09.08.html">
 
 <p class="exercise_text"> 
-After the successful cottage retreat people decided to make a draw (raffle/lottery, arpajaiset) for deciding who gets the remaining food. Make a program that
+After the successful cottage retreat people decided to make a draw (raffle/lottery, arpajaiset) for deciding who gets the remaining food. Make a program that asks for the name of all the attendants and randomize the winner.
+<p class="exercise_gui_title">Sample output after two names have been added:</p>
+<p><img src="xc/09.08.png" class="bordered"/>
+</p>
+
+<p class="exercise_gui_title">Sample output after several names have been added AND the draw has been made:
+<img src="xc/09.08b.png" class="bordered"/>
+</p>
+<p>
+HINTS:
+</p>
 <ol type="a">
 <li>Asks for the name of all the attendants
 <ul>
@@ -32,13 +42,7 @@ index = index + 1; </code></pre> </li>
 </li>
 </ol>
 </p> 
-<p class="exercise_gui_title">Sample output after two names have been added:</p>
-<p><img src="xc/09.08.png" class="bordered"/>
-</p>
 
-<p class="exercise_gui_title">Sample output after several names have been added AND the draw has been made
-<img src="xc/09.08b.png" class="bordered"/>
-</p>
 <p>Submit a link to your code (myy or jsbin). </p>
 	<a class="jsbin-embed" href="http://jsbin.com/baguje/embed?html,js,output">JS Bin</a>
 </exercise>

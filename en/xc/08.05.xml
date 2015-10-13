@@ -4,7 +4,14 @@
 
 <p class="exercise_text"> 
 The cottage visitors made a bet about whether they could drop their weight by 10% during seven weeks. Make a program that asks for the original weight and tells what should be the weight at the end of each week so that the general goal would be reached.
+</p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/08.05.png" class="bordered"/>
+</p>
+<p>HINTS:</p>
+<p>
 <ul>
+<li>Call the  showWeightGoals() function from the "Show weight goals" button’s onclick event</li>
 <li>The idea of the code
 <pre><code>
 function showWeightGoals() { 
@@ -22,13 +29,8 @@ function showWeightGoals() {
     // write the whole output text to the HTML page at once 
 }</code></pre>
 </li>
-<li>Call the  showWeightGoals() function from the "Show weight goals" button’s onclick event</li>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/08.05.png" class="bordered"/>
-
-</p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/bumowa/embed?html,js,output">JS Bin</a>

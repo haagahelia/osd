@@ -3,8 +3,13 @@
 <exercise title="06.03 Package Comparison" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392287&amp;action=editsubmission" template="xc/06.03.html">
 
 <p class="exercise_text"> 
-Make a program for comparing two mobile phone subscription packages. 
-The first package is an <b>all-inclusive package</b> where unlimited data, calls and text messages are covered by the monthly fee 29.90 euros. The second <b>special package</b> has unlimited data included in the monthly 19.90 euro fee but the calls are 0.069 euros per minute and text messages 0.069 euros a piece. The program asks for the amount of call time and the number of sent text messages, and tells which package would be cheaper.
+Make a program for comparing two mobile phone subscription packages. The program asks for the amount of call time and the number of sent text messages, and tells which package would be cheaper. </p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/06.03.png" class="bordered"/>
+<img src="xc/06.03b.png" class="bordered"/>
+</p>
+<p>
+The first package is an <b>all-inclusive package</b> where unlimited data, calls and text messages are covered by the monthly fee 29.90 euros. The second <b>special package</b> has unlimited data included in the monthly 19.90 euro fee but the calls are 0.069 euros per minute and text messages 0.069 euros a piece. 
 
 <table border="1">
 <tr>

@@ -5,7 +5,14 @@
 <p class="exercise_text"> 
 A construction firm is doing small repairs. Make a program for inputting the repair work details and calculating its price. The price for an hour of work is 48 during the workdays and 72 on Sundays. 
 
-Create a script file 07.10_functions.js and define there the following functions. The functions will be used later in this task.
+Create a script file <b>07.10_functions.js</b> and define there the following functions: <b>allCapsTitleTrimmed(originalText)</b> and <b>isSunday(dateText)</b> . The functions will be used in this program.
+</p>
+<p class="exercise_gui_title">Sample output for shown input:</p>
+<p><img src="xc/07.10.png" class="bordered"/>
+<img src="xc/07.10b.png" class="bordered"/>
+</p>
+<p>HINTS:</p>
+<p>
 <ul>
 <li>
 a function <b>allCapsTitleTrimmed(originalText)</b> for the Work title input field so that the function changes the title given to it to be ALL CAPS and removes any empty white space from the beginning or the end of the title. That event handler should be called when the onfocusout event occurs. The method should modify the title input field directly.</li>
@@ -20,10 +27,7 @@ a function <b>isSunday(dateText)</b>. This function gets the date text in the fo
 </ul>
 </ul>
 </p> 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/07.10.png" class="bordered"/>
-<img src="xc/07.10b.png" class="bordered"/>
-</p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	<a class="jsbin-embed" href="http://jsbin.com/lilina/embed?html,js,output">JS Bin</a>
