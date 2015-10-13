@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<p><button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#idm418579311792"><span class="glyphicon glyphicon-pencil" title="Exercise"/>
+		  04.05 DOM Manipulation
+			  <span title="Difficulty: Medium"><span class="glyphicon glyphicon-star hide-xs"/><span class="glyphicon glyphicon-star hide-xs"/><span class="glyphicon glyphicon-star-empty hide-xs"/></span>
+		 <span class="hide-xs" title="Size: S">(S)</span></button></p><div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="idm418579311792" aria-labelledby="idm418579311792"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header alert-success"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">04.05 DOM Manipulation</h4></div><div class="modal-body">
+
+
+<p> 
+<i>In this exercise, you show a new image on the HTML page when the user clicks a button.</i>
+</p>
+<p><img src="xc/04.05.png" class="bordered"/></p>
+<p>
+<ol type="1">
+<li>Add a new button tag to your HTML document. The text shown on the button should be "<b>Add image</b>". When the user clicks the button the function <b>addImg()</b> should be called.</li>
+ 
+<li> Add a &lt;div&gt; element below the button. The id of the element should be "<b>images</b>".</li>
+ 
+<li>In your JavaScript code, write a function called <b>addImg()</b>. When the function is called it should add a new Haaga-Helia logo in the images &lt;div&gt;.</li>
+</ol> 
+
+</p>
+<p><pre><code>//CREATE A NEW IMG ELEMENT AND SAVE IT TO A VARIABLE
+var img = document.createElement("img");
+//SET IMG SRC TO HH LOGO
+img.src="http://www.haaga-helia.fi/sites/all/themes/haagahelia/images/logo.png";
+//APPEND IMG ELEMENT TO THE IMAGES DIV
+document.getElementById("images").appendChild(img);</code></pre></p>
+
+ <p>
+Submit a link to your code (myy or jsbin).
+</p> 
+	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+</div><div class="modal-footer"><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://jsbin.com/?html,js,output"><span class="glyphicon glyphicon-new-window"/>  Open JSBin</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403720&amp;action=editsubmission"><span class="glyphicon glyphicon-new-window"/>  Go to Return Box</a></div></div></div></div>

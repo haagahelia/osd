@@ -1,8 +1,11 @@
 $(function() {
-	//course xslt
-	magicXML.parse();
-	//all exercises xslt
-	magicXML.parse(".exercise");
+		
+	//get prexslt exercises by xhr
+	$(".exercise").each(
+			function() {
+				$(this).load($(this).data("xml")+".html");
+			}
+	);
 	
 	//we need this to make accordion open from external links
 	if (window.location.hash.indexOf("#collapse") === 0) {

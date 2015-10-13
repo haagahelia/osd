@@ -5,14 +5,44 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/> <!-- tarvitaan ie9-ie11 renderöintiin -->
 	
 	<xsl:template match="/course">
+		<html>
+		<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/> <!-- IE spec.	x-ua-compatible -> allows users to choose what IE version should be used | content == most recent IE version | chrome=1 -> support for chromeframe plugin for ie-->
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- viewport = how the page should be showed | content -> render site as wide as browser width. allows landscape and portrait mode for mobile | initial scale=1 -> prevents content (eg. text) zoom when switching to landscape mode -->
+		<title>Orientation to Software Development</title>
+		
+		<!-- CONDITIONAL SCRIPT if <ie9 then redirect to update page -->
+		<!--[if lt IE 9]>
+		     <script type="text/javascript">          
+		     	alert("Seems your using IE8 or lower. Please upgrade to IE9 or higher.");
+				window.location.href("http://windows.microsoft.com/en-us/internet-explorer/download-ie");
+		        </script>
+		<![endif]-->
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>  
+		<link rel="stylesheet" type="text/css" href="css/prism.css"/>
+		
+		<!-- SCRIPTS -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/prism.js"></script> 
+		<script src="js/main.js"></script> 
+		</head>
+		<!-- syntax highlighting for code-blocks is javascript by default-->
+		<body class="language-javascript">
+		
+		<div id="content" class="container">
+		<!-- <span class="visible-xs">SIZE XS</span><span class="visible-sm">SIZE SM</span><span class="visible-md">SIZE MD</span><span class="visible-lg">SIZE LG</span> -->
 	 	<br/><a href="http://www.haaga-helia.fi/en"><img src="img/hh_logo_en.png" alt="HH Logo"/></a>
 		<h1><img alt="App" class="hidden-xs"><xsl:attribute name="src"><xsl:value-of select="@logo"/></xsl:attribute></img><xsl:value-of select="@title"/></h1>
-		<div class="exercise" data-xslt="foo.xsl" data-xml="foo.xml"/> <!-- TODO: why the first transformation on the second round is not done? -->
 		<div class="panel-group row" id="accordion">
 		<xsl:apply-templates/>
 		</div>
 		
-		       <!-- Sidebar -->
+		<!-- Sidebar -->
         <div id="sidebar" class="hidden-xs hidden-sm hidden-md">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
@@ -32,6 +62,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				   </xsl:for-each>
             </ul><!-- /sidebar-nav -->
         </div> <!-- /#sidebar -->
+        </div>
+		</body>
+		
+		</html>
 	</xsl:template>
 	
 	<xsl:template match="part">

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<p><button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#idm517246119088"><span class="glyphicon glyphicon-pencil" title="Exercise"/>
+		  10.06 Products
+			  <span title="Difficulty: Medium"><span class="glyphicon glyphicon-star hide-xs"/><span class="glyphicon glyphicon-star hide-xs"/><span class="glyphicon glyphicon-star-empty hide-xs"/></span>
+		 <span class="hide-xs" title="Size: M">(M)</span></button></p><div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="idm517246119088" aria-labelledby="idm517246119088"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header alert-success"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">10.06 Products</h4></div><div class="modal-body">
+
+<p> 
+
+Make a program that lists the product information. Products are found in the JSON data. 
+<img src="xc/10.06.png" class="bordered"/>
+This is the JSON data for you to use. It represents/describes three objects inside of one array object:
+<pre><code>[ {
+    "number"     :1, 
+    "name"       :"Samsung Smart LED-TV", 
+    "price"      :449.00, 
+    "description":"HD-digi ready"
+    },
+    {
+    "number"     :2, 
+    "name"       :"Samsung 2.1 SoundBar Home Theater", 
+    "price"      :198.00, 
+    "description":"Connect to TV and stream music wireless"
+    },
+    {
+    "number"     :3, 
+    "name"       :"Dilog CI+/CA module for pay-tv-cards", 
+    "price"      :63.90, 
+    "description":"CI+ module for the table televisions"
+    }
+]</code></pre>
+<ul>
+<li>
+Define a function for listing.
+<pre><code>
+// JSON format data into an array object:
+
+var jsonText = &lt;&lt;&lt;&lt;JSON text from above&gt;&gt;&gt;&gt;;
+
+function listProducts() {
+  // Parse the JSON text into Javascript objects (1 array, 3 ‘product’ objects)
+  var productArray = JSON.parse(jsonText);
+  var i;
+  var outputText = "";
+  // Handle the product objects from the array. Use i to index the array.
+  for (i = 0; i &lt; productArray.length; i++) {
+    // INSERT YOUR CODE HERE !!!
+  }
+
+ // Write the output text to the web page (=to the DOM that browser then shows) 
+}</code></pre>
+</li><li>
+JSON.parse() method can be used to convert JSON text into JavaScript objects, like array and the object it contains.
+</li><li>
+Array is gone through with a for loop.
+</li><li>
+You refer a) to the whole array like this: productArray , productArray.length<br/> b)
+to objects in the array like this: productArray[i]    (first item: productArray[0] ) <br/> c)
+to properties of objects like this  productArray[i].number, productArray[i].price
+</li>
+</ul>
+
+
+</p> 
+<p>Submit a link to your code (myy or jsbin). </p>
+
+	<a class="jsbin-embed" href="http://jsbin.com/bawaca/embed?html,js,output">JS Bin</a>
+</div><div class="modal-footer"><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="xc/10.06.html"><span class="glyphicon glyphicon-new-window"/>  Download Template Code</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://jsbin.com/bawaca/embed?html,js,output"><span class="glyphicon glyphicon-new-window"/>  Open JSBin</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405672&amp;action=editsubmission"><span class="glyphicon glyphicon-new-window"/>  Go to Return Box</a></div></div></div></div>
