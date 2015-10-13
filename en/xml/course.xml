@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/course.xsl"?>
-<course logo="img/app.svg" title="Orientation to Software Development">
+<course logo="img/app.svg" title="Orientation to Software Engineering">
 
 
 	<part title="COURSE INFO" icon="off" type="default">
 		<section type="info" title="KNOWLEDGE">
-		<p>Welcome to the course Orientation to Software Production (SWD1TN001).
+		<p>Welcome to the course Orientation to Software Engineering (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
 		<p>Check out the schedule of this course and the deadlines for the exercises from the timetable page.
