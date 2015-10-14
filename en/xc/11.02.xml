@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="11.02 Design" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405733&amp;action=editsubmission" >
-
-<p> 
-Write your own answer based on your own perception, possible experience and the material that you 
-
-will find. Use concrete examples and speculate on a known application. Length: aprx. 200 words.
-</p><p>
-<b>How is an application designed? <br/>What kind of documents should be produced?</b>
-</p>
-
+<exercise title="11.02 Design" difficulty="medium" size="M"
+	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405733&amp;action=editsubmission">
+	<p>
+		How is an application designed?
+		<br />
+		What kind of documents should be produced?
+	</p>
+	<p>
+		Write your own answer based on your own perception, possible experience and
+		the material that you will find. Use concrete examples and speculate on a known application.
+		Length: aprx. 200 words.
+	</p>
+	<p>Submit your answer.</p>
 </exercise>

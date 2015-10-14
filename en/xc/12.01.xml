@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="12.01 Waterwall" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405869&amp;action=editsubmission" >
+<exercise title="12.01 Waterwall" difficulty="medium" size="M"
+	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405869&amp;action=editsubmission">
 
-<p> 
-  <img src="xc/12.01.png" class="bordered"/>
- Source: <a href="https://commons.wikimedia.org/wiki/File:Waterfall_model_%281%29.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Waterfall_model_%281%29.svg</a>
-</p>
-<p>
-Write your own answer based on your own perception, possible experience and the material that you 
-
-will find. Use concrete examples and speculate on a known application. Length: aprx. 200 words.
-</p><p>
-<b>What is a waterfall model (vesiputousmalli)?</b>
-</p>
-
+	<p>
+		What is a waterfall model (vesiputousmalli)?
+	</p>
+	<p>
+		<img src="xc/12.01.png" class="bordered" />
+		Source:
+		<a
+			href="https://commons.wikimedia.org/wiki/File:Waterfall_model_%281%29.svg"
+			target="_blank">https://commons.wikimedia.org/wiki/File:Waterfall_model_%281%29.svg
+		</a>
+	</p>
+	<p>
+		Write your own answer based on your own perception, possible experience and
+		the material that you will find. Length: aprx. 200 words.
+	</p>
+	<p>Submit your answer.</p>
 </exercise>

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="11.03 Implementation" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405736&amp;action=editsubmission" >
+<exercise title="11.03 Implementation" difficulty="medium"
+	size="M"
+	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405736&amp;action=editsubmission">
 
-<p> 
-Write your own answer based on your own perception, possible experience and the material that you 
-
-will find. Use concrete examples and speculate on a known application. Length: aprx. 200 words.
-</p><p>
-<b>How is working software implemented?<br/> What kind of tools and technologies can be used?</b>
-</p>
-
+	<p>
+		How is working software implemented?
+		<br />
+		What kind of tools and technologies can be used?
+	</p>
+	<p>
+		Write your own answer based on your own perception, possible experience and
+		the material that you will find. Use concrete examples and speculate on a known application.
+		Length: aprx. 200 words.
+	</p>
+	<p>Submit your answer.</p>
 </exercise>

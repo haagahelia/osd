@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="01.02 Programming Languages" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399429&amp;action=editsubmission" >
+<exercise title="01.02 Programming Languages" difficulty="easy"
+	size="S"
+	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399429&amp;action=editsubmission">
 
-<p class="exercise_text"> 
-Search information about different programming languages. Create a list of 10 programming languages. 
-Which 3 programming languages you want to learn first? Mark those 3 languages with an asterisk in the list.
-Finally, submit the list.
-</p>
-
-
-
-
-
-	
+	<p>
+		Search information about different programming languages. Create a list of
+		10 programming languages.
+		Which 3 programming languages you want to learn first? Mark those 3
+		languages with an asterisk in the list.
+	</p>
+	<p>Finally, submit the list.
+	</p>
 </exercise>
