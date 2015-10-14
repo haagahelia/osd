@@ -38,6 +38,11 @@ $(function() {
 		$('.panel-collapse.in').collapse('hide');
 	});
 	
+	//when accordion panel is about to be opened, close all open panels.
+    $(".collapse").on('show.bs.collapse', function(){
+		$('.panel-collapse.in').collapse('hide');
+    });
+    
 	/*//close all accordions
 	$('.closeall').click(function(){
 		  $('.panel-collapse.in')
