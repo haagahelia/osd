@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.08 Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/07.08.html">
+<exercise id="E0708" title="07.08 Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/07.08.html">
 
 <p class="exercise_text"> 
 Make a program, that asks for the identity number (Finnish 'hetu', 11 characters) and tells, whether the person is male or female. The second last character of the identity number tells the gender: even digit/number means woman, odd number man.

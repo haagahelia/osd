@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="05.09 Summer Cottage" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=382335&amp;action=editsubmission" template="xc/05.09.html">
+<exercise id="E0509" title="05.09 Summer Cottage" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=382335&amp;action=editsubmission" template="xc/05.09.html">
 
 <p>A group of people goes to a summer cottage for one weekend. The program asks for the total rent and number of participants and then calculates the cost per person.
 </p>

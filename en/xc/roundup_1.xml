@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="Roundup exercise 1" difficulty="medium" size="M" returnbox="http://www.google.com">
+<exercise id="E1301" title="Roundup exercise 1" difficulty="medium" size="M" returnbox="http://www.google.com">
 <h2>Temperature Conversion</h2>
     <p>Write a JavaScript program that converts given temperature to  Fahrenheit or Celsius degrees.</p>
    

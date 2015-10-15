@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="06.07 Study Grant" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392420&amp;action=editsubmission" template="xc/06.07.html">
+<exercise id="E0607" title="06.07 Study Grant" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392420&amp;action=editsubmission" template="xc/06.07.html">
 
 <p><i> 
 Finnish students receive study grant and additional housing supplement (opintoraha+asumislisa) from government organization Kela.</i></p>

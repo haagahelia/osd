@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="08.03 While Loop" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403406&amp;action=editsubmission">
+<exercise id="E0803" title="08.03 While Loop" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403406&amp;action=editsubmission">
 
 <p> 
 <i>A dialog box is a small temporary window an application creates to display information or request user input. Modal dialog boxes temporarily halt the program until the user closes the dialog. Modal dialog boxes are created, perform their task, and are destroyed by calling a single function</i>

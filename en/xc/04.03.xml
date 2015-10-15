@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="04.03 Event Listener" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403698&amp;action=editsubmission">
+<exercise id="E0403" title="04.03 Event Listener" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403698&amp;action=editsubmission">
 
 
 <p> 

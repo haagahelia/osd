@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="11.01 Requirements analysis" difficulty="medium"
+<exercise id="E1101" title="11.01 Requirements analysis" difficulty="medium"
 	size="M"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405731&amp;action=editsubmission">
 	<p>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="05.10 Car Share" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=389131&amp;action=editsubmission" template="xc/05.10.html">
+<exercise id="E0510" title="05.10 Car Share" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=389131&amp;action=editsubmission" template="xc/05.10.html">
 
 <p class="exercise_text">The group went to the summer cottage sharing a car. Make a program that calculates the fuel costs per person. The program asks for driven kilometers, fuel consumption per 100 km, price per litre and participant count.
 For example if the group drove 700 km, fuel consumption was 5.1 litre per 100 km, price was 1.399 euros per litre and participant count was 5, then every participant paid 9.56 euros (5.1/100.0*1.339*700/5).

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.09 Age" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397821&amp;action=editsubmission" template="xc/07.09.html">
+<exercise id="E0709" title="07.09 Age" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397821&amp;action=editsubmission" template="xc/07.09.html">
 
 <p class="exercise_text"> 
 Make a program that asks for the year of birth and then tells the age accordingly. 

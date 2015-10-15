@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="10.05 Courses" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405650&amp;action=editsubmission" template="xc/10.05.html">
+<exercise id="E1005" title="10.05 Courses" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405650&amp;action=editsubmission" template="xc/10.05.html">
 
 <p> 
 Make a program that lists courses from an object array (specified with JSON notation) like this:

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="03.01 Log in to Linux Environment" difficulty="easy"
+<exercise id="E0301" title="03.01 Log in to Linux Environment" difficulty="easy"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400448&amp;action=editsubmission">
 

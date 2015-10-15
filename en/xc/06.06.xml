@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="06.06 Conditions" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399391&amp;amp;action=editsubmission" >
+<exercise id="E0606" title="06.06 Conditions" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399391&amp;amp;action=editsubmission" >
 
 <p class="exercise_text"> 
 When are the following conditions evaluated as true?

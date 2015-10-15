@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="09.04 Minigolf" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400643&amp;action=editsubmission" template="xc/09.04.html">
+<exercise id="E0904" title="09.04 Minigolf" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400643&amp;action=editsubmission" template="xc/09.04.html">
 
 <p class="exercise_text"> 
 The cottage guests were playing minigolf. Make a program that that tells the smallest (winner) and biggest (last one) results.The results for the eight players are in the array below: 

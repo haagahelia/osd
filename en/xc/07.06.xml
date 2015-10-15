@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.06 Doctor's Visit" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396936&amp;action=editsubmission" template="xc/07.06.html">
+<exercise id="E0706" title="07.06 Doctor's Visit" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396936&amp;action=editsubmission" template="xc/07.06.html">
 
 <p class="exercise_text"> 
 One of the cottage retreat participants is hurt and needs to visit a private doctor. Kela pays back some part of the private medical treatment, e.g. of the doctor’s fee. Make a program that, 

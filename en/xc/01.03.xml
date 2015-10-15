@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="01.03 Try JavaScript" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission" >
+<exercise id="E0103" title="01.03 Try JavaScript" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399436&amp;action=editsubmission" >
 
 <p class="exercise_text"> 
 Step 1. Create a new folder with the name <b>oswd</b> on the M:-drive. Then create an empty HTML page with the name <b>first.html</b> and save it in the folder oswd. Open the page in a web browser (Chrome).

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.01 Function Call" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403295&amp;action=editsubmission" template="xc/07.01.html">
+<exercise id="E0701" title="07.01 Function Call" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403295&amp;action=editsubmission" template="xc/07.01.html">
 
 <p> 
 <i>First, we try out a simple function call.</i>

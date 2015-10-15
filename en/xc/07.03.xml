@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.03 Function Call with Parameters" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403323&amp;action=editsubmission" template="xc/07.03.html">
+<exercise id="E0703" title="07.03 Function Call with Parameters" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403323&amp;action=editsubmission" template="xc/07.03.html">
 
 <p> 
 <i>There are also such functions that accept one or more input parameters. You can result of the function execution by passing  different input data to the function.</i>

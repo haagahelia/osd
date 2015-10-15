@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="Roundup exercise 2" difficulty="medium" size="S" returnbox="http://www.google.com">
+<exercise id="E1302" title="Roundup exercise 2" difficulty="medium" size="S" returnbox="http://www.google.com">
 <h2>Current date</h2>
     <p>Write a JavaScript program that shows current date and time in given example format.</p>
     <br/>

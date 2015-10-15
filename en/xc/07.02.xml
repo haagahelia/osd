@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="07.02 Return Value" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403306&amp;action=editsubmission" >
+<exercise id="E0702" title="07.02 Return Value" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403306&amp;action=editsubmission" >
 
 <p> 
 <i>A function can also return a value. For example, you can assign the return value to a variable.</i>

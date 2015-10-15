@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="06.01 Agent's Fee" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=389263&amp;action=editsubmission" template="xc/06.01.html">
+<exercise id="E0601" title="06.01 Agent's Fee" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=389263&amp;action=editsubmission" template="xc/06.01.html">
 
 <p class="exercise_text">Make a program that asks the selling price of the apartment and calculates the fee of the real estate agent. 
 The fee is 3.44% selling price but always at least 2 400 euros. For example, if the price is 120 000 euros then the fee is 4 128 euros (as that is above the 2 400 minimum fee). If the selling price would be 50 000, then the fee would be 2 400 euros.

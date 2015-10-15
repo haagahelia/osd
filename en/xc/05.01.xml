@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="05.01 Sum of Two Numbers" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403441&amp;action=editsubmission">
+<exercise id="E0501" title="05.01 Sum of Two Numbers" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403441&amp;action=editsubmission">
 
 
 <p> 

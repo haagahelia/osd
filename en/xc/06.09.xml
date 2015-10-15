@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise title="06.09 Infraction Fine" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392687&amp;action=editsubmission" template="xc/06.09.html">
+<exercise id="E0609" title="06.09 Infraction Fine" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392687&amp;action=editsubmission" template="xc/06.09.html">
 
 <p class="exercise_text"> 
 If a car driver speeds no more than 20 km/h over the speed limit, the driver will avoid the income-based unit fines (päiväsakot), and gets just the infraction fine (rikesakko). Make a program that tells how much the infraction fine is. It’s based on the speed limit and the excess speed. The program asks for the driving speed and the speed limit. If there is speeding the ticket will be decided upon based on the following rules:
