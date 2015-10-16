@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.08" title="Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/07.08.html">
+<exercise id="13.03" title="Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/13.03.html">
 
 <p class="exercise_text"> 
 Make a program, that asks for the identity number (Finnish 'hetu', 11 characters) and tells, whether the person is male or female. The second last character of the identity number tells the gender: even digit/number means woman, odd number man.
 Program also tells the date of birth in the format of dd.mm.yyyy.
 </p>
 <p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/07.08.png" class="bordered"/> </p>
+<p><img src="xc/13.03.png" class="bordered"/> </p>
 <p>HINTS:</p>
 <p>
 <ul>
@@ -30,8 +30,8 @@ Program also tells the date of birth in the format of dd.mm.yyyy.
 </p> 
 <p class="exercise_gui_title">Sample output for shown input:</p>
 <p>
-<img src="xc/07.08b.png" class="bordered"/>
-<img src="xc/07.08c.png" class="bordered"/>
+<img src="xc/13.03b.png" class="bordered"/>
+<img src="xc/13.03c.png" class="bordered"/>
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 

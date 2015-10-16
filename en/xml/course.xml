@@ -544,7 +544,6 @@ You can reuse code by defining the code once, and use it many times. You can use
 			<exercise file="xc/07.05.xml"/>
 			<exercise file="xc/07.06.xml"/>
 			<exercise file="xc/07.07.xml"/>
-			<exercise file="xc/07.08.xml"/>
 			<exercise file="xc/07.09.xml"/>
 			<exercise file="xc/07.10.xml"/>
 		</section>
@@ -816,7 +815,9 @@ student.firstname; // is John</code></pre></p>
 		</section>
 		<section type="success" title="SKILLS">
         		<exercise file="xc/13.01.xml"/>
-        		<exercise file="xc/13.02.xml"/>            
+        		<exercise file="xc/13.02.xml"/> 
+        		<exercise file="xc/13.03.xml"/>
+        		<exercise file="xc/13.04.xml"/>             
 		</section>
 	</part>
 
