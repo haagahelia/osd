@@ -44,7 +44,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     				</xsl:when>
   				</xsl:choose>                   
                 <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute><span class="glyphicon glyphicon-check"/>&#xA0;&#xA0;Return your solution at Moodle</a>
-                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@id"/>.xml.standalone.html</xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Open assignment in a new window</a>
          </body>
 		</html>
 	</xsl:template>
