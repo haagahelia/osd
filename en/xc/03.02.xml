@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0302" title="03.02 Use Text Editor" difficulty="easy" size="S"
+<exercise id="03.02" title="Use Text Editor" difficulty="easy" size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400449&amp;action=editsubmission">
 
 	<p>

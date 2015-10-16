@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0705" title="07.05 Gross Salary" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396505&amp;action=editsubmission" template="xc/07.05.html">
+<exercise id="07.05" title="Gross Salary" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396505&amp;action=editsubmission" template="xc/07.05.html">
 
 <p class="exercise_text"> 
 Make a program that calculates the gross salary based on the hours done and the hourly salary. Define a salary calculation function, which receives the hours and hourly salary as parameters and returns the gross salary. 

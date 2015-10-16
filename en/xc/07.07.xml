@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0707" title="07.07 String" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397029&amp;action=editsubmission" template="xc/07.07.html">
+<exercise id="07.07" title="String" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397029&amp;action=editsubmission" template="xc/07.07.html">
 
 <p class="exercise_text"> 
 Make a program, that asks for a text string (line of text), and tells information about the text string.

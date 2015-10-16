@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise id="13.02" title="Roundup exercise 2" difficulty="medium" size="S" returnbox="http://www.google.com">
+<h2>Current date</h2>
+    <p>Write a JavaScript program that shows current date and time in given example format.</p>
+    <br/>
+    <p><a href="http://www.w3schools.com/js/js_dates.asp">JavaScript Date in W3School</a></p>
+    <p><br/>Example format:<br/><img src="xc/13.02.png" class="bordered"/></p>  
+</exercise>

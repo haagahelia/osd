@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0801" title="08.01 Simple For Loop" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403396&amp;action=editsubmission">
+<exercise id="08.01" title="Simple For Loop" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403396&amp;action=editsubmission">
 
 <p> 
 Write a for loop that writes all integers between 0 and 100 into the browser console.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0704" title="07.04 Parameters and Return Value" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403373&amp;action=editsubmission" template="xc/07.04.html">
+<exercise id="07.04" title="Parameters and Return Value" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403373&amp;action=editsubmission" template="xc/07.04.html">
 
 <p> 
 <i>The same function can accept input parameters and return a value.</i>

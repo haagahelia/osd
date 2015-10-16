@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0805" title="08.05 Weight" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398146&amp;action=editsubmission" template="xc/08.05.html">
+<exercise id="08.05" title="Weight" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398146&amp;action=editsubmission" template="xc/08.05.html">
 
 <p class="exercise_text"> 
 The cottage visitors made a bet about whether they could drop their weight by 10% during seven weeks. Make a program that asks for the original weight and tells what should be the weight at the end of each week so that the general goal would be reached.

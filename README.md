@@ -2,14 +2,8 @@
 
 branch gh-pages is live @ http://haagahelia.github.io/oswd/en :)
 
-Remember to run XSLT after modifying XML or XSL. There are two options to run: 
-#### xslt.sh (OSX or Linux)
-```sh
-#USAGE
-cd en
-./xslt.sh
-```
-#### xslt.jar (all OS)
+Remember to run XSLT after modifying XML or XSL.
+#### xslt.jar
 ```sh
 #USAGE
 cd en

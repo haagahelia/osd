@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0504" title="05.04 String Concatenation" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403581&amp;action=editsubmission">
+<exercise id="05.04" title="String Concatenation" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403581&amp;action=editsubmission">
 
 
 <p> 

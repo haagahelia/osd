@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E1204" title="12.04 Kanban" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=406038&amp;action=editsubmission" >
+<exercise id="12.04" title="Kanban" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=406038&amp;action=editsubmission" >
 <p>
 What is Kanban?
 </p>

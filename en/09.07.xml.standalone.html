@@ -1,0 +1,93 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Images</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/prism.css">
+<script src="js/jquery-1.11.3.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/prism.js"></script>
+</head>
+<body class="language-javascript">
+<p>
+<button type="button" class="btn btn-success col-xs-12 col-sm-6" data-toggle="modal" data-target="#E0907"><span class="glyphicon glyphicon-pencil" title="Exercise"></span>
+		&nbsp;&nbsp;09.07&nbsp;Images
+			&nbsp;&nbsp;<span title="Difficulty: Hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
+		&nbsp;<span class="hide-xs" title="Size: M">(M)</span></button>
+</p>
+<div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true" id="E0907" aria-labelledby="E0907">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header alert-success">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title">09.07&nbsp;Images</h4>
+</div>
+<div class="modal-body">
+
+
+<p> 
+Make a program, that shows all the images in the array.
+</p>
+
+<p class="exercise_gui_title">Sample output:</p>
+
+<p>
+<img class="bordered" src="xc/09.07.png">
+</p>
+
+<p>
+The (text) array is  <br>
+
+<pre>
+<code>var imageNames = ["face.png", "heart.png", "sun.png", "moon.png", "cloud.png"];  </code>
+</pre>
+The ready-made images files are at <a href="https://myy.haaga-helia.fi/~swd1ta001/kuvat" target="">https://myy.haaga-helia.fi/~swd1ta001/kuvat/</a>.
+Save the images in the same folder as the html page that contains the JavaScript. You may also add you own image files as long as you also add the file name to the name array.
+</p>
+
+<p>
+HINTS:</p>
+
+<p>
+Use a for loop to show all the images. <br>
+Use the document.write() method to write one new image element to the web page per each image. 
+
+<pre>
+<code>&lt;body&gt;
+   &lt;script type="text/javascript"&gt;
+      for (var i = 0; i &lt; imageNames.length; i++) { 
+           // Write here one more image element on the page 
+      }
+   &lt;/script&gt;
+&lt;/body&gt; </code>
+</pre>
+The image element should be like
+
+<pre>
+<code>&lt;img src='name-of-the-image-file' alt='Funny shape'&gt;. </code>
+</pre>
+E.g. <br>
+
+<pre>
+<code>&lt;img src='face.png' alt='Funny shape'&gt; </code>
+</pre>
+
+
+</p> 
+
+
+<p>Submit a link to your code (myy or jsbin). </p>
+	
+<a class="jsbin-embed" href="http://jsbin.com/havoziw/embed?html,js,output">JS Bin</a>
+
+</div>
+<div class="modal-footer">
+<a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="xc/09.07.html"><span class="glyphicon glyphicon-new-window"></span>&nbsp;&nbsp;Template Code</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://jsbin.com/havoziw/embed?html,js,output"><span class="glyphicon glyphicon-new-window"></span>&nbsp;&nbsp;Online Editor</a><a target="_blank" class="btn btn-success col-xs-12 col-sm-4" href="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402511&amp;action=editsubmission"><span class="glyphicon glyphicon-new-window"></span>&nbsp;&nbsp;Return Box</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

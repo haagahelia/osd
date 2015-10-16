@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0102" title="01.02 Programming Languages" difficulty="easy"
+<exercise id="01.02" title="Programming Languages" difficulty="easy"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399429&amp;action=editsubmission">
 

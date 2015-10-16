@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E1103" title="11.03 Implementation" difficulty="medium"
+<exercise id="11.03" title="Implementation" difficulty="medium"
 	size="M"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405736&amp;action=editsubmission">
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0906" title="09.06 Rainfall" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402290&amp;action=editsubmission" template="xc/09.06.html">
+<exercise id="09.06" title="Rainfall" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402290&amp;action=editsubmission" template="xc/09.06.html">
 
 <p class="exercise_text"> 
 Make a program that calculates the annual rainfall in Helsinki and displays it on the HTML page. 

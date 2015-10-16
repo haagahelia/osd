@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0602" title="06.02 Player's Age" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=391133&amp;action=editsubmission" template="xc/06.02.html">
+<exercise id="06.02" title="Player's Age" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=391133&amp;action=editsubmission" template="xc/06.02.html">
 
 <p class="exercise_text"> 
 In Finland only the adults (18 yrs) are allowed to play coin slot machines. Make a program that will test whether the user is old enough to play. 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise id="13.01" title="Roundup exercise 1" difficulty="medium" size="M" returnbox="http://www.google.com">
+<h2>Temperature Conversion</h2>
+    <p>Write a JavaScript program that converts given temperature to  Fahrenheit or Celsius degrees.</p>
+   
+    <p><br/>The formulas for conversion:
+        <br/>°C = (°F - 32) * 5 / 9<br/>
+        °F = (°C * 1.8) + 32</p>
+    <br/>
+    <p><img src="xc/13.01.png" class="bordered"/></p>
+</exercise>

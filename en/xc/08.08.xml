@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0808" title="08.08 Game" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399368&amp;action=editsubmission" template="xc/08.08.html">
+<exercise id="08.08" title="Game" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399368&amp;action=editsubmission" template="xc/08.08.html">
 
 <p class="exercise_text"> 
 In a coin slot machine (One-handed robber) a game returns pay (money won) according to the following rules:

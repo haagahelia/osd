@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0908" title="09.08 Lottery" difficulty="hard" size="L"
+<exercise id="09.08" title="Lottery" difficulty="hard" size="L"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402567&amp;action=editsubmission"
 	template="xc/09.08.html">
 

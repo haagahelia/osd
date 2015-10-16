@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0807" title="08.07 Key Codes" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398193&amp;action=editsubmission" template="xc/08.07.html">
+<exercise id="08.07" title="Key Codes" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398193&amp;action=editsubmission" template="xc/08.07.html">
 
 <p class="exercise_text"> 
 Make a program that randomizes hundred 4-digit key codes (numbers between 0-9999). Show them so that ten is shown on each row and every code is shown with four digits, e.g. 9 is shown as 0009.

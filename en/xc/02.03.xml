@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="E0203" title="02.03 BMI using Blocklies" difficulty="medium" size="XL" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400426&amp;action=editsubmission">
+<exercise id="02.03" title="BMI using Blocklies" difficulty="medium" size="XL" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400426&amp;action=editsubmission">
 
 <p class="exercise_text"> 
 Please create a Body Mass Index (BMI) calculator using Blocklies. The BM-index is calculated with the formula: BMI = weight in kilograms / (height in meters * height in meters). So e.g. if you weigh 70 kilograms and you are 1.8 meters tall, then your BMI is 70 / (1.8 * 1.8) = 22</p>
