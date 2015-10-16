@@ -157,7 +157,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:template match="exercise">
 	<div>
-		 <div class="exercise" data-xslt="xsl/exercise.xsl">
+		 <div class="exercise">
 		 <xsl:attribute name="data-xml">
 			<xsl:value-of select="@file"/>
 		</xsl:attribute>

@@ -12,13 +12,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		&#xA0;&#xA0;<xsl:value-of select="@id"/>&#xA0;<xsl:value-of select="@title"/>
 		<xsl:choose>
 			<xsl:when test="@difficulty = 'easy'">
-			&#xA0;&#xA0;<span title="Difficulty: Easy"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: easy"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'medium'">
-			&#xA0;&#xA0;<span title="Difficulty: Medium"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: medium"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'hard'">
-			&#xA0;&#xA0;<span title="Difficulty: Hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
+			&#xA0;&#xA0;<span title="Difficulty: hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
 			</xsl:when>
 			<xsl:otherwise>
 			&#xA0;&#xA0;<span title="Difficulty: Adjustable"><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span></span>
@@ -41,16 +41,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <div class="modal-footer">
                   <xsl:choose>
     				<xsl:when test="@template">
- 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@template"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Template Code</a>
+ 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@template"/></xsl:attribute><span class="glyphicon glyphicon-download"/>&#xA0;&#xA0;Download Template Code</a>
     				</xsl:when>
   				  </xsl:choose> 
                  <xsl:choose>
     				<xsl:when test="a/@href and a/@class ='jsbin-embed'">
- 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="a/@href"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Online Editor</a>
+ 						<a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="a/@href"/></xsl:attribute><span class="glyphicon glyphicon-edit"/>&#xA0;&#xA0;Start editing in JSBin</a>
     				</xsl:when>
   				</xsl:choose>                   
-                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Return Box</a>
-                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@id"/>.xml.standalone.html</xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Pop this up</a>
+                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@returnbox"/></xsl:attribute><span class="glyphicon glyphicon-check"/>&#xA0;&#xA0;Return your solution at Moodle</a>
+                <a target="_blank" class="btn btn-success col-xs-12 col-sm-4"><xsl:attribute name="href"><xsl:value-of select="@id"/>.xml.standalone.html</xsl:attribute><span class="glyphicon glyphicon-new-window"/>&#xA0;&#xA0;Open assignment in a new window</a>
                 </div>
               </div>
             </div>
