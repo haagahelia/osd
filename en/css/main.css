@@ -42,21 +42,24 @@ h2, h3, h4, h5{
 ol{
 	padding:2%;
 	}
-/* Misc */
+/* BUTTONS */
 .btn,
 .exercise .modal .btn{
 	max-width:100%;
 	width:auto;
 	text-align:left;	
 	margin:2%;
+	white-space:normal; /*prevent glyphicon overflow in FF*/
 	}
 .exercise .btn{
-	white-space:nowrap;
-	overflow:hidden;
-	text-overflow: ellipsis; !important;
-	width:46%;	
-	margin:1,5%;
+	width:98%;	
+	margin:2%;
 	}
+.exercise .btn .glyphicon-star,
+.exercise .btn .glyphicon-star-empty{
+	float:right;
+	}
+/* MISC */
 p img{
 	max-width:100%;
 	height:auto;
