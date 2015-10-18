@@ -36,7 +36,8 @@ h2, h3, h4, h5{
 .panel-title{
 	text-align:left;
 	}
-.container{
+.container,
+.container-fluid{
 	font-size: 1.4em;
 	}
 ol{
@@ -162,7 +163,8 @@ h1{
 h2, h3, h4, h5{
 	font-size: 1.6em;
 	}
-.container{
+.container,
+.container-fluid{
 	font-size: 1.2em;
 	}
 }
@@ -176,7 +178,8 @@ h2, h3, h4, h5{
 h2, h3, h4, h5{
 	font-size: 1.7em;
 	}
-.container{
+.container,
+.container-fluid{
 	font-size: 1.3em;
 	}
 /*Buttoneille asetetaan whitespace normal -> Jakautuu kahdelle riville */
@@ -208,9 +211,11 @@ h2, h3, h4, h5{
 	font-size: 2em;
 	}
 .container{
-	font-size: 1.6em;
 	max-width: 760px;
 	}
+.container-fluid{
+	font-size: 1.6em;
+}
 .modal.modal-wide .modal-dialog {
   	width: 75%; /* modal takes 75% of page-width until max-width; */
   	margin: 0 auto;

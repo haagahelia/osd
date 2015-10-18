@@ -25,7 +25,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<!-- <script src="js/main.js"></script> --> 
 		</head>
 		<!-- syntax highlighting for code-blocks is javascript by default-->
-		<body class="language-javascript" style="margin: 10px">
+		<body class="language-javascript container-fluid">
 		          <h1><xsl:value-of select="@id"/>&#xA0;<xsl:value-of select="@title"/></h1>
 		          <p><b>Difficulty: <xsl:value-of select="@difficulty"/><br/>
 		          Size: <xsl:value-of select="@size"/></b></p>
