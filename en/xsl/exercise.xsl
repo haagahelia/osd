@@ -36,6 +36,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <div class="modal-header alert-success">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
                   <h4 class="modal-title"><xsl:value-of select="@id"/>&#xA0;<xsl:value-of select="@title"/></h4>
+                  <p>Difficulty: <xsl:value-of select="@difficulty"/><br/>
+		          Size: <xsl:value-of select="@size"/></p>
                 </div>
                 <div class="modal-body">
                   <xsl:copy-of select="node()"/>
