@@ -69,6 +69,9 @@
 				<li>Lorem ipsum dolor sit amet</li>
 			</ul>
 		</subpage>
+		<subpage icon="envelope" title="Feedback">
+			<iframe src="https://docs.google.com/forms/d/1rdmDV-AsfMniQiKceC3seCKloT7-yuOUDeI2EBtEYRs/viewform?embedded=true" width="450" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</subpage>
 		</section>
 		<section type="info" title="CHECKPOINT">
 			<badgeImg><img src="img/badge00.png" alt="Badge 0" class="badgeicon"/></badgeImg>
