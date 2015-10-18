@@ -8,28 +8,47 @@
 		<p>Welcome to the course Orientation to Software Engineering (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
-		<p>Check out the schedule of this course and the deadlines for the exercises from the timetable page.
-		More information is also provided about the course facilities, such as lectures, exercise sessions and the learning material.
+		<p>Check out the schedule of this course including lectures and lab sessions.
 		Click the assessment button if you want to see how to pass this course and how many points you can get from an exercise.</p>
-		<subpage icon="time" title="Timetable">
+		<subpage icon="time" title="Schedule">
+		<h4>Weekly Objectives</h4>
 			<table class="table table-striped table-bordered table-condensed">
-				<tr><th>WEEK</th><th>CONTENT</th><th>EXERCISE DEADLINE</th></tr>
-				<tr><td>1</td><td>COURSE INFO, PART 1, PART 2</td><td>X.X.XXXX</td></tr>
-				<tr><td>2</td><td>PART 3, PART 4</td><td>X.X.XXXX</td></tr>
-				<tr><td>3</td><td>PART 5, PART 6</td><td>X.X.XXXX</td></tr>
-				<tr><td>4</td><td>PART 7, PART 8</td><td>X.X.XXXX</td></tr>
-				<tr><td>5</td><td>PART 9, PART 10</td><td>X.X.XXXX</td></tr>
-				<tr><td>6</td><td>PART 11, PART 12</td><td>X.X.XXXX</td></tr>
-				<tr><td>7</td><td>ROUNDUP, EXAM</td><td>X.X.XXXX</td></tr>
+				<tr><th>WEEK</th><th>CONTENT</th></tr>
+				<tr><td>1</td><td>COURSE INFO, PART 1, PART 2</td></tr>
+				<tr><td>2</td><td>PART 3, PART 4</td></tr>
+				<tr><td>3</td><td>PART 5, PART 6</td></tr>
+				<tr><td>4</td><td>PART 7, PART 8</td></tr>
+				<tr><td>5</td><td>PART 9, PART 10</td></tr>
+				<tr><td>6</td><td>PART 11, PART 12</td></tr>
+				<tr><td>7</td><td>ROUNDUP, EXAM</td></tr>
+				<tr><td>8</td><td>LESSONS LEARNED</td></tr>
 			</table>
-		</subpage>
-		<subpage icon="home" title="Facilities">
-			<h4>Lectures</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<h4>Exercise sessions</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<h4>Material</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h4>Keynote Speeches</h4>
+			<p><b>IN ENGLISH:</b><br/>On Wednesdays and Fridays at 09:00-09:45, Place: Pasila 2209</p><br/>
+			<p><b>IN FINNISH:</b><br/>On Wednesdays at 09:00-10:30 (except 4.11.)</p>
+			<table class="table table-striped table-bordered table-condensed">
+				<tr><th>Week</th><th>Place</th><th>Date</th></tr>
+				<tr><td>1</td><td>1201 (Auditorium)</td><td>Wed 28.10.2015 at klo 09:00 - 10:30</td></tr>
+				<tr><td>2</td><td>NO KEYNOTES</td><td>NO KEYNOTES</td></tr>
+				<tr><td>3</td><td>1001</td><td>Wed 11.11.2015 at 09:00 - 10:30</td></tr>
+				<tr><td>4</td><td>6205</td><td>Wed 18.11.2015 at 09:00 - 10:30</td></tr>
+				<tr><td>5</td><td>1201</td><td>Wed 25.11.2015 at 09:00 - 10:30</td></tr>
+				<tr><td>6</td><td>6205</td><td>Wed 02.12.2015 at 09:00 - 10:30</td></tr>
+				<tr><td>7</td><td>1201</td><td>Wed 09.12.2015 at 09:00 - 10:30</td></tr>
+				<tr><td>8</td><td>1201</td><td>Wed 16.12.2015 at 09:00 - 10:30</td></tr>
+			</table>
+			<h3>Lab Sessions</h3>
+			<table class="table table-striped table-bordered table-condensed">
+				<tr><th>Study unit code</th><th>Language</th><th>Time and Place</th></tr>
+				<tr><td>SWD1TN001-1</td><td>In Finnish</td><td>Web 09:00-12:00 (4207),<br/>Fri 09:00-12:00 (4207)</td></tr>
+				<tr><td>SWD1TN001-2</td><td>In Finnish</td><td>Web 09:00-12:00 (5015),<br/>Fri 09:00-12:00 (5015)</td></tr>
+				<tr><td>SWD1TN001-3</td><td>In Finnish</td><td>Wed 09:00-12:00 (5009),<br/>Fri 12:00-15:00 (5007)</td></tr>
+				<tr><td>SWD1TN001-4</td><td>In Finnish</td><td>Tue 13:00-16:00 (4012),<br/>Wed 09:00-12:00 (5008)</td></tr>
+				<tr><td>SWD1TN001-5</td><td>In Finnish</td><td>Tue 09:00-12:00 (5015),<br/>Thu 12:00-15:00 (5015)</td></tr>
+				<tr><td>SWD1TF001-1</td><td>In English</td><td>Web 10:00-11:45 (4009),<br/>Fri 10:00-11:45 (4009)</td></tr>
+				<tr><td>SWD1TF001-2</td><td>In English</td><td>Web 10:00-11:45 (4012),<br/>Fri 10:00-11:45 (4012)</td></tr>
+				<tr><td>SWD1TA001-1</td><td>In Finnish<br/>(blended learning)</td><td>Mon 17:40-20:30 (5007 and 5009),<br/>Thu 17:40-20:30 (5015 and 5009)</td></tr>
+			</table>
 		</subpage>
 		<subpage icon="adjust" title="Assessment">
 			<h4>Exam</h4>
