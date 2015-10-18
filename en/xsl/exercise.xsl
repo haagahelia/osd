@@ -10,21 +10,23 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:attribute name="data-target">#<xsl:value-of select="concat('E', translate(@id, '.', ''))" /></xsl:attribute>
 		<span class="glyphicon glyphicon-pencil" title="Exercise"></span>
 		&#xA0;&#xA0;<xsl:value-of select="@id"/>&#xA0;<xsl:value-of select="@title"/>
+		<span class="ratings">
+		&#xA0;<span class="hide-xs"><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
 		<xsl:choose>
 			<xsl:when test="@difficulty = 'easy'">
-			&#xA0;&#xA0;<span title="Difficulty: easy"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
+			&#xA0;<span title="Difficulty: easy"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'medium'">
-			&#xA0;&#xA0;<span title="Difficulty: medium"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
+			&#xA0;<span title="Difficulty: medium"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star-empty hide-xs"></span></span>
 			</xsl:when>
 			<xsl:when test="@difficulty = 'hard'">
-			&#xA0;&#xA0;<span title="Difficulty: hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
+			&#xA0;<span title="Difficulty: hard"><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span><span class="glyphicon glyphicon-star hide-xs"></span></span>
 			</xsl:when>
 			<xsl:otherwise>
-			&#xA0;&#xA0;<span title="Difficulty: Adjustable"><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span></span>
+			&#xA0;<span title="Difficulty: Adjustable"><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span><span class="glyphicon glyphicon-question-sign hide-xs"></span></span>
 			</xsl:otherwise>
 		</xsl:choose>
-		&#xA0;<span class="hide-xs"><xsl:attribute name="title">Size: <xsl:value-of select="@size"/></xsl:attribute>(<xsl:value-of select="@size"/>)</span>
+		</span>
 		</button></p>
           <div class="modal modal-wide fade" tabindex="-1" role="dialog" aria-hidden="true">
           	<xsl:attribute name="id"><xsl:value-of select="concat('E', translate(@id, '.', ''))" /></xsl:attribute>

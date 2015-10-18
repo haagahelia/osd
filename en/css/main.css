@@ -55,10 +55,10 @@ ol{
 	width:98%;	
 	margin:2%;
 	}
-.exercise .btn .glyphicon-star,
-.exercise .btn .glyphicon-star-empty{
+	
+.exercise .ratings {
 	float:right;
-	}
+}
 /* MISC */
 p img{
 	max-width:100%;
