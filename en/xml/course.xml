@@ -100,7 +100,7 @@
 		</subpage>
 		<p>Please give feedback immediately after noticing issues before you forget them. You can give feedback about course contents, pedagogics, lectures, text material, videos, lab sessions, exercise assignments, development tools, web site bugs or whatever you think the teachers should be noticed of.</p>
 		<subpage icon="envelope" title="Feedback">
-			<iframe src="https://docs.google.com/forms/d/1rdmDV-AsfMniQiKceC3seCKloT7-yuOUDeI2EBtEYRs/viewform?embedded=true" width="450" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			<iframe src="https://docs.google.com/forms/d/1rdmDV-AsfMniQiKceC3seCKloT7-yuOUDeI2EBtEYRs/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</subpage>
 		</section>
 		<section type="info" title="CHECKPOINT">
@@ -129,11 +129,9 @@
             <p><br/>"<b>Software development</b> is the process by which a company, team, or individual devises and implements an overall plan to create a new software program. Writing code is just one step of the software development process. The process usually begins with research or a general understanding of what type of software is needed in the marketplace. Once those involved in software development have a goal for the program they are working on, they can begin developing the plan for implementing the software." (<a href="http://www.wisegeek.com/what-is-software-development.htm">Wisegeek</a>)</p>            
 		<p><br/>"An <b>Application</b> is a program, or group of programs, that is designed for the end user. Software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases." (<a href="http://www.webopedia.com/TERM/A/application.html">Webopedia</a>)</p>
             <p><br/>"A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more." (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
-                        <bookmark title="Wikipedia: List of programming languages" url="https://en.wikipedia.org/wiki/List_of_programming_languages"/>
-            <p><br/><b>Programming</b></p>
-            <video title="What is programming" youtubeid="3tWMQ3ZMjbg"/>
-            <p><br/><b>Interpreters</b> and <b>Compilers</b></p>
-            <bookmark title="What are they?" url="https://www.youtube.com/watch?v=_C5AHaS1mOA"/>
+            <video title="What is programming?" youtubeid="3tWMQ3ZMjbg"/>
+            <video title="Interpreters and Compilers" youtubeid="_C5AHaS1mOA"/>
+            <bookmark title="Wikipedia: List of programming languages" url="https://en.wikipedia.org/wiki/List_of_programming_languages"/>
         </section>
         		
         
@@ -189,8 +187,8 @@ ELSE
 				<li>Proper documentation</li>
 				<li>Efficient Coding</li> 
             </ul>      
-        <br/> <a href="www2.sunysuffolk.edu/wakefid/CST141/Flowcharts.ppt">(Flowcharts and pseudocode, Debra Wakefield)</a></p>
-<bookmark title="What's an algorithm?" url="https://www.youtube.com/watch?v=6hfOvs8pY1k"/>            
+        <br/> <a href="http://www2.sunysuffolk.edu/wakefid/CST141/Flowcharts.ppt">(Flowcharts and pseudocode, Debra Wakefield)</a></p>
+		<video title="What's an algorithm?" youtubeid="6hfOvs8pY1k"/>            
         </section>
 		<section type="success" title="SKILLS">
 			<exercise file="xc/02.01.xml"/>
@@ -217,38 +215,7 @@ ELSE
 		What kind of an environment does a software developer need?
 		This part will answer to these and some other important questions.
 		<slides title="Slideshow" url="slides/part3.html"/>
-		<video title="Haaga-Helia Xubuntu desktop" youtubeid="JDw1ii7aKwg"/>
-		<video title="Write and publish a simple web page" youtubeid="JDw1ii7aKwg"/>
-		<p>To see how to install Chromium browser on Xubuntu and how to use the developer toolbar, see the instructions below</p> 
-		<subpage icon="wrench" title="Install Chromium Browser">
-				<p><strong>Open Terminal Window</strong> by pressing</p>
-				<pre><code class="language-none">Ctrl+Alt+T</code></pre>
-				<p><strong>Install Chromium Browser</strong> by typing the following text into the terminal window</p>
-				<pre><code class="language-bash">sudo apt-get install chromium-browser</code></pre>
-				<p><strong>Open Chromium Browser</strong> by typing the following text into the terminal window</p>
-				<pre><code class="language-bash">chromium-browser &amp;</code></pre>
-				<p><strong>Open Developer Toolbar</strong> by pressing </p>
-				<pre><code class="language-none">Ctrl+Shift+I</code></pre>
-				<p>You can write a <strong>log</strong> text from your web page to the browser console by writing the following JavaScript-code. The console is located at the developer toolbar.</p>
-				<pre><code class="language-javascript">Console.log("The text to be logged.");</code></pre>
-		</subpage>
-		
-		<subpage icon="transfer" title="Access the production environment">
-			<p>You can access the production environment with <strong>Secure Shell (SSH)</strong> by writing the following command in the terminal window</p>
-			<pre><code class="language-bash">ssh username@servername
-#for example
-ssh a1234567@myy.haaga-helia.fi</code></pre>
-			<p>On the remote host you can run common shell commands.</p>
-			<p>Transferring a file from your local machine to the remote machine is easily done with <strong>Secure Copy (SCP)</strong> with the following command</p>
-			<pre><code class="language-bash">scp filename username@servername:destinationfolder
-#for example
-scp mypage.html a1234567@myy.haaga-helia.fi:public_html
-#or a folder and all of its subfolders recursively
-scp -r foldername username@servername:destinationfolder</code></pre>
-		</subpage>
-		</section>
-		
-		
+		</section>		
 		<section type="success" title="SKILLS">
 		<exercise file="xc/03.01.xml"/>
 		<exercise file="xc/03.02.xml"/>
@@ -277,7 +244,6 @@ scp -r foldername username@servername:destinationfolder</code></pre>
 		<part title="4 JavaScript" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 			<slides title="Slideshow" url="slides/part4.html"/>
-			<p style="color:red">TODO: CODE BLOCKS (head js, ext js, body js, onclick inline js)</p>
 			<pre class="language-markup"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -644,7 +610,6 @@ for (var i = 0; i &lt; 10; i++) {
 		<exercise file="xc/08.04.xml"/>
 		<exercise file="xc/08.05.xml"/>
 		<exercise file="xc/08.06.xml"/>
-		<exercise file="xc/08.07.xml"/>
 		<exercise file="xc/08.08.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">

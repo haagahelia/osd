@@ -11,7 +11,7 @@
  <li>
 Start <b>Eclipse</b>.
 </li><li>
-Enter <b>M:\osdw\eclipse_workspace</b> as the workspace name.
+Create folder eclipse_workspace inside Myy’s oswd-folder and choose it as the workspace.
 </li><li>
 Close the Welcome tab.
  </li><li>
@@ -24,7 +24,7 @@ Create the following two folders in the project: <b>css</b> and <b>js</b> <br/>
 In the Project Explorer tab, right-click on the project name <br/>
 New > Folder
  </li><li>
-Create three new files (general.css, main.js, myPage.html) as below.
+Create three new files (general.css, main.js, myPage.html) as below.<br/>
  <img src="xc/03.07.png" class="bordered"/>
  
 
@@ -57,6 +57,6 @@ In Project Explorer, right-click on the file name <b>myPage.html</b> <br/>
 Select <b>Open with > Web Browser</b>
 </li>
 </ol> 
-Finally, take a screenshot. Save the screenshot to <b>M:\public_html</b> and submit a link to the screenshot.
+Finally, take a screenshot. Save the screenshot to Myy's <b>public_html</b> folder and submit a link to the screenshot.
 </p>
 </exercise>

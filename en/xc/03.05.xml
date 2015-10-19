@@ -9,7 +9,7 @@
 <p>
 <ol type="1">
 <li>
-Create a new text file with the name <b>third.html</b> and save it to the folder <b>M:\oswd</b>.
+<b>With Windows desktop</b>, create a new text file with the name <b>third.html</b> and save it to the folder <b>oswd</b> on Myy server.
 </li>
  <li>
 Copy/paste the following code to the file <b>third.html</b>:
@@ -48,7 +48,7 @@ The Developer Toolbar shows as follows:
 <img src="xc/03.05.png" class="bordered"/>
 </li>
  <li>
-In Chrome, open the file <b>M:\oswd\third.html</b>
+In Chrome, open the file <b>third.html</b>
  </li>
  <li>
 Find answers to the following three questions:
