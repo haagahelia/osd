@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="13.03" title="Identity Number" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" template="xc/13.03.html">
+<exercise id="13.03" title="Identity Number" difficulty="medium" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397061&amp;action=editsubmission" 
+template="xc/13.03.html"
+jsbin="http://jsbin.com/xacujo/edit?html,js,output">
 
 <p class="exercise_text"> 
 Make a program, that asks for the identity number (Finnish 'hetu', 11 characters) and tells, whether the person is male or female. The second last character of the identity number tells the gender: even digit/number means woman, odd number man.
@@ -35,5 +38,5 @@ Program also tells the date of birth in the format of dd.mm.yyyy.
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/xacujo/embed?html,js,output">JS Bin</a>
+
 </exercise>

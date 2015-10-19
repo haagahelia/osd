@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="05.06" title="Unit Fine" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=373577&amp;action=editsubmission" template="xc/05.06.html">
+<exercise id="05.06" title="Unit Fine" difficulty="medium" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=373577&amp;action=editsubmission" template="xc/05.06.html"
+jsbin="http://jsbin.com/mosibu/edit?html,js,output">
 
 <p class="exercise_text">A car driver (a motorist) was driving too fast. He drove 20 km/h over the speedlimit, so the police needed to fine him. Finnish fine units are based on the net income of the driver. One fine unit can be calculated as: (net income - 255)/60. 
 Create a program that tells how much is one fine unit for inputed net income.
@@ -14,5 +16,5 @@ Create a program that tells how much is one fine unit for inputed net income.
 <p><img src="xc/05.06.png" class="bordered"/></p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/mosibu/embed?html,js,output">JS Bin</a>
+
 </exercise>

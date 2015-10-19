@@ -2,7 +2,8 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="10.01" title="Student" difficulty="easy" size="M"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405621&amp;action=editsubmission"
-	template="xc/10.01.html">
+	template="xc/10.01.html"
+	jsbin="http://jsbin.com/xawihi/edit?html,js,output">
 
 	<p>
 		Make a program which contains your student information as a JavaScript
@@ -31,5 +32,5 @@
 	</p>
 	<p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/xawihi/embed?html,js,output">JS Bin</a>
+	
 </exercise>

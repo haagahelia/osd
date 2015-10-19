@@ -2,7 +2,8 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="09.08" title="Lottery" difficulty="hard" size="L"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402567&amp;action=editsubmission"
-	template="xc/09.08.html">
+	template="xc/09.08.html"
+	jsbin="http://jsbin.com/baguje/edit?html,js,output">
 
 	<p>
 		After the successful cottage retreat people decided to make a draw
@@ -79,5 +80,5 @@
 	</p>
 
 	<p>Submit a link to your code (myy or jsbin). </p>
-	<a class="jsbin-embed" href="http://jsbin.com/baguje/embed?html,js,output">JS Bin</a>
+	
 </exercise>

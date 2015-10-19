@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="09.02" title="Sort Array" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403417&amp;action=editsubmission">
+<exercise id="09.02" title="Sort Array" difficulty="easy" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403417&amp;action=editsubmission"
+href="http://jsbin.com/?html,js,output">
 
 
 <p> 
@@ -18,6 +20,6 @@ First, sort the given array in reverse alphabetical order (z-a). After that, wri
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 
-	<a class="jsbin-embed" href="http://jsbin.com">JS Bin</a>
+
 </exercise>
  

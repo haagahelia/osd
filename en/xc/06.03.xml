@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="06.03" title="Package Comparison" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392287&amp;action=editsubmission" template="xc/06.03.html">
+<exercise id="06.03" title="Package Comparison" difficulty="easy" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392287&amp;action=editsubmission" 
+template="xc/06.03.html"
+jsbin="http://jsbin.com/zaduga/edit?html,js,output"
+>
 
 <p class="exercise_text"> 
 Make a program for comparing two mobile phone subscription packages. The program asks for the amount of call time and the number of sent text messages, and tells which package would be cheaper. </p>
@@ -37,5 +41,5 @@ The first package is an <b>all-inclusive package</b> where unlimited data, calls
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/zaduga/embed?html,js,output">JS Bin</a>
+	
 </exercise>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="06.09" title="Infraction Fine" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392687&amp;action=editsubmission" template="xc/06.09.html">
+<exercise id="06.09" title="Infraction Fine" difficulty="hard" size="L" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392687&amp;action=editsubmission" 
+template="xc/06.09.html"
+jsbin="http://jsbin.com/xuxomi/edit?html,js,output">
 
 <p class="exercise_text"> 
 If a car driver speeds no more than 20 km/h over the speed limit, the driver will avoid the income-based unit fines (päiväsakot), and gets just the infraction fine (rikesakko). Make a program that tells how much the infraction fine is. It’s based on the speed limit and the excess speed. The program asks for the driving speed and the speed limit. If there is speeding the ticket will be decided upon based on the following rules:
@@ -20,5 +23,5 @@ If a car driver speeds no more than 20 km/h over the speed limit, the driver wil
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/xuxomi/embed?html,js,output">JS Bin</a>
+	
 </exercise>

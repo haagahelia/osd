@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.03" title="Function Call with Parameters" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403323&amp;action=editsubmission" template="xc/07.03.html">
+<exercise id="07.03" title="Function Call with Parameters" difficulty="easy" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403323&amp;action=editsubmission" 
+template="xc/07.03.html"
+jsbin="http://jsbin.com/ropusa/edit?html,js,output">
 
 <p> 
 <i>There are also such functions that accept one or more input parameters. You can result of the function execution by passing  different input data to the function.</i>
@@ -23,5 +26,5 @@ In the third function call, pass the following string to the function:</p><p> <a
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 
-	<a class="jsbin-embed" href="http://jsbin.com/ropusa/embed?html,js,output">JS Bin</a>
+
 </exercise>

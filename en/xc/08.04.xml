@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="08.04" title="Same Pips" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398094&amp;action=editsubmission" template="xc/08.04.html">
+<exercise id="08.04" title="Same Pips" difficulty="medium" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398094&amp;action=editsubmission" 
+template="xc/08.04.html"
+jsbin="http://jsbin.com/qibaze/edit?html,js,output">
 
 <p class="exercise_text"> 
 Make a program that randomizes two dice pips (noppaluku) until both pips are the same. At the end the program tells how many randomization rounds were needed.
@@ -33,5 +36,5 @@ Write the answer (including the count) to the html page with the document.write(
 
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/qibaze/embed?html,js,output">JS Bin</a>
+	
 </exercise>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="06.02" title="Player's Age" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=391133&amp;action=editsubmission" template="xc/06.02.html">
+<exercise id="06.02" title="Player's Age" difficulty="easy" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=391133&amp;action=editsubmission" 
+template="xc/06.02.html"
+jsbin="http://jsbin.com/mijuyu/edit?html,js,output">
 
 <p class="exercise_text"> 
 In Finland only the adults (18 yrs) are allowed to play coin slot machines. Make a program that will test whether the user is old enough to play. 
@@ -26,5 +29,5 @@ Call the checkAge()-function when the Check player’s age –button’s onclick
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/mijuyu/embed?html,js,output">JS Bin</a>
+	
 </exercise>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="06.05" title="Body Mass Index" difficulty="easy" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392289&amp;action=editsubmission" template="xc/06.05.html">
+<exercise id="06.05" title="Body Mass Index" difficulty="easy" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392289&amp;action=editsubmission" 
+template="xc/06.05.html"
+jsbin="http://jsbin.com/jiyize/edit?html,js,output">
 
 <p class="exercise_text"> 
 
@@ -39,5 +42,4 @@ if (bmi &lt;= 18.4) {
 
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/jiyize/embed?html,js,output">JS Bin</a>
 </exercise>

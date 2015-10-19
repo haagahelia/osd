@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="04.06" title="WebGL Earth API" difficulty="medium" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;action=editsubmission">
+<exercise id="04.06" title="WebGL Earth API" difficulty="medium" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;action=editsubmission"
+jsbin=" http://jsbin.com/yuqada/edit?html,js,output">
 
 
 <p> 
@@ -33,5 +35,5 @@ To find the latitude / longitude position of your home: scroll (zoom) and drag (
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 
-	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+	
 </exercise>

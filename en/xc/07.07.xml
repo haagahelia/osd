@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.07" title="String" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397029&amp;action=editsubmission" template="xc/07.07.html">
+<exercise id="07.07" title="String" difficulty="easy" size="S" 
+template="xc/07.07.html"
+jsbin="http://jsbin.com/penabe/edit?html,js,output">
 
 <p class="exercise_text"> 
 Make a program, that asks for a text string (line of text), and tells information about the text string.
@@ -21,5 +23,4 @@ Make a program, that asks for a text string (line of text), and tells informatio
 
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/penabe/embed?html,js,output">JS Bin</a>
 </exercise>

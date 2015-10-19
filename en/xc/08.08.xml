@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="08.08" title="Game" difficulty="hard" size="M" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399368&amp;action=editsubmission" template="xc/08.08.html">
+<exercise id="08.08" title="Game" difficulty="hard" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=399368&amp;action=editsubmission" 
+template="xc/08.08.html"
+jsbin="http://jsbin.com/sihiqo/edit?html,js,output">
 
 <p class="exercise_text"> 
 In a coin slot machine (One-handed robber) a game returns pay (money won) according to the following rules:
@@ -28,5 +31,5 @@ The program asks how many rounds of the game will be run.
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/sihiqo/embed?html,js,output">JS Bin</a>
+	
 </exercise>

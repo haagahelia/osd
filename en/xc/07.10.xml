@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.10" title="Price of Work" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397967&amp;action=editsubmission" template="xc/07.10.html">
+<exercise id="07.10" title="Price of Work" difficulty="hard" size="L" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397967&amp;action=editsubmission" 
+template="xc/07.10.html"
+jsbin="http://jsbin.com/lilina/edit?html,js,output">
 
 <p class="exercise_text"> 
 A construction firm is doing small repairs. Make a program for inputting the repair work details and calculating its price. The price for an hour of work is 48 during the workdays and 72 on Sundays. 
@@ -30,5 +33,5 @@ a function <b>isSunday(dateText)</b>. This function gets the date text in the fo
 
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/lilina/embed?html,js,output">JS Bin</a>
+	
 </exercise>

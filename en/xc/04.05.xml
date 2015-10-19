@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="04.05" title="DOM Manipulation" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403720&amp;action=editsubmission">
+<exercise id="04.05" title="DOM Manipulation" difficulty="medium" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403720&amp;action=editsubmission"
+jsbin="http://jsbin.com/?html,js,output">
 
 
 <p> 
@@ -27,5 +29,5 @@ document.getElementById("images").appendChild(img);</code></pre></p>
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 
-	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
+	
 </exercise>

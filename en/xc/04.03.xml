@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="04.03" title="Event Listener" difficulty="medium" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403698&amp;action=editsubmission">
+<exercise id="04.03" title="Event Listener" difficulty="medium" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403698&amp;action=editsubmission"
+jsbin="http://jsbin.com/?html,js,output">
 
 
 <p> 
@@ -30,5 +32,4 @@ function myFunction() {
  <p>
 Submit a link to your code (myy or jsbin).
 </p> 
-	<a class="jsbin-embed" href="http://jsbin.com/?html,js,output">JS Bin</a>
 </exercise>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.06" title="Doctor's Visit" difficulty="medium" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396936&amp;action=editsubmission" template="xc/07.06.html">
+<exercise id="07.06" title="Doctor's Visit" difficulty="medium" size="L" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=396936&amp;action=editsubmission" 
+template="xc/07.06.html"
+jsbin="http://jsbin.com/zewija/edit?html,js,output">
 
 <p class="exercise_text"> 
 One of the cottage retreat participants is hurt and needs to visit a private doctor. Kela pays back some part of the private medical treatment, e.g. of the doctor’s fee. Make a program that, 
@@ -32,5 +35,5 @@ Make a function (3.) that is called when the button is clicked. It naturally use
 </p>
 <p>Submit a link to your code (myy or jsbin). </p>
 
-	<a class="jsbin-embed" href="http://jsbin.com/zewija/embed?html,js,output">JS Bin</a>
+	
 </exercise>
