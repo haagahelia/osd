@@ -131,6 +131,21 @@
             <p><br/>"A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more." (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
             <video title="What is programming?" youtubeid="3tWMQ3ZMjbg"/>
             <video title="Interpreters and Compilers" youtubeid="_C5AHaS1mOA"/>
+            <subpage icon="list" title="Software Engineering Curriculum">
+            <p><b>Haaga-Helia's Software Engineering Curriculum provides several interesting courses</b></p>
+            <ul>
+            	<li>Orientation (5 ects)</li>
+            	<li>Programming (5ects)</li>
+            	<li>Database (5ects)</li>
+            	<li>Back-End (5ects)</li>
+            	<li>Front-End (5 ects)</li>
+            	<li>Requirements Engineering (5 ects)</li>
+            	<li>Digitalization Project (5ects)</li>
+            	<li>Custom Technologies (5 ects)</li>
+            	<li>Software Project (10 ects)</li>
+            	<li>Multidisciplinary Project (15 ects)</li>
+            </ul>
+            </subpage>
             <bookmark title="Wikipedia: List of programming languages" url="https://en.wikipedia.org/wiki/List_of_programming_languages"/>
         </section>
         		
