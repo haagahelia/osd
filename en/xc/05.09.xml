@@ -6,6 +6,8 @@ jsbin="http://jsbin.com/kajabe/edit?html,js,output">
 
 <p>A group of people goes to a summer cottage for one weekend. The program asks for the total rent and number of participants and then calculates the cost per person.
 </p>
+<p>One sample output for shown input:</p>
+<p><img src="xc/05.09.png" class="bordered"/></p>
 <p>(Hint: you can put the input fields in one horizontal row by using the following style element in the head element)
 </p>
 <p>
@@ -16,8 +18,7 @@ label {
   float: left;  
 } </code></pre>
 </p>
-<p class="exercise_gui_title">One sample output for shown input:</p>
-<p><img src="xc/05.09.png" class="bordered"/></p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	

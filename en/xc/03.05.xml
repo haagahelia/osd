@@ -13,7 +13,7 @@ Create a new text file with the name <b>third.html</b> and save it to the folder
 </li>
  <li>
 Copy/paste the following code to the file <b>third.html</b>:
-<code>
+<pre><code>
  &lt;!DOCTYPE html&gt;
  &lt;html&gt;
  &lt;head&gt;
@@ -32,7 +32,7 @@ Copy/paste the following code to the file <b>third.html</b>:
      &lt;input type="text" id="myTextField" value="Hello World!"/&gt;
  &lt;/body&gt;
  &lt;/html&gt;
- </code>
+ </code></pre>
  </li>
  <li>
 If the <b>Chrome</b> web browser is not installed yet, then download and install it from <a href="https://www.google.com/chrome" target="_blank">https://www.google.com/chrome</a>
@@ -61,7 +61,7 @@ In Developer Toolbar, select Network &gt;  All &gt; logo.png    <br />
 Then see the values in the Time column and in the <b>Timing tab</b>.
   </li><li>
 What happens when you write the following text into the Console window and press Enter?
-<code>document.getElementById("myTextField").value</code>
+<pre><code>document.getElementById("myTextField").value</code></pre>
   </li><li>
 How many pixels (px) is the padding of the input element in the HTML page? <br />
  

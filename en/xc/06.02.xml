@@ -7,7 +7,15 @@ jsbin="http://jsbin.com/mijuyu/edit?html,js,output">
 
 <p class="exercise_text"> 
 In Finland only the adults (18 yrs) are allowed to play coin slot machines. Make a program that will test whether the user is old enough to play. 
+</p>
+<p>Sample output for shown input:</p>
+<p><img src="xc/06.02.png" class="bordered"/>
+<img src="xc/06.02b.png" class="bordered"/>
+</p>
+<p>
+HINT: 
 
+Call the checkAge()-function when the Check player’s age –button’s onclick event occurs.<br />
 The idea of the code:
 <pre><code>
 function checkAge() {
@@ -20,13 +28,9 @@ function checkAge() {
     } 
 } </code></pre>
 
-Call the checkAge()-function when the Check player’s age –button’s onclick event occurs.
 </p>
 
-<p class="exercise_gui_title">Sample output for shown input:</p>
-<p><img src="xc/06.02.png" class="bordered"/>
-<img src="xc/06.02b.png" class="bordered"/>
-</p>
+
 <p>Submit a link to your code (myy or jsbin). </p>
 
 	

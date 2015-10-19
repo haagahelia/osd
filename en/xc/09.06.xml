@@ -5,12 +5,12 @@ returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402290&amp;acti
 template="xc/09.06.html"
 jsbin="http://jsbin.com/putete/edit?html,js,output">
 
-<p class="exercise_text"> 
+<p> 
 Make a program that calculates the annual rainfall in Helsinki and displays it on the HTML page. 
 This is how you can create an array object of twelve monthly rainfall values:<br />
 <pre><code> var rainfall = [47.0, 36.6, 34.7, 37.0, 41.9, 47.5, 61.7, 74.8, 65.4, 69.7, 66.1, 54.6]; </code></pre>
 </p>
-<p class="exercise_gui_title">Sample output:</p>
+<p>Sample output:</p>
 <p><img src="xc/09.06.png" class="bordered"/>
 </p>
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="13.01" title="Roundup exercise 1" difficulty="medium" size="M" returnbox="http://www.google.com">
+<exercise id="13.01" title="Roundup exercise 1" difficulty="medium" size="M" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=410854&amp;action=editsubmission" >  
 <h2>Temperature Conversion</h2>
     <p>Write a JavaScript program that converts given temperature to  Fahrenheit or Celsius degrees.</p>
    
@@ -8,5 +9,7 @@
         <br/>°C = (°F - 32) * 5 / 9<br/>
         °F = (°C * 1.8) + 32</p>
     <br/>
+    <p>Sample output for shown input:</p>
     <p><img src="xc/13.01.png" class="bordered"/></p>
+    <p>Submit a link to your code (myy or jsbin). </p>
 </exercise>
