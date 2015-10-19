@@ -10,7 +10,7 @@
 		program asks for the amount of call time and the number of sent text
 		messages, and tells which package would be cheaper.
 	</p>
-	<p class="exercise_gui_title">Sample output for shown input:</p>
+	<p>Sample output for shown input:</p>
 	<p>
 		<img src="xc/06.03.png" class="bordered" />
 		<img src="xc/06.03b.png" class="bordered" />
