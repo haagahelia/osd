@@ -123,6 +123,7 @@
             <p><br/>"<b>Software development</b> is the process by which a company, team, or individual devises and implements an overall plan to create a new software program. Writing code is just one step of the software development process. The process usually begins with research or a general understanding of what type of software is needed in the marketplace. Once those involved in software development have a goal for the program they are working on, they can begin developing the plan for implementing the software." (<a href="http://www.wisegeek.com/what-is-software-development.htm">Wisegeek</a>)</p>            
 		<p><br/>"An <b>Application</b> is a program, or group of programs, that is designed for the end user. Software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases." (<a href="http://www.webopedia.com/TERM/A/application.html">Webopedia</a>)</p>
             <p><br/>"A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more." (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
+            <video title="Anybody can learn" youtubeid="qYZF6oIZtfc"/>
             <video title="What is programming?" youtubeid="3tWMQ3ZMjbg"/>
             <video title="Interpreters and Compilers" youtubeid="_C5AHaS1mOA"/>
             <subpage icon="list" title="Software Engineering Curriculum">
@@ -226,6 +227,7 @@ ELSE
 		What kind of an environment does a software developer need?
 		This part will answer to these and some other important questions.
 		<slides title="Slideshow" url="slides/part3.html"/>
+		<img src="img/computers_and_tools.png" alt="Computers and tools"/>
 		</section>		
 		<section type="success" title="SKILLS">
 		<exercise file="xc/03.01.xml"/>
@@ -410,6 +412,7 @@ x++; // Increments x by one
 	<part title="6 Conditions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part6.html"/>
+		<video title="Bill Gates Explains If statements" youtubeid="fVUL-vzrIcM"/>
 		<h3>If statement</h3>
 		<p><b>If statement</b> defines a block of code which is executed if condition is true</p>
 		<p><pre><code>
@@ -512,6 +515,7 @@ else {
 	<part title="7 Functions" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part7.html"/>
+		<video title="Chris Bosh explains Functions" youtubeid="8T5acEwfJbw"/>
 		<p>
 		A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed by invoking it (calling it).</p>
 		<p><br/>Values can be passed to a function, and the function can return a value.</p>
@@ -576,6 +580,7 @@ You can reuse code by defining the code once, and use it many times. You can use
 	<part title="8 Loops" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part8.html"/>
+		<video title="Mark Zuckerberg explains loops" youtubeid="hYvcoRkAkOU"/>
 		<p><img src="img/urlsquirrel_loop.png" class="bordered"/></p>
 		<p>There are situations when we need to execute a block of code several number of times, and is often referred to as a loop</p>
 		<p>JavaScript has three main looping mechanism</p>
