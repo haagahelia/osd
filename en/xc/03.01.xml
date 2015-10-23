@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="03.01" title="Log in to Linux Environment" difficulty="easy"
+<exercise id="03.01" title="Log in to Linux and Mount Myy" difficulty="easy"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400448&amp;action=editsubmission">
 
 	<p class="exercise_text">
 		First, open the page
 		<a href="https://ondemand.cp.haaga-helia.fi" target="_blank">https://ondemand.cp.haaga-helia.fi
-		</a> and log in to the <b>CentOS Linux environment</b>. Then take a screenshot of the Linux desktop and save the screenshot
+		</a> and log in to the <b>CentOS Linux environment</b>.
+	</p>
+	<br/>
+	<p><i>(You can access the ondemand-system directly from Haaga-Helia campus network. If you are connecting from an external network, open first VDI desktop from http://vdi.haaga-helia.fi and from there connect the ondemand system.)</i></p>
+	<br/>
+	<p>Double-click the icon "<b>myy.sh</b>" on your CentOS desktop and select "<b>Run</b>". Type your password into the opening window and check that the directory /mnt/myy contains now your files from the Myy-server.</p>
+	<br/>	
+	<p>Then take a screenshot of the Linux desktop and save the screenshot
 		image to your <b>public_html</b> folder on the Myy server.
 	</p>
+	<br/>
 	<p> Finally, submit a link to the screenshot
 		image.
 	</p>
-
-
-
-
-
+	<br/>
+	<p>
+	<i>(CentOS will be reseted every night, so don’t save anything important to the local hard drive of CentOS.)</i>
+	</p>
 </exercise>

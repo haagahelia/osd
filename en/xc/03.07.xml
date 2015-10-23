@@ -9,7 +9,7 @@
 <p>
  <ol type="1">
  <li>
-Start <b>Eclipse</b>.
+Start <b>Eclipse</b> in either Windows or Linux desktop.
 </li><li>
 Create folder eclipse_workspace inside Myy’s oswd-folder and choose it as the workspace.
 </li><li>
