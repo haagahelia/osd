@@ -145,6 +145,7 @@
         		
         
 		<section type="success" title="SKILLS">
+		
 			<exercise file="xc/01.01.xml"/>
 			<exercise file="xc/01.02.xml"/>
 			<exercise file="xc/01.03.xml"/>
