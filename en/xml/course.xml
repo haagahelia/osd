@@ -8,6 +8,7 @@
 		<p>Welcome to the course Orientation to Software Engineering (SWD1TN001).
 		Please attend the first lecture to learn more about the course. Still the most important information about the course is written on this site.</p>
 		<slides title="Welcome to the course" url="slides/part0.html"/>
+		<video title="Anybody can learn" youtubeid="qYZF6oIZtfc"/>
 		<p>Check out the schedule of this course including lectures and lab sessions.
 		Click the assessment button if you want to see how to pass this course and how many points you can get from an exercise.
 		You should check out the learning objectives to understand where to focus during studies.</p>
@@ -41,13 +42,13 @@
 			<h3>Lab Sessions</h3>
 			<table class="table table-striped table-bordered table-condensed">
 				<tr><th>Study unit code</th><th>Language</th><th>Time and Place</th></tr>
-				<tr><td>SWD1TN001-1</td><td>In Finnish</td><td>Web 09:00-12:00 (4207),<br/>Fri 09:00-12:00 (4207)</td></tr>
-				<tr><td>SWD1TN001-2</td><td>In Finnish</td><td>Web 09:00-12:00 (5015),<br/>Fri 09:00-12:00 (5015)</td></tr>
+				<tr><td>SWD1TN001-1</td><td>In Finnish</td><td>Wed 09:00-12:00 (4207),<br/>Fri 09:00-12:00 (4207)</td></tr>
+				<tr><td>SWD1TN001-2</td><td>In Finnish</td><td>Wed 09:00-12:00 (5015),<br/>Fri 09:00-12:00 (5015)</td></tr>
 				<tr><td>SWD1TN001-3</td><td>In Finnish</td><td>Wed 09:00-12:00 (5009),<br/>Fri 12:00-15:00 (5007)</td></tr>
 				<tr><td>SWD1TN001-4</td><td>In Finnish</td><td>Tue 13:00-16:00 (4012),<br/>Wed 09:00-12:00 (5008)</td></tr>
 				<tr><td>SWD1TN001-5</td><td>In Finnish</td><td>Tue 09:00-12:00 (5015),<br/>Thu 12:00-15:00 (5015)</td></tr>
-				<tr><td>SWD1TF001-1</td><td>In English</td><td>Web 10:00-11:45 (4009),<br/>Fri 10:00-11:45 (4009)</td></tr>
-				<tr><td>SWD1TF001-2</td><td>In English</td><td>Web 10:00-11:45 (4012),<br/>Fri 10:00-11:45 (4012)</td></tr>
+				<tr><td>SWD1TF001-1</td><td>In English</td><td>Wed 10:00-11:45 (4009),<br/>Fri 10:00-11:45 (4009)</td></tr>
+				<tr><td>SWD1TF001-2</td><td>In English</td><td>Wed 10:00-11:45 (4012),<br/>Fri 10:00-11:45 (4012)</td></tr>
 				<tr><td>SWD1TA001-1</td><td>In Finnish<br/>(blended learning)</td><td>Mon 17:40-20:30 (5007 and 5009),<br/>Thu 17:40-20:30 (5015 and 5009)</td></tr>
 			</table>
 		</subpage>
@@ -119,11 +120,11 @@
 		<section type="info" title="KNOWLEDGE">
 		<p>Let's take a look at the industry, discuss the basic concepts and view what kind of education our curriculum provides.</p> 
 		<slides title="Slideshow" url="slides/part1.html"/>
+		<video title="Larry Wall: Computer Programming in 5 Minutes" youtubeid="UScm9avQM1Y"/>
 		<p>Learning to make applications by yourself is a vital skill to understand the challenges that there is in software development.</p>
             <p><br/>"<b>Software development</b> is the process by which a company, team, or individual devises and implements an overall plan to create a new software program. Writing code is just one step of the software development process. The process usually begins with research or a general understanding of what type of software is needed in the marketplace. Once those involved in software development have a goal for the program they are working on, they can begin developing the plan for implementing the software." (<a href="http://www.wisegeek.com/what-is-software-development.htm">Wisegeek</a>)</p>            
 		<p><br/>"An <b>Application</b> is a program, or group of programs, that is designed for the end user. Software can be divided into  two general classes: systems software and applications software. Applications software (also called end-user programs) include such things as word processors, Web browsers, spreadsheets and databases." (<a href="http://www.webopedia.com/TERM/A/application.html">Webopedia</a>)</p>
             <p><br/>"A <b>programming language</b> is a special language programmers use to develop applications, scripts, or other set of instructions for computers to execute. Choosing a programming language takes a lot of consideration: what do you want to do with the language, what platforms you're working with, applicability to the problem domain and more." (<a href="http://www.computerhope.com/jargon/p/proglang.htm">Computer Hope</a>)</p>
-            <video title="Anybody can learn" youtubeid="qYZF6oIZtfc"/>
             <video title="What is programming?" youtubeid="3tWMQ3ZMjbg"/>
             <video title="Interpreters and Compilers" youtubeid="_C5AHaS1mOA"/>
             <subpage icon="list" title="Software Engineering Curriculum">
@@ -174,6 +175,8 @@
 	<part title="2 Algorithms" icon="briefcase" type="default">
 		<section type="info" title="KNOWLEDGE">
 		<slides title="Slideshow" url="slides/part2.html"/>
+		<video title="What is an algorithm and why should you care?" youtubeid="S-ws2W6UbPU"/>
+		<video title="Your Brain Can Solve Algorithms" youtubeid="6hfOvs8pY1k"/>
 		<bookmark title="Blockly Maze Game" url="https://blockly-games.appspot.com/maze?lang=en"/>
 		<p>"An algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task. (<i>Introduction to algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</i>)</p>
         <p><img src="img/algorithm1.png"/></p>    
