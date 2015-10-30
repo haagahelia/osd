@@ -24,12 +24,18 @@
 <br>
 	
 <p>
-<i>(You can access the ondemand-system directly from Haaga-Helia campus network. If you are connecting from an external network, open first VDI desktop from http://vdi.haaga-helia.fi and from there connect the ondemand system.)</i>
+<i><small>You can access the ondemand-system directly from Haaga-Helia campus network. Use Internet Explorer, because Citrix Reciever plugin is preinstalled in IE. If you are connecting from an external network, open first VDI desktop from http://vdi.haaga-helia.fi and from there connect the ondemand system.</small></i>
 </p>
 	
 <br>
 	
-<p>Double-click the icon "<b>myy.sh</b>" on your CentOS desktop and select "<b>Run</b>". Type your password into the opening window and check that the directory /mnt/myy contains now your files from the Myy-server.</p>
+<p>Double-click the icon "<b>myy.sh</b>" on your CentOS desktop and select "<b>Run</b>" (do not choose "Run in Terminal"). Type your password into the opening window and check that the directory /mnt/myy contains now your files from the Myy-server.</p>
+	
+<br>
+	
+<p>
+<i><small>If you can't see any files in the folder /mnt/myy, please open Terminal app and run the following commands: "fusermount -u /mnt/myy" to unmount the broken folder and run "sshfs yourstudentnumber@myy.haaga-helia.fi:/u10/yourstudentnumber /mnt/myy" to mount it again. Naturally, replace yourstudentnumber with your actual student number. If you are not a student, but a faculty member, please use remote folder "/homeh/yourusername" instead.</small></i>
+</p>
 	
 <br>	
 	
@@ -47,7 +53,7 @@
 	
 <p>
 	
-<i>(CentOS will be reseted every night, so don&rsquo;t save anything important to the local hard drive of CentOS.)</i>
+<i><small>CentOS will be reseted every night, so don&rsquo;t save anything important to the local hard drive of CentOS.</small></i>
 	
 </p>
 
