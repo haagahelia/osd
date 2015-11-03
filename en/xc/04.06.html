@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script>
+		var earth;
+		function initialize() {
+		  var options = {atmosphere: true, center: [0, 0], zoom: 0};
+		  earth = new WE.map('earth_div', options);
+		  WE.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',{
+				  attribution: 'Tiles Courtesy of MapQuest'
+				}).addTo(earth);
+		}
+
+		function goHome() {
+		  // Set the map center to the latitude / longitude position of your own home and 
+
+		  // Zoom the map close enough
+		  
+		}
+
+		function showCoords() {
+		  //  Show the current coordinates of the map center in an alert dialog box
+
+		}
+    </script>
+    <style>
+		html, body {
+		  padding: 0;
+		  margin: 0;
+		}
+		#earth_div{
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0; 
+		  background-color: #000000;
+		  position: absolute !important;
+		}
+
+		#buttons {
+			position: absolute !important;
+			top:10px;
+			left: 10px;
+		}
+      </style>
+      <title>Earth</title>
+    </head>
+    <body onload="initialize()">
+      
+      <div id="earth_div"></div>
+      <div id="buttons">
+        <!-- Add two buttons: GO HOME and SHOW COORDINATES -->
+      </div>
+  </body>
+</html>

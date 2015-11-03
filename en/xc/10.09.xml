@@ -46,7 +46,7 @@ function fetchWeatherInfo() {
 
     xmlhttp.open(
       "GET",
-      "http://api.openweathermap.org/data/2.5/weather?q=helsinki&amp;units=metric",
+      "http://api.openweathermap.org/data/2.5/weather?q=helsinki&amp;units=metric&amp;APPID=32f1264bba3945837fa37cc1c29b4db1",
        true);
     xmlhttp.send();
 }
