@@ -18,7 +18,7 @@ Make a program, that asks for a text string (line of text), and tells informatio
 <li>tells how many characters are there (length, includes also all spaces) </li>
 <li>tells, whether the input string contains the word 'muumi' (Finnish for the moomin fairy tale character) using the method indexOf()</li>
 <li>tells the first character using charAt().</li>
-<li>tells which ones are the first three characters using subStr().</li>
+<li>tells which ones are the first three characters using substr().</li>
 </ul>
 </p> 
 

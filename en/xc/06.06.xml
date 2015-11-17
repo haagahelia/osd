@@ -17,7 +17,7 @@ When are the following conditions evaluated as true?
 <li>if (! isNaN(age))</li>
 </ol>
 </p> 
-
+<p>HINT: The isNaN(value) function returns true, if the value is Not-A-Number. Otherwise the function returns false.</p>
 <p>Submit answers. </p>
 
 

@@ -90,7 +90,7 @@
 				<section>
 					<h2>BOOLEAN VARIABLES</h2>
 					<p class="fragment">Where do we need them?</p>
-					<pre class="fragment" style="font-size:0.7em"><code>var isAnAdult = age &gt;= 18;
+					<pre class="fragment" style="font-size:0.7em"><code>var isAnAdult = (age &gt;= 18);
 var isReady = true;
 var hasPaid = false;</code></pre>
 				
@@ -107,7 +107,7 @@ var hasPaid = false;</code></pre>
 				
 				<section>
 					<h2>ADVANCED</h2>
-					<p>If the customer is an emloyee or a child without celiac, who's age is between 3 and 5, we will serve meatballs.
+					<p>If the customer is an employee or a child without celiac, who's age is between 3 and 5, we will serve meatballs.
 					<pre class="fragment" style="font-size:0.6em"><code class="javascript">if ( isAnEmployee || (!hasCeliac &amp;&amp; age &gt; 3 &amp;&amp; age &lt; 15) ) {
     console.log("We will serve you meatballs!");
 }</code></pre>
