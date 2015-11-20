@@ -21,6 +21,7 @@ Make a program, that asks for a text string (line of text), and tells informatio
 <li>tells which ones are the first three characters using substr().</li>
 </ul>
 </p> 
+<p>HINT: <a href="http://www.w3schools.com/js/js_string_methods.asp" target="_blank">w3shools String Methods</a></p>
 
 <p>Submit a link to your code (myy or jsbin). </p>
 
