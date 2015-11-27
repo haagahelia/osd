@@ -23,7 +23,7 @@
 <p class="exercise_text"> 
 A construction firm is doing small repairs. Make a program for inputting the repair work details and calculating its price. The price for an hour of work is 48 during the workdays and 72 on Sundays. 
 
-Create a script file <b>07.10_functions.js</b> and define there the following functions: <b>allCapsTitleTrimmed(originalText)</b> and <b>isSunday(dateText)</b> . The functions will be used in this program.
+Create a script file <b>07.10_functions.js</b> and define there the following functions: <b>allCapsTitleTrimmed(originalText)</b> and <b>isSunday(dateText)</b> . The functions will be used in this program. 
 </p>
 
 <p class="exercise_gui_title">Sample output for shown input:</p>
@@ -40,7 +40,7 @@ Create a script file <b>07.10_functions.js</b> and define there the following fu
 <ul>
 
 <li>
-a function <b>allCapsTitleTrimmed(originalText)</b> for the Work title input field so that the function changes the title given to it to be ALL CAPS and removes any empty white space from the beginning or the end of the title. That event handler should be called when the onfocusout event occurs. The method should modify the title input field directly.</li>
+a function <b>allCapsTitleTrimmed(originalText)</b> for the Work title input field so that the function changes the title given to it to be ALL CAPS and removes any empty white space from the beginning or the end of the title. That event handler should be called when the onfocusout event occurs. The method should modify the title input field directly. Command givenText.trim().toUpperCase(); changes text to uppercase, <b>but does not work in Firefox.</b></li>
 
 <li>
 a function <b>isSunday(dateText)</b>. This function gets the date text in the format "dd.MM.yyyy". The function should return Boolean value true if the date is for a Sunday, otherwise false. For example for the date text "05.04.2015" it would return true.
@@ -48,7 +48,7 @@ a function <b>isSunday(dateText)</b>. This function gets the date text in the fo
 
 <ul>
 
-<li>First split the given date text into day, month and year parts using the subStr() method.</li>
+<li>First split the given date text into day, month and year parts using the substring() method.</li>
 
 <li>Create a new Date object to a variable asDate Date asDate = new Date();</li>
 
