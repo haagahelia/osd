@@ -854,7 +854,6 @@ student.firstname; // is John</code></pre></p>
 			</ul>
 		</section>
 		<section type="success" title="TAKE THE EXAM">
-			<exam title="Start" url="http://www.google.com"/>
 		</section>
 	</part>
 </course>
