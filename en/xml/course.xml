@@ -853,8 +853,7 @@ student.firstname; // is John</code></pre></p>
 				<li>asdf qwerty</li>
 			</ul>
 		</section>
-		<section type="success" title="TAKE THE EXAM">
-            
+		<section type="success" title="TAKE THE EXAM">            
 		</section>
 	</part>
 </course>
