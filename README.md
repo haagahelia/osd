@@ -1,6 +1,6 @@
 # Orientation to Software Engineering
 
-branch gh-pages is live @ http://haagahelia.github.io/oswd/en :)
+branch gh-pages is live @ http://haagahelia.github.io/oswd/en
 
 Remember to run XSLT after modifying XML or XSL.
 #### xslt.jar
