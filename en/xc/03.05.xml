@@ -9,10 +9,11 @@
 <p>
 <ol type="1">
 <li>
-<b>With Windows desktop</b>, create a new text file with the name <b>third.html</b> and save it to the folder <b>oswd</b> on Myy server (<b>M:\oswd\third.html</b>).
+<b>With Windows desktop</b>, create a new text file with the name <b>thirdpage.html</b> 
+and save it to the folder <b>oswd</b> on Myy server (<b>M:\oswd\thirdpage.html</b>).
 </li>
  <li>
-Copy/paste the following code to the file <b>third.html</b>:
+Copy/paste the following code to the file <b>thirdpage.html</b>:
 <pre><code>
  &lt;!DOCTYPE html&gt;
  &lt;html&gt;
@@ -48,7 +49,7 @@ The Developer Toolbar shows as follows:
 <img src="xc/03.05.png" class="bordered"/>
 </li>
  <li>
-In Chrome, open the file <b>third.html</b>
+In Chrome, open the file <b>thirdpage.html</b>
  </li>
  <li>
 Find answers to the following three questions:

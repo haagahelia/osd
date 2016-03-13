@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exercise.xsd"?>
+<exercise id="03.10" title="(Extra: Use Text Editor)" difficulty="easy" size="S"
+	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400449&amp;action=editsubmission">
+
+	<p>
+		In the <b>Linux</b> environment, use the <b>gedit</b>
+		text editor to create a new HTML page with the name <b>second.html</b>. Write required html-tags and a paragraph with text 'Written with gedit'. Save the HTML page to the
+		<b>oswd</b> folder on the Myy server. When the HTML page is opened in a web browser,
+		it should show the text 'Written with gedit'.
+
+		Take a screenshot of the text editor window and save the screenshot image
+		to the <b>public_html</b> folder on the Myy server.
+	</p>
+	<p>	
+		 Finally, submit a link to the screenshot image (for example http://myy.haaga-helia.fi/~yourstudentnumber/gedit_screenshot.png).
+
+	</p>
+
+</exercise>

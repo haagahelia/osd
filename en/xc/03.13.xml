@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="03.08" title="JavaScript Server" difficulty="hard" size="L" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405516&amp;action=editsubmission">
+<exercise id="03.13" title="(Extra: JavaScript Server)" difficulty="hard" size="L" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405516&amp;action=editsubmission">
 
 
 <p> 
@@ -11,7 +12,7 @@
 <li>
   Open the page <a href="https://ondemand.cp.haaga-helia.fi" target="_blank">https://ondemand.cp.haaga-helia.fi</a> and log in to the <b>Linux</b> desktop.
  </li><li>
-In the Linux desktop, open a <b>Terminal</b> window (select Applications > System Tools > Terminal)
+In the <b>Linux</b> desktop, open a <b>Terminal</b> window (select Applications > System Tools > Terminal)
  </li><li>
 On the Linux command line, set your oswd-folder from Myy-server as the current folder as follows: <b>cd /mnt/myy/oswd</b>
  </li><li>

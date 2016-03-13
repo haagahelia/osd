@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="03.04" title="Publish Your Own HTML Page" difficulty="easy" size="S" returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400462&amp;action=editsubmission">
+<exercise id="03.04" title="Publish Your Own HTML Page" difficulty="easy" size="S" 
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=494682&amp;action=editsubmission">
 
 <p class="exercise_text"> 
-In the Linux environment, copy the file <b>second.html</b> from Myy's <b>oswd</b> folder to Myy's <b>public_html</b> folder (<b>cp /mnt/myy/oswd/second.html /mnt/myy/public_html/</b>). What is the complete web address of the HTML page second.html now? Finally, submit the link to the HTML page.
+In the Windows environment, copy the file <b>secondpage.html</b> from Myy's <b>oswd</b> folder to
+ Myy's <b>public_html</b> folder. 
+ What is the complete web address of the HTML page secondpage.html now? Finally, 
+ submit the link to the HTML page.
 </p>
 
 
