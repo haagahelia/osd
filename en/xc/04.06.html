@@ -1,8 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <script src="http://www.webglearth.com/v2/api.js"></script>
-    <script>
+<head>
+  <meta charset="utf-8">
+  <title>JS Exercise Template</title>
+</head>
+<body>
+<pre><code>
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;script src="http://www.webglearth.com/v2/api.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
 		var earth;
 		function initialize() {
 		  var options = {atmosphere: true, center: [0, 0], zoom: 0};
@@ -23,8 +31,8 @@
 		  //  Show the current coordinates of the map center in an alert dialog box
 
 		}
-    </script>
-    <style>
+    &lt;/script&gt;
+    &lt;style&gt;
 		html, body {
 		  padding: 0;
 		  margin: 0;
@@ -43,14 +51,17 @@
 			top:10px;
 			left: 10px;
 		}
-      </style>
-      <title>Earth</title>
-    </head>
-    <body onload="initialize()">
+      &lt;/style&gt;
+      &lt;title&gt;Earth&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body onload="initialize()"&gt;
       
-      <div id="earth_div"></div>
-      <div id="buttons">
-        <!-- Add two buttons: GO HOME and SHOW COORDINATES -->
-      </div>
-  </body>
+      &lt;div id="earth_div"&gt;&lt;/div&gt;
+      &lt;div id="buttons"&gt;
+        &lt;!-- Add two buttons: GO HOME and SHOW COORDINATES --&gt;
+      &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</body>
 </html>

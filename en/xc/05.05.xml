@@ -2,7 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="05.05" title="Addition Assignment" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403589&amp;action=editsubmission"
-jsbin="http://jsbin.com/?html,js,output">
+template="xc/00.00.html">
 
 
 <p> 

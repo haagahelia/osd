@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="04.06" title="WebGL Earth API" difficulty="medium" size="M" 
 template="xc/04.06.html"
-returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;action=editsubmission"
-jsbin=" http://jsbin.com/woqobi/edit?html,js,output">
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;action=editsubmission">
 
 
 <p> 

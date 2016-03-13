@@ -2,7 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="04.03" title="Event Listener" difficulty="medium" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403698&amp;action=editsubmission"
-jsbin="http://jsbin.com/?html,js,output">
+template="xc/00.00.html">
 
 
 <p> 

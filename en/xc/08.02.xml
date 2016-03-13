@@ -2,7 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="08.02" title="Another For Loop" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403398&amp;action=editsubmission"
-jsbin="http://jsbin.com/?html,js,output">
+template="xc/00.00.html">
 
 <p> 
 Write a for loop that writes all integers between 1 and 50 into the browser console.

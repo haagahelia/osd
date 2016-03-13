@@ -2,7 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="05.02" title="Product of Three Numbers" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403554&amp;action=editsubmission"
-jsbin="http://jsbin.com/?html,js,output">
+template="xc/00.00.html">
 
 
 <p> 

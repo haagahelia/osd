@@ -2,9 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="07.09" title="Age" difficulty="medium" size="M" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397821&amp;action=editsubmission" 
-template="xc/07.09.html"
-jsbin="http://jsbin.com/yekupe/edit?html,js,output"
->
+template="xc/07.09.html">
 
 <p class="exercise_text"> 
 Make a program that asks for the year of birth and then tells the age accordingly. 

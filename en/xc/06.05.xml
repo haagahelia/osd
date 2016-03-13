@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="06.05" title="Body Mass Index" difficulty="easy" size="M" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392289&amp;action=editsubmission" 
-template="xc/06.05.html"
-jsbin="http://jsbin.com/jiyize/edit?html,js,output">
+template="xc/06.05.html">
 
 <p class="exercise_text"> 
 

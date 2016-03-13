@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="13.04" title="Key Codes" difficulty="hard" size="M" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=398193&amp;action=editsubmission" 
-template="xc/13.04.html"
-jsbin="http://jsbin.com/cinayi/edit?html,js,output">
+template="xc/13.04.html">
 
 <p class="exercise_text"> 
 Make a program that randomizes hundred 4-digit key codes (numbers between 0-9999). Show them so that ten is shown on each row and every code is shown with four digits, e.g. 9 is shown as 0009.

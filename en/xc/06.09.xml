@@ -3,7 +3,7 @@
 <exercise id="06.09" title="Infraction Fine" difficulty="hard"
 	size="L"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392687&amp;action=editsubmission"
-	template="xc/06.09.html" jsbin="http://jsbin.com/xuxomi/edit?html,js,output">
+	template="xc/06.09.html" >
 
 	<p class="exercise_text">
 		If a car driver speeds no more than 20 km/h over the speed limit, the

@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="10.09" title="Weather" difficulty="medium" size="M" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405727&amp;action=editsubmission" 
-template="xc/10.09.html"
-jsbin="http://jsbin.com/vuhunu/edit?html,js,output">
+template="xc/10.09.html">
 
 <p> 
 Make a program that fetches the current weather of Helsinki in JSON format and shows it on a web page. Below you can see the weather information of the evening of 28.9.2015.

@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="09.07" title="Images" difficulty="hard" size="M" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=402511&amp;action=editsubmission" 
-template="xc/09.07.html"
-jsbin="http://jsbin.com/havoziw/edit?html,js,output">
+template="xc/09.07.html">
 
 <p> 
 Make a program, that shows all the images in the array.

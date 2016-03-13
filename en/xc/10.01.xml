@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="10.01" title="Student" difficulty="easy" size="M"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=405621&amp;action=editsubmission"
-	template="xc/10.01.html"
-	jsbin="http://jsbin.com/xawihi/edit?html,js,output">
+	template="xc/10.01.html">
 
 	<p>
 		Make a program which contains your student information as a JavaScript
@@ -15,7 +14,7 @@
 				Create also two methods to your object. First one returns a string
 				consisting of the full name and the second one returns the whole
 				address. Show this returned information on the web page. (Use the
-				methods you defined while showing the information).
+				methods you defined while showing the information). <br />
 				<img src="xc/10.01b.png" class="bordered" />
 
 			</li>
@@ -24,7 +23,7 @@
 				new feature to the object after creating the object. (In JavaScript
 				you can always change the objects runtime. Thus JavaScript is
 				so-called prototyping language). Show the information on the web
-				page like this:
+				page like this:<br />
 
 				<img src="xc/10.01.png" class="bordered" />
 			</li>
