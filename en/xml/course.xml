@@ -683,7 +683,7 @@ for (index = 0; index &lt; pets.length; index++) {
 
 	<part title="10 Objects" icon="briefcase" type="default">
 		<section type="success" title="KNOWLEDGE">
-            <p>Objects are variables that can contain multiple values. A variable can only contain one value. But the whole object can be assigned as the only value of a variable.
+            <p>Object can contain multiple values. A variable can only contain one value. But a <i>reference</i> to the memory address of object can be assigned as the only value of a variable.
             After that you will access properties of the object with variable.propertyName, e.g. person1.firstName. The following code assigns many values to variable named student.</p>
             <p><pre><code>var student = {firstname:"John", lastname:"Smith", studentnr=100232, department="IT"};</code></pre></p>    
             <p>The values are written as <b>name:value</b> pairs. The name:value pairs are called as <b>properties</b></p>

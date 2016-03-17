@@ -108,7 +108,7 @@ var hasPaid = false;</code></pre>
 				<section>
 					<h2>ADVANCED</h2>
 					<p>If the customer is an employee or a child without celiac, who's age is between 3 and 5, we will serve meatballs.
-					<pre class="fragment" style="font-size:0.6em"><code class="javascript">if ( isAnEmployee || (!hasCeliac &amp;&amp; age &gt; 3 &amp;&amp; age &lt; 15) ) {
+					<pre class="fragment" style="font-size:0.6em"><code class="javascript">if ( isAnEmployee || (!hasCeliac &amp;&amp; age &gt;= 3 &amp;&amp; age &lt;= 5) ) {
     console.log("We will serve you meatballs!");
 }</code></pre>
 				</section>
