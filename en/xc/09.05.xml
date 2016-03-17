@@ -15,18 +15,13 @@ Make a program that shows the average temperatures for Helsinki (the full year).
 <p>
 The idea of the code:
 <pre><code>
-&lt;body> 
-   &lt;script type="text/javascript"&gt; 
-      for (var i = 0; i &lt; temperatures.length; i++) {
-       // write to console:  (i+1) + ". " + value at the i:th index  
-      }
-   &lt;/script&gt; 
+// Create an array of twelve average temperatures
+				
+// For loop (repetition structure)
+		
+	// Use the console.log() method to write each temperature of the array
 &lt;/body&gt; </code></pre>
-<ul>
-<li>Write the code into a script element inside of the body element</li>
-<li>Use the console.log() method to write inside the for loop (repetition structure).</li>
-<li>The toFixed(1) method call rounds the value to one decimal</li>
-</ul>
+The toFixed(1) method call rounds the value to one decimal.
 </p> 
 
 <p>Submit a link to your code (myy or jsbin). </p>

@@ -12,25 +12,18 @@ label {
 </style>
 
 <script type="text/javascript" src="07.10_functions.js"></script>
+<!--   TODO: 07.10_functions.js  -->
 <script type="text/javascript">
 
 	function calculate() {
-		// Read values from the input fields
 		
 		// Calculate length of the work as minutes.
 		
 		// If it is not Sunday
 		// Call isSunday() function from 07.10_functions.js file
-		
-			//Calculate price of the repair work during the workdays
-			
-			// Write the answer on the page, to the answer div, as content of the div
-			
+			//Calculate and show price of the repair work during the workdays
 		//otherwise			
-		
-			//Calculate price of the repair work on Sundays
-			
-			// Write the answer on the page, to the answer div, as content of the div
+			//Calculate and showprice of the repair work on Sundays
 			
 		}
 	}
@@ -50,7 +43,7 @@ label {
 	<form>
 		<p>
 			<label>Work Title: </label> <input type="text" name="title" id="title"
-				size="25" onfocusout="modifyTitle()">
+				size="25" onfocusout="modifyTitle()"> <!-- onfocuson: Chrome/supported, Firefox/not supported -->
 		</p>
 		<p>
 			<label>Date: </label> <input type="text" name="date" id="date"

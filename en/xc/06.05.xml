@@ -32,13 +32,10 @@ Make a program that asks for the user’s weight and height and calculates, and 
 <p>
 Selection structure follows this idea: 
 <pre><code>
-if (bmi &lt;= 18.4) {
+// if bmi &lt;= 18.4 
     // Weight less than normal weight 
-} otherwise if (bmi &lt;= 24.9) { 
-    // Normal weight
-}otherwise { 
-    // Overweight 
-} </code></pre>
+// otherwise ...
+ </code></pre>
 </p>
 
 

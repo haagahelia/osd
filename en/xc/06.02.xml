@@ -20,10 +20,9 @@ The idea of the code:
 <pre><code>
 function checkAge() {
     // assign the age input field value into a variable 
-    if (age smaller than 18) { 
+    // if age smaller than 18  
         // Write to the page: "Adolescents are not allowed to play."  
-    }
-    otherwise { 
+    //otherwise  
         // Write to the page: "Old enough to play."   
     } 
 } </code></pre>
