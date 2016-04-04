@@ -224,11 +224,6 @@ ELSE
 		<exercise file="xc/03.05.xml"/>
 		<exercise file="xc/03.06.xml"/>
 		<exercise file="xc/03.07.xml"/>
-		<exercise file="xc/03.09.xml"/>
-		<exercise file="xc/03.10.xml"/>
-		<exercise file="xc/03.11.xml"/>
-		<exercise file="xc/03.12.xml"/>
-		<exercise file="xc/03.13.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
 		<badgeImg><img src="img/badge03.png" alt="Badge 3" class="badgeicon"/></badgeImg>
