@@ -43,11 +43,15 @@ a function <b>isSunday(dateText)</b>. This function gets the date text in the fo
 
 <ul>
 
-<li>First split the given date text into day, month and year parts using the subStr() method.</li>
+<li>First split the given date text into day, month and year parts using the  
+<a href="http://www.w3schools.com/js/js_string_methods.asp" target="_blank">substr</a>(startPosition, length) method.</li>
 
-<li>Create a new Date object to a variable asDate Date asDate = new Date();</li>
+<li>Create a new Date object to a variable asDate <pre>
+<code>Date asDate = new Date();</code>
+</pre>
+</li>
 
-<li>Set day, month and year properties of asDate object with setFullYear() method. (Observe! You&rsquo;ll need to give month as one number smaller than how we write it =&gt; 0 = January, 1= February...)</li>
+<li>Set day, month and year properties of asDate object with setDate(), setMonth() and setFullYear() method. (Observe! You&rsquo;ll need to give month as one number smaller than how we write it =&gt; 0 = January, 1= February...)</li>
 
 <li>After creating a valid date object in the asDate variable, you can get the day of the week with its getDay() method. Sunday is 0 .</li>
 

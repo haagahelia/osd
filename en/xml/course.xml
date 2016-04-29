@@ -688,7 +688,8 @@ for (index = 0; index &lt; pets.length; index++) {
 <p><pre><code>objectName[propertyName]</code></pre></p>
 <p><pre><code>//Example
 student.firstname; // is John</code></pre></p>
-<bookmark title="w3schools Objects" url="http://www.w3schools.com/js/js_objects.asp"/>	                     
+<bookmark title="w3schools Objects" url="http://www.w3schools.com/js/js_objects.asp"/>
+<bookmark title="w3schools JSON" url="http://www.w3schools.com/js/js_json.asp"/>                     
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/10.01.xml"/>
