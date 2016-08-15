@@ -27,7 +27,7 @@ img.src="http://www.haaga-helia.fi/sites/all/themes/haagahelia/images/logo.png";
 document.getElementById("images").appendChild(img);</code></pre></p>
 
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 	
 </exercise>

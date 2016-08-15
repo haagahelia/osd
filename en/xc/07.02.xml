@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
 <exercise id="07.02" title="Return Value" difficulty="easy" size="S" 
-returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403306&amp;action=editsubmission"
-jsbin="http://jsbin.com/?html,js,output" >
+returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403306&amp;action=editsubmission" >
 
 <p> 
 <i>A function can also return a value. For example, you can assign the return value to a variable.</i>
@@ -11,7 +10,7 @@ jsbin="http://jsbin.com/?html,js,output" >
 The function <b>Math.random()</b> returns a value from the range [0, 1[. Call the function and assign the return value to the variable <b>randomizedNumber</b>. After that, write the value of the variable into the browser console.
  </p>
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 
 </exercise>

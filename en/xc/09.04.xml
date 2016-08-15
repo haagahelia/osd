@@ -2,8 +2,7 @@
 <?xml-model href="exercise.xsd"?>
 <exercise id="09.04" title="Minigolf" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=400643&amp;action=editsubmission" 
-template="xc/09.04.html"
-jsbin="http://jsbin.com/cosuyi/edit?html,js,output">
+template="xc/09.04.html">
 
 <p class="exercise_text"> 
 The cottage guests were playing minigolf. Make a program that that tells the smallest (winner) and biggest (last one) results.The results for the eight players are in the array below: 
@@ -21,6 +20,6 @@ The cottage guests were playing minigolf. Make a program that that tells the sma
 </ul>
 </p> 
 
-<p>Submit a link to your code (myy or jsbin). </p>
+<p>Submit a link to your code (myy etc). </p>
 	
 </exercise>

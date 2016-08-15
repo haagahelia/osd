@@ -3,7 +3,7 @@
 <exercise id="07.03" title="Function Call with Parameters"
 	difficulty="easy" size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403323&amp;action=editsubmission"
-	template="xc/07.03.html" jsbin="http://jsbin.com/ropusa/edit?html,js,output">
+	template="xc/07.03.html">
 
 	<p>
 		<i>There are also such functions that accept one or more input
@@ -50,7 +50,7 @@
 		</a>
 	</p>
 	<p>
-		Submit a link to your code (myy or jsbin).
+		Submit a link to your code (myy etc).
 	</p>
 
 </exercise>

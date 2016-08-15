@@ -3,7 +3,7 @@
 <exercise id="07.07" title="String" difficulty="easy" size="S" 
 template="xc/07.07.html"
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=397029&amp;action=editsubmission" 
-jsbin="http://jsbin.com/penabe/edit?html,js,output">
+>
 
 <p class="exercise_text"> 
 Make a program, that asks for a text string (line of text), and tells information about the text string.
@@ -23,6 +23,6 @@ Make a program, that asks for a text string (line of text), and tells informatio
 </p> 
 <p>HINT: <a href="http://www.w3schools.com/js/js_string_methods.asp" target="_blank">w3shools String Methods</a></p>
 
-<p>Submit a link to your code (myy or jsbin). </p>
+<p>Submit a link to your code (myy etc). </p>
 
 </exercise>

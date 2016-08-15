@@ -3,7 +3,6 @@
 <exercise id="07.04" title="Parameters and Return Value" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403373&amp;action=editsubmission" 
 template="xc/07.04.html"
-jsbin="http://jsbin.com/qodina/edit?html,js,output"
 >
 
 <p> 
@@ -26,7 +25,7 @@ The function <b>rollTheDice()</b> should do the following:
 Test your code. Each time you click the button you should see a random value between 1 and 6 below the button.
  </p>
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 	
 </exercise>

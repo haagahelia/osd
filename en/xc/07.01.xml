@@ -3,7 +3,6 @@
 <exercise id="07.01" title="Function Call" difficulty="easy" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403295&amp;action=editsubmission" 
 template="xc/07.01.html"
-jsbin="http://jsbin.com/riyiqa/edit?html,js,output"
 >
 
 <p> 
@@ -15,7 +14,7 @@ jsbin="http://jsbin.com/riyiqa/edit?html,js,output"
 Call the existing <b>addASnowFlake()</b> function three times.
  </p>
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 
 </exercise>

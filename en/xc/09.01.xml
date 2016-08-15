@@ -11,7 +11,7 @@ Write a loop that writes all the array element values into the browser console. 
 <p>The Array:</p>
 <pre><code>var array = ["Pekka", "Minna", "Heikki", "Anna", "Jukka", "Iida"];</code></pre>
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 	
 </exercise>

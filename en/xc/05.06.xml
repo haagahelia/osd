@@ -3,7 +3,7 @@
 <exercise id="05.06" title="Unit Fine" difficulty="medium"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=373577&amp;action=editsubmission"
-	template="xc/05.06.html" jsbin="http://jsbin.com/mosibu/edit?html,js,output">
+	template="xc/05.06.html">
 
 	<p class="exercise_text">
 		A car driver (a motorist) was driving too fast. He drove 20 km/h over
@@ -24,7 +24,7 @@
 	<p>
 		<img src="xc/05.06.png" class="bordered" />
 	</p>
-	<p>Submit a link to your code (myy or jsbin). </p>
+	<p>Submit a link to your code (myy etc). </p>
 
 
 </exercise>

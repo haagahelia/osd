@@ -20,7 +20,7 @@ TASK: Make a program that displays a confirm dialog box with the text <b>"Do you
 HINT:  This time, you do not know beforehand how many times the confirm dialog box should be displayed. Therefore, write a while loop where you use the call to the method <b>confirm()</b> as the loop condition. The call to the method <b>alert()</b> should be in the loop body. 
 </p>
  <p>
-Submit a link to your code (myy or jsbin).
+Submit a link to your code (myy etc).
 </p> 
 	
 </exercise>
