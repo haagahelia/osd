@@ -49,7 +49,7 @@
 		</subpage>
 		<subpage icon="adjust" title="Assessment">
 			<h4>Rules</h4>
-			<p><b>PASS</b><br/> YOU HAVE TO (earn at least 25% of the maximum exercise points) AND (get at least 50% from the exam points) TO PASS THE COURSE.</p><br/>
+			<p><b>PASS</b><br/> YOU HAVE TO (earn at least 33% of the maximum exercise points) AND (get at least 50% from the exam points) TO PASS THE COURSE.</p><br/>
 				<p><b>GRADE</b><br/> THE EXAM POINTS DEFINE YOUR BASE GRADE.</p><br/>
 				<p><b>BONUS</b><br/> IF YOU HAVE (earned at least 75% of the maximum exercise points) AND (passed the exam), YOUR GRADE WILL BE UPGRADED BY 1.<br/>
 				(designated course implementations will give bonus also from social activities.)</p><br/>
@@ -232,7 +232,6 @@ ELSE
 		<exercise file="xc/03.02.xml"/>
 		<exercise file="xc/03.04.xml"/>
 		<exercise file="xc/03.05.xml"/>
-		<exercise file="xc/03.06.xml"/>
 		<exercise file="xc/03.07.xml"/>
 		</section>
 		<section type="info" title="CHECKPOINT">
