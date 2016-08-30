@@ -4,8 +4,14 @@
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=494677&amp;action=editsubmission">
 
+	
 	<p class="exercise_text">
-		First, download
+		In classroom, open the Brackets editor (C:\Program Files(x86)\Brackets\brackets.exe (Autumn 2016)). Take a screenshot of the Brackets editor
+		and save the screenshot image to your public_html folder on the Myy
+		server.
+	</p>
+	<p>
+		At home, download
 		<b>Brackets Portable</b>
 		code editor (.exe) from the page
 		<a
@@ -17,13 +23,7 @@
 		<a href="http://brackets.io/" target="_blank">http://brackets.io/.</a>
 	</p>
 	<p>
-		Open the Brackets editor. Take a screenshot of the Brackets editor
-		and
-		save the screenshot image to your public_html folder on the Myy
-		server.
-	</p>
-	<p>
-		Finally, submit a link to the screenshot image
+		Finally, submit a link to the screenshot image.
 
 	</p>
 </exercise>
