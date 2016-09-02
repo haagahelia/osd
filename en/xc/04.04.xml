@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="04.04" title="HTML Manipulation" difficulty="medium" size="S" 
+<exercise id="04.04" title="HTML DOM: Changing Content" difficulty="medium" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403709&amp;action=editsubmission"
 template="xc/00.00.html">
 
@@ -11,7 +11,7 @@ template="xc/00.00.html">
 <p><img src="xc/04.04.png" class="bordered"/></p>
 <p>
 <ol type="1">
-<li>Add a new button tag to your HTML document. The button tag should be inside &lt;body%gt;.</li>
+<li>Add a new button tag to your HTML document. The button tag should be inside &lt;body&gt;.</li>
 The text shown on the button should be "CLICK  ME". When the user clicks the button the function <b>pressed()</b> should be called.
  
 <li>Add a &lt;p&gt; element below the button. The id of the element should be "<b>feedback</b>".</li>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="04.05" title="DOM Manipulation" difficulty="medium" size="S" 
+<exercise id="04.05" title="HTML DOM: Changing Structure" difficulty="medium" size="S" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403720&amp;action=editsubmission"
 template="xc/00.00.html">
 
