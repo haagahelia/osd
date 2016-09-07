@@ -299,7 +299,7 @@ function myListener() {
     <p><br/>In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.</p>
     <p>The HTML DOM model is constructed as a tree of Objects</p>
     <p><img src="img/dom_tree.png"/></p>              
-    <p><br/>Most JavaScript programs contain many JavaScript statements. Semicolons separate JavaScript statements. The statements are executed, one by one, in the same order as they are written. In this example, x, y, and are given values, and finally z is displayed: 
+    <p><br/>Most JavaScript programs contain many JavaScript statements. Semicolons separate JavaScript statements. The statements are executed, one by one, in the same order as they are written. In this example, x, y, and are given values, and finally sum is displayed: 
 		<pre><code>
 //Example: x, y and sum are variables
 var x = 2;
