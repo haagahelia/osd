@@ -283,8 +283,9 @@ function myListener() {
 </p><p><br/>JavaScript <b>comments</b> can be used to explain JavaScript code, and to make it more readable. Single line comments start with //. Any text between // and the end of the line, will be ignored by JavaScript.
 </p>
             
-            <p>Example<pre><code>//This is my First comment
+            <p>Example<pre><code>
 &lt;script&gt;
+//This is my First comment
   document.getElementById("demo").innerHTML = "My First JavaScript";
 &lt;/script&gt;</code></pre></p><p>Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored by JavaScript.
 </p>
@@ -300,11 +301,11 @@ function myListener() {
     <p><img src="img/dom_tree.png"/></p>              
     <p><br/>Most JavaScript programs contain many JavaScript statements. Semicolons separate JavaScript statements. The statements are executed, one by one, in the same order as they are written. In this example, x, y, and are given values, and finally z is displayed: 
 		<pre><code>
-//Example: a and b are variables
+//Example: x, y and sum are variables
 var x = 2;
 var y = 7;
-var z = x + y;
-document.getElementById("demo").innerHTML = z;            
+var sum = x + y;
+document.getElementById("demo").innerHTML = sum;            
 </code></pre>                        
     </p>
     <bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/>        
