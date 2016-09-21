@@ -309,7 +309,7 @@ document.getElementById("demo").innerHTML = sum;
 </code></pre>                        
     </p>
     <bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/> 
-    <bookmark title="w2schools JS Output" url="http://www.w3schools.com/js/js_output.asp" />       
+    <bookmark title="w3schools JS Output" url="http://www.w3schools.com/js/js_output.asp" />       
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/04.01.xml"/>
