@@ -308,7 +308,8 @@ var sum = x + y;
 document.getElementById("demo").innerHTML = sum;            
 </code></pre>                        
     </p>
-    <bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/>        
+    <bookmark title="w3schools JavaScript tutorial" url="http://www.w3schools.com/js/default.asp"/> 
+    <bookmark title="w2schools JS Output" url="http://www.w3schools.com/js/js_output.asp" />       
 		</section>
 		<section type="success" title="SKILLS">
 		<exercise file="xc/04.01.xml"/>
@@ -379,6 +380,8 @@ var x = 3;
 x++; // Increments x by one
  </code></pre></p>            
 <bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
+<bookmark title="w3schools JS and Input Text Field" url="http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_text_get"/>
+<bookmark title="w3schools Number Methods" url="http://www.w3schools.com/js/js_number_methods.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 			<exercise file="xc/05.01.xml"/>
