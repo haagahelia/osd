@@ -3,7 +3,7 @@
 <exercise id="06.03" title="Package Comparison" difficulty="easy"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=392287&amp;action=editsubmission"
-	template="xc/06.03.html" jsbin="http://jsbin.com/zaduga/edit?html,js,output">
+	template="xc/06.03.html">
 
 	<p>
 		Make a program for comparing two mobile phone subscription packages. The

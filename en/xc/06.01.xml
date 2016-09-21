@@ -3,10 +3,10 @@
 <exercise id="06.01" title="Agent's Fee" difficulty="easy"
 	size="S"
 	returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=389263&amp;action=editsubmission"
-	template="xc/06.01.html" jsbin="http://jsbin.com/bakati/edit?html,js,output">
+	template="xc/06.01.html">
 
 	<p>Make a program that asks the selling price of the apartment
-		and calculates the fee of the real estate agent.
+		and calculates the fee of the real estate agent (välityspalkkio).
 		The fee is 3.44% selling price but always at least 2 400 euros.
 	</p>
 
