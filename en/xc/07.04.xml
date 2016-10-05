@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="exercise.xsd"?>
-<exercise id="07.04" title="Parameters and Return Value" difficulty="easy" size="S" 
+<exercise id="07.04" title="Parameters and Return Value" difficulty="hard" size="L" 
 returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403373&amp;action=editsubmission" 
 template="xc/07.04.html"
 >
@@ -17,9 +17,13 @@ Assign an onclick event to the 'ROLL THE DICE' button so that the function <b>ro
 The function <b>rollTheDice()</b> should do the following:
 <ul>
 <li>Call the function <b>randomInteger(from, to)</b> with parameter values 1 and 6.</li>
-<li> Assign the return value of the function to the variable <b>diceValue.</b></li>
+<li> Assign the return value of the function to the variable <b>diceValue</b>.(noppa)</li>
 <li>Insert the value of the variable <b>diceValue</b> into the HTML div element whose id is 'dice'.</li>
 </ul>
+ </p>
+ <p>
+ HINT: As you define the function randomInteger(from, to), use <a href="http://www.w3schools.com/jsref/jsref_floor.asp" target="_blank">Math.floor()</a>
+ function to round a random float number downward to its nearest integer.
  </p>
  <p>
 Test your code. Each time you click the button you should see a random value between 1 and 6 below the button.

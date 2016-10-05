@@ -381,7 +381,7 @@ x++; // Increments x by one
  </code></pre></p>            
 <bookmark title="w3schools Variable" url="http://www.w3schools.com/js/js_variables.asp"/>
 <bookmark title="w3schools JS and Input Text Field" url="http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_text_get"/>
-<bookmark title="w3schools Number Methods" url="http://www.w3schools.com/js/js_number_methods.asp"/>
+<bookmark title="w3schools toFixed Method" url="http://www.w3schools.com/jsref/jsref_tofixed.asp"/>
 		</section>
 		<section type="success" title="SKILLS">
 			<exercise file="xc/05.01.xml"/>
@@ -598,8 +598,8 @@ You can reuse code by defining the code once, and use it many times. You can use
 <p>The following while loop iterates as long as n is less than five.</p>
 <p><pre><code>var n = 0;
 while (n &lt; 5) {
+  //statements
   n++;
-  //more statements
 }</code></pre></p>
 		<h2>For loop</h2>
 		<p>The syntax of a for loop is</p>
