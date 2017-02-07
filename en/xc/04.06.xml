@@ -6,7 +6,7 @@ returnbox="http://hhmoodle.haaga-helia.fi/mod/assign/view.php?id=403759&amp;acti
 
 
 <p> 
-<i>In this exercise, you extend your own application by using the API (Application Programming Interface) of an open source service. This time, you use The WebGL Earth service. It  provides a mechanism for inserting interactive maps into web pages.</i>
+<i>In this exercise, you extend your own application by using the API (Application Programming Interface) of an open source service. This time, you use <a href="http://www.webglearth.com" target="_blank">The WebGL Earth service</a>. It  provides a mechanism for inserting interactive maps into web pages.</i>
 </p>
 <p><img src="xc/04.06.png" class="bordered"/></p>
 <p>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>JS Exercise Template</title>
+<meta charset="utf-8">
+<title>JS Exercise Template</title>
 </head>
 <body>
-<pre><code>
+	<pre>
+		<code>
 &lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -15,9 +16,16 @@
 		function initialize() {
 		  var options = {atmosphere: true, center: [0, 0], zoom: 0};
 		  earth = new WE.map('earth_div', options);
+		  /* old map resource 
 		  WE.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',{
 				  attribution: 'Tiles Courtesy of MapQuest'
 				}).addTo(earth);
+		  */	
+		  // new map resource	
+		  WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+            attribution: '&copy; OpenStreetMap contributors'
+          }).addTo(earth);		
+				
 		}
 
 		function goHome() {
@@ -62,6 +70,7 @@
       &lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</code>
+	</pre>
 </body>
 </html>
