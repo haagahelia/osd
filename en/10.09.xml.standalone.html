@@ -21,7 +21,8 @@
 
 
 <p> 
-Make a program that fetches the current weather of Helsinki in JSON format and shows it on a web page. Below you can see the weather information of the evening of 28.9.2015.
+Make a program that fetches the current weather of Helsinki in JSON format and shows it on a web page. On page 
+<a href="http://openweathermap.org/appid" target="_blank">http://openweathermap.org/appid</a> you can see how to get API key (APPID) for your program. Below you can see the weather information of the evening of 28.9.2015.
  <img class="bordered" src="xc/10.09.png">
 JSON example (hard-coded data, you&rsquo;ll get similar from web with your code below):
 <pre>
@@ -64,7 +65,7 @@ function fetchWeatherInfo() {
 
     xmlhttp.open(
       "GET",
-      "http://api.openweathermap.org/data/2.5/weather?q=helsinki&amp;units=metric&amp;APPID=32f1264bba3945837fa37cc1c29b4db1",
+      "http://api.openweathermap.org/data/2.5/weather?q=helsinki&amp;units=metric&amp;APPID=insert_your_api_key_here",
        true);
     xmlhttp.send();
 }
