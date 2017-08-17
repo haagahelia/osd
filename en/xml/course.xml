@@ -15,14 +15,14 @@
 		<subpage icon="time" title="Schedule">
 		<h4>Keynote Lectures and Lab Sessions</h4>
 			<table class="table table-striped table-bordered table-condensed">
-				<tr><th>Study unit code </th><th>Language</th><th>Time and Place</th></tr>
+			    <tr><th>Study unit code </th><th>Language</th><th>Time and Place</th></tr>
 				<tr><td>SWD1TN001-19</td><td>In Finnish</td><td>Fri 08:00-11:45 (5003)</td></tr>
 				<tr><td>SWD1TN001-20</td><td>In Finnish</td><td>Mon 08:00-11:45 (1K006)</td></tr>
 				<tr><td>SWD1TN001-21</td><td>In Finnish</td><td>Tue 08:00-11:45 (5015),<br/>2nd period: Tue 8:00-11:45 (4009)</td></tr>
 				<tr><td>SWD1TN001-22</td><td>In Finnish</td><td>Fri 8:00-11:45 (4009)</td></tr>
 				<tr><td>SWD1TF001-9</td><td>In English</td><td>Wed 08:00-09:45 (2206&amp;4012) 10:00-11:45 (4012),<br/>Fri 08:00-08:45 (2206&amp;4012) 10:00-11:45 (4012)</td></tr>
 				<tr><td>SWD1TF001-10</td><td>In English</td><td>Wed 08:00-11:45 (4013),<br/>Fri 08:00-11:45 (4013)</td></tr>
-				<tr><td>SWD1TA001-6</td><td>In Finnish<br/>(blended learning)</td><td><br/></td></tr>
+				<tr><td>SWD1TA001-10/11</td><td>In Finnish<br/>(blended learning)</td><td><br/></td></tr>
 			</table>
 		<h4>Weekly Objectives</h4>
 			<table class="table table-striped table-bordered table-condensed">
